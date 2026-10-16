@@ -1,0 +1,22 @@
+{
+  "SourceBuild": 3569502,
+  "SourceReleaseDate": "2026-10-02T11:08:57Z",
+  "HistoricalBeltsWithoutRadius": 726,
+  "Systems": 8490,
+  "Counts": {
+    "Sun": 8089,
+    "Planet": 68407,
+    "Moon": 344457,
+    "Stargate": 13978,
+    "Beacon": 1038,
+    "AsteroidBelt": 55577
+  },
+  "HistoricalNullBelts": 36289,
+  "RestoredMissingCurrentBelts": 14649,
+  "UnresolvedOrbits": [],
+  "Landmarks": 45,
+  "ExplicitLandmarkSystems": 10,
+  "StarsPositionConvention": "Primary stars have no local position field; system origin is the documented convention.",
+  "SecondarySunRadius": "Not provided; zero is an unknown-radius sentinel, never a physical radius.",
+  "Belts": "All original 2019 anchors replace current belt anchors; asteroid formations and resources are authored game content, not recovered source geometry."
+}

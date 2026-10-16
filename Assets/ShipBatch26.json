@@ -1,0 +1,3486 @@
+[
+  {
+    "ShipId": "fleet_8978958811821b35",
+    "ReferenceTypeId": 37483,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33093,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2,
+        "Text": "bonus to Armored Command and Skirmish Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f3c2d762af3d328c",
+    "ReferenceTypeId": 22460,
+    "Role": "Interdictor",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 14000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit interdiction sphere launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -0.2,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.075,
+        "Skill": 33093,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Interdiction Sphere Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 10.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 20.0,
+        "Text": "reduction in Armor Plate mass penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_2a6b8c1667f5b5c5",
+    "ReferenceTypeId": 35683,
+    "Role": "TacticalDestroyer",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 18000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.03,
+        "Skill": 35685,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 35685,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 35685,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "hullResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "local",
+        "Key": "cycle",
+        "Filter": "Armor",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "MWD",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "prop",
+        "Key": "cap",
+        "Filter": "MWD",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "sensorDampenerResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "weaponDisruptionResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "modeDelay",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 35685,
+        "Bonus": 3,
+        "Text": "bonus to Small Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 35685,
+        "Bonus": 5,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 35685,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to all armor and hull resistances while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "reduction to armor repairer duration while Defense Mode is active",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Small Hybrid Turret damage while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Microwarpdrive speed boost and reduction in Microwarpdrive capacitor use while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to ship inertia modifier while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Small Hybrid Turret optimal range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "increased resistances against hostile Sensor Dampeners and Weapon Disruptors while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in Scan Probe Launcher and Survey Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to sensor strength and targeting range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_31379585bc3e99dc",
+    "ReferenceTypeId": 37482,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33092,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2,
+        "Text": "bonus to Shield Command and Information Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_372d4f4a88f50895",
+    "ReferenceTypeId": 22464,
+    "Role": "Interdictor",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 14000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit interdiction sphere launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldCapacity",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": "Kinetic",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Interdiction Sphere Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 10.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 15.0,
+        "Text": "bonus to shield hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Light Missile and Rocket kinetic damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3da7d8412f24c058",
+    "ReferenceTypeId": 34828,
+    "Role": "TacticalDestroyer",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 18000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.03,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "reload",
+        "Filter": "Missile",
+        "Value": -0.15,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "signatureRadius",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxVelocity",
+        "Filter": "",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "sensorDampenerResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "weaponDisruptionResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "modeDelay",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 35680,
+        "Bonus": 3,
+        "Text": "bonus to Light Missile launcher and Rocket launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 35680,
+        "Bonus": 5,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 35680,
+        "Bonus": 15,
+        "Text": "reduction in missile launcher reload time",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to all shield resistances while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "reduction in ship signature radius while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to maximum velocity while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Light Missile and Rocket damage while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to ship inertia modifier while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Light Missile and Rocket velocity while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "increased resistances against hostile Sensor Dampeners and Weapon Disruptors while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in Scan Probe Launcher and Survey Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to sensor strength and targeting range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_9a727110882b5d1d",
+    "ReferenceTypeId": 89808,
+    "Role": "TacticalDestroyer",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 18000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.06,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "reload",
+        "Filter": "Missile",
+        "Value": -0.15,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 35680,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "signatureRadius",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "shieldRechargeRate",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "MWD",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "LightMissile",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Rocket",
+        "Value": 2.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "sensorDampenerResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "weaponDisruptionResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "modeDelay",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in powergrid and CPU requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 35680,
+        "Bonus": 6.0,
+        "Text": "bonus to Light Missile launcher and Rocket launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 35680,
+        "Bonus": 15.0,
+        "Text": "reduction in missile launcher reload time",
+        "Unit": 105
+      },
+      {
+        "Skill": 35680,
+        "Bonus": 5.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5.0,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2.0,
+        "Text": "bonus to Shield Command and Information Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.0,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in Scan Probe Launcher and Survey Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to all shield resistances while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "reduction in ship signature radius while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "reduction in shield recharge time while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Afterburner and Microwarpdrive speed boost while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to ship inertia modifier while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Light Missile velocity while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 250.0,
+        "Text": "bonus to Rocket velocity while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Light Missile and Rocket damage while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to sensor strength and targeting range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "increased resistances against hostile Sensor Dampeners and Weapon Disruptors while Sharpshooter Mode is enabled",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_68f553164388e555",
+    "ReferenceTypeId": 37481,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33091,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2,
+        "Text": "bonus to Armored Command and Information Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0400d40a764d6652",
+    "ReferenceTypeId": 22452,
+    "Role": "Interdictor",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 14000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit interdiction sphere launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 33091,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 33091,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Interdiction Sphere Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 10.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile launcher and Rocket launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 15.0,
+        "Text": "bonus to armor hitpoints",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_4acfb51db6b69021",
+    "ReferenceTypeId": 34317,
+    "Role": "TacticalDestroyer",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 18000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 34390,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 34390,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 34390,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "signatureRadius",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "MWD",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "sensorDampenerResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "weaponDisruptionResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "modeDelay",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 34390,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 34390,
+        "Bonus": 10.0,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 34390,
+        "Bonus": 5.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in Scan Probe Launcher and Survey Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to all armor resistances while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "reduction in ship signature radius while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Remote Armor Repairer repair amount and reduction in activation cost while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Afterburner and Microwarpdrive speed boost while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to ship inertia modifier while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Small Energy Turret optimal range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Small Energy Turret damage while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to sensor strength and targeting range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "increased resistances against hostile Sensor Dampeners and Weapon Disruptors while Sharpshooter Mode is enabled",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_77cf296270354aae",
+    "ReferenceTypeId": 37480,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33094,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33094,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2,
+        "Text": "bonus to Shield Command and Skirmish Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a12a31158c6fa095",
+    "ReferenceTypeId": 22456,
+    "Role": "Interdictor",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 14000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit interdiction sphere launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 12098,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33094,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Interdiction Sphere Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 12098,
+        "Bonus": 10,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_7849a6b7094c7ff5",
+    "ReferenceTypeId": 34562,
+    "Role": "TacticalDestroyer",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 18000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 34533,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 34533,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 34533,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Primary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "MWD",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "sensorDampenerResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "weaponDisruptionResistance",
+        "Filter": "",
+        "Value": -0.6659999999999999,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "modeDelay",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 34533,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 34533,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Projectile Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 34533,
+        "Bonus": 5.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in Scan Probe Launcher and Survey Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to all shield and armor resistances while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "reduction in Microwarpdrive signature radius penalty while Defense Mode is active",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Remote Shield Booster repair amount and reduction in activation cost while Defense Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "bonus to Afterburner and Microwarpdrive speed boost while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to ship inertia modifier while Propulsion Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Small Projectile Turret tracking speed while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "bonus to Small Projectile Turret damage while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to sensor strength and targeting range while Sharpshooter Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 66.6,
+        "Text": "increased resistances against hostile Sensor Dampeners and Weapon Disruptors while Sharpshooter Mode is enabled",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0fc875cafb9dd4d1",
+    "ReferenceTypeId": 89649,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 0.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Mining",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Mining",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "harvest",
+        "Key": "yield",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 89241,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 89241,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 89241,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.06,
+        "Skill": 89241,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "bonus to Tractor Beam range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 30.0,
+        "Text": "bonus to Tractor Beam velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5.0,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2.0,
+        "Text": "bonus to Shield Command and Mining Foreman Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 89241,
+        "Bonus": 15.0,
+        "Text": "bonus to Mining yield",
+        "Unit": 105
+      },
+      {
+        "Skill": 89241,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 89241,
+        "Bonus": 6.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5759de68b2bf19b6",
+    "ReferenceTypeId": 52254,
+    "Role": "CommandDestroyer",
+    "WeaponFamily": "Precursor Weapon",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 26,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit micro jump field generators",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Defender",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Neutralizer",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Smartbomb",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cycle",
+        "Filter": "Field",
+        "Value": -0.05,
+        "Skill": 37615,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Entropic",
+        "Value": 0.2,
+        "Skill": 49742,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Entropic",
+        "Value": 0.3,
+        "Skill": 49742,
+        "Damage": "",
+        "Size": 1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Micro Jump Field Generators",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in reactivation delay for Defender Launcher",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Remote Armor Repairer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Energy Neutralizer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Smart Bomb capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in powergrid requirements for Command Bursts",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Remote Armor Repairer range",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 2.0,
+        "Text": "bonus to Skirmish Command and Information Command Burst effect strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 37615,
+        "Bonus": 5.0,
+        "Text": "reduction in Micro Jump Field Generator spool up time",
+        "Unit": 105
+      },
+      {
+        "Skill": 49742,
+        "Bonus": 20.0,
+        "Text": "bonus to Light Entropic Disintegrator damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 49742,
+        "Bonus": 30.0,
+        "Text": "bonus to Light Entropic Disintegrator optimal range",
+        "Unit": 105
+      }
+    ]
+  }
+]

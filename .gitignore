@@ -1,0 +1,53 @@
+# .NET / Visual Studio / Rider / MonoGame
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+
+# Build, publication, native bundles and debug output
+publish/
+dist/
+out/
+TestResults/
+**/TestResults/
+*.pdb
+*.mdb
+*.runtimeconfig.dev.json
+*.binlog
+*.log
+*.stackdump
+
+# Saves and runtime state
+save-*.json
+save-*.json.*
+client-k.json
+desktop-*.json
+STARLIGHT_SAVE_DIR/
+
+# Generated reviews and art handoff exports (runtime Assets/ are deliberately tracked)
+Art/Exports/
+Validation/
+Verification/
+Reports/
+Screenshots/
+Preview*/
+*.tmp
+*.bak
+*.cache
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Platform
+.DS_Store
+Thumbs.db
+Desktop.ini

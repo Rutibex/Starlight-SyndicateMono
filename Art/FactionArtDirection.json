@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "Profiles": [
+    {
+      "Id": "art_00",
+      "Faction": "Boreal Federation",
+      "Family": "riverform",
+      "Silhouette": "Broad rounded central keel; swept paired shoulders; recessed drone hangars.",
+      "Surface": "Layered composite skins, brushed ribs, dark recessed panels.",
+      "Guardrail": "Keep drones and service doors legible. Avoid literal leaves or animal faces.",
+      "Materials": {
+        "hull": "#7FADA2",
+        "structure": "#263E42",
+        "trim": "#D1E6DA",
+        "engine": "#6BF0C3"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_01",
+      "Faction": "Amur Cooperative Compact",
+      "Family": "modular citadel",
+      "Silhouette": "Compact box keel; stepped offset superstructure; four clear missile cells.",
+      "Surface": "Blue ceramic slabs over graphite machinery; modular replacement panels.",
+      "Guardrail": "Show standardised attachment seams. Avoid smooth yacht styling.",
+      "Materials": {
+        "hull": "#6688AD",
+        "structure": "#253345",
+        "trim": "#BDD1DA",
+        "engine": "#69CFFF"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_02",
+      "Faction": "Suryavarta Empire",
+      "Family": "solar lancet",
+      "Silhouette": "Long axial lance; symmetrical armored mantles; recessed geometric tracery.",
+      "Surface": "Warm pale armor, restrained brass edges, deep ceramic channels.",
+      "Guardrail": "Geometry suggests permanence. Use original motifs, not copied religious symbols.",
+      "Materials": {
+        "hull": "#CCB277",
+        "structure": "#4B3A2D",
+        "trim": "#EEE0B1",
+        "engine": "#FFD779"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_03",
+      "Faction": "Azadi Confederation",
+      "Family": "field caravan",
+      "Silhouette": "Asymmetric keel and outrigger; visible braces; replaceable engine pods.",
+      "Surface": "Weathered steel, rust ceramic, cream repairs; clean visible joints.",
+      "Guardrail": "Repairs follow structure. Avoid random spikes and indiscriminate damage.",
+      "Materials": {
+        "hull": "#A97150",
+        "structure": "#353D40",
+        "trim": "#D5C4A0",
+        "engine": "#FFAC59"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_04",
+      "Faction": "Kepler Resource Group",
+      "Family": "industrial gantry",
+      "Silhouette": "Open rectangular gantries around cargo and excavation machinery.",
+      "Surface": "Safety ochre over charcoal ribs; large service panels.",
+      "Guardrail": "Tool and hold volume establish purpose.",
+      "Materials": {
+        "hull": "#C4A146",
+        "structure": "#34383A",
+        "trim": "#D8D6C2",
+        "engine": "#A0E5B7"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_05",
+      "Faction": "Palisade Consortium",
+      "Family": "infrastructure carrier",
+      "Silhouette": "Container spine with regular docking interfaces and load frames.",
+      "Surface": "Ivory panels, teal structural members, black joint housings.",
+      "Guardrail": "Architecture and cargo access dominate silhouette.",
+      "Materials": {
+        "hull": "#AEBAB6",
+        "structure": "#284A4B",
+        "trim": "#E8E8D5",
+        "engine": "#79DFD8"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_06",
+      "Faction": "Order of the Far Lantern",
+      "Family": "pilgrim vessel",
+      "Silhouette": "Protected central habitat with forward sensor fork and paired refuge bays.",
+      "Surface": "Porcelain panels, burgundy identification strips, graphite service cavities.",
+      "Guardrail": "Rescue markings and access bays; no copied EVE exploration ring.",
+      "Materials": {
+        "hull": "#D8D6C9",
+        "structure": "#52323F",
+        "trim": "#B95A62",
+        "engine": "#A7E9E3"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_07",
+      "Faction": "Meridian Legion",
+      "Family": "range-control spear",
+      "Silhouette": "Low narrow wedge with separated missile shoulders and aft vector nozzles.",
+      "Surface": "Graphite armour, disciplined cobalt panels, restrained grey edges.",
+      "Guardrail": "Every projection has a sensor or thrust function.",
+      "Materials": {
+        "hull": "#536D8C",
+        "structure": "#202B37",
+        "trim": "#AEBEC9",
+        "engine": "#71C8F4"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_08",
+      "Faction": "Institute for Emergent Consciousness",
+      "Family": "interface lattice",
+      "Silhouette": "Nested open volumes joined by a precise sensor lattice.",
+      "Surface": "Pearl alloy and violet ceramic; repeatable modular interfaces.",
+      "Guardrail": "Readable structural connections; no floating unsupported pieces.",
+      "Materials": {
+        "hull": "#B6B5CC",
+        "structure": "#3D3657",
+        "trim": "#E2DDEF",
+        "engine": "#C8A9FF"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_09",
+      "Faction": "Interstellar Arbitration Authority",
+      "Family": "jurisdiction cruiser",
+      "Silhouette": "Balanced central hull; armored bridge; prominent broad sensor shoulders.",
+      "Surface": "Slate panels, pale trim and small amber identification fields.",
+      "Guardrail": "Authority through orderly proportions, not exaggerated weapons.",
+      "Materials": {
+        "hull": "#83949C",
+        "structure": "#293541",
+        "trim": "#DDDCCF",
+        "engine": "#FFD08B"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_10",
+      "Faction": "Joint Expeditionary Defense Command",
+      "Family": "storm barrier",
+      "Silhouette": "Shield-like armored bow with branching energy conduits.",
+      "Surface": "Cool steel and desaturated blue; bright conduit terminals.",
+      "Guardrail": "Conduits terminate in deliberate emitter groups.",
+      "Materials": {
+        "hull": "#729AAE",
+        "structure": "#263A48",
+        "trim": "#BCE3E8",
+        "engine": "#80EFFF"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_11",
+      "Faction": "Veyr Assemblage",
+      "Family": "adaptive triad",
+      "Silhouette": "Three unequal, interlocked armor masses around one axial weapon.",
+      "Surface": "Dark ceramic, oxblood plates, muted ivory interruptions.",
+      "Guardrail": "Triadic logic varies by class. Avoid copying Triglavian hull outlines.",
+      "Materials": {
+        "hull": "#994E50",
+        "structure": "#292A36",
+        "trim": "#B5A6A0",
+        "engine": "#FF6A7D"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_12",
+      "Faction": "Freehaven Syndicate",
+      "Family": "broker yacht",
+      "Silhouette": "Slim enclosed courier with concealed service bays and swept stern.",
+      "Surface": "Obsidian lacquer, champagne trim, restrained violet navigation lights.",
+      "Guardrail": "Luxury and discretion; conceal weapons in honest bay geometry.",
+      "Materials": {
+        "hull": "#777087",
+        "structure": "#27232F",
+        "trim": "#C6B99F",
+        "engine": "#C99CEC"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_13",
+      "Faction": "Pale Orchard",
+      "Family": "cultivated predator",
+      "Silhouette": "Smooth heavy prow over recessed close-range emitters and web vanes.",
+      "Surface": "Dark green ceramic and pale inset ribs; wine-coloured seams.",
+      "Guardrail": "Cultivation conveyed through repetition, not literal flowers.",
+      "Materials": {
+        "hull": "#65826D",
+        "structure": "#25362D",
+        "trim": "#C9CDB0",
+        "engine": "#CE7BA2"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_14",
+      "Faction": "Iron Lantern Cooperative",
+      "Family": "reclaimed fortress",
+      "Silhouette": "Compact armored core with external drone bays and paired missile stacks.",
+      "Surface": "Reclaimed slate panels, yellow replacement sections and black ribs.",
+      "Guardrail": "Deliberate mismatched panels; no collage of faction hulls.",
+      "Materials": {
+        "hull": "#7C8A91",
+        "structure": "#2C353D",
+        "trim": "#C0A657",
+        "engine": "#70DFC6"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_15",
+      "Faction": "The Broken Wheel",
+      "Family": "severed mantle",
+      "Silhouette": "Interrupted axial armor arches and an eclipsed central spine.",
+      "Surface": "Ash ceramic, oxidised brass, dark red recessed channels.",
+      "Guardrail": "Breaks remain mechanically supported; avoid universal skull motifs.",
+      "Materials": {
+        "hull": "#8D7B69",
+        "structure": "#302B2C",
+        "trim": "#B59867",
+        "engine": "#DC7E55"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_16",
+      "Faction": "Gravewind Cartel",
+      "Family": "salvage dart",
+      "Silhouette": "Short aggressive dart; hooked thrust shoulders and scavenged sensor rails.",
+      "Surface": "Dust bronze and charcoal alloy; asymmetry limited to service structures.",
+      "Guardrail": "Fast and functional, not a pile of wreckage.",
+      "Materials": {
+        "hull": "#AA9270",
+        "structure": "#3B3833",
+        "trim": "#D2BDA0",
+        "engine": "#F8AD69"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_17",
+      "Faction": "Concordance of One",
+      "Family": "network choir",
+      "Silhouette": "Repeated symmetrical shells linked by a continuous command spine.",
+      "Surface": "Pale steel over black channels, small cold cyan signal points.",
+      "Guardrail": "Coordination through coherent repeated modules, not spikes.",
+      "Materials": {
+        "hull": "#A1B2B6",
+        "structure": "#263436",
+        "trim": "#E5EEEB",
+        "engine": "#72E0EC"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_18",
+      "Faction": "The Black Relay",
+      "Family": "silent intercept",
+      "Silhouette": "Low faceted shroud with hidden apertures and a split aft exhaust.",
+      "Surface": "Near-black graphite, desaturated purple and sparse signal strips.",
+      "Guardrail": "Silhouette stays visible against space; do not depend on black paint alone.",
+      "Materials": {
+        "hull": "#555267",
+        "structure": "#20222C",
+        "trim": "#8D8399",
+        "engine": "#A082E6"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_19",
+      "Faction": "Wayline Transit Authority",
+      "Family": "scheduled liner",
+      "Silhouette": "Continuous passenger spine; visible escape craft and regular docking doors.",
+      "Surface": "Ivory and navy with large teal identification strips.",
+      "Guardrail": "Transport and escape routes visible; civilian calm.",
+      "Materials": {
+        "hull": "#C3CBC9",
+        "structure": "#263E55",
+        "trim": "#5AA99F",
+        "engine": "#B3E8DF"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_20",
+      "Faction": "Independent Capsuleer Service",
+      "Family": "survival capsule",
+      "Silhouette": "Small enclosed ovoid with a protected interface collar.",
+      "Surface": "Neutral white ceramic, dark gasket line and tiny amber status strips.",
+      "Guardrail": "Keep small and legible; no giant weapons.",
+      "Materials": {
+        "hull": "#BEC8C8",
+        "structure": "#303C40",
+        "trim": "#E8DFB9",
+        "engine": "#FFD58E"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    },
+    {
+      "Id": "art_21",
+      "Faction": "Continuity Development Archive",
+      "Family": "test article",
+      "Silhouette": "Modular test chassis with instrumentation and removable ballast.",
+      "Surface": "Neutral grey, calibration markings and limited diagnostic orange.",
+      "Guardrail": "Explicit prototype identity; these entries are not automatically canon.",
+      "Materials": {
+        "hull": "#979B9E",
+        "structure": "#34383D",
+        "trim": "#D2A267",
+        "engine": "#F6B866"
+      },
+      "Roughness": 0.65,
+      "Metallic": 0.35
+    }
+  ]
+}

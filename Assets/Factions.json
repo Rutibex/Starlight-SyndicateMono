@@ -1,0 +1,156 @@
+[
+  {
+    "Name": "Boreal Federation",
+    "Role": "Major empire",
+    "SourceAncestry": "Gallente",
+    "ExpectedCount": 114,
+    "Lore": "Federal liberal-capitalist civilization descended from a Canadian colonial bloc. English- and French-derived cultures remain prestigious, but centuries of migration have produced dozens of regional identities. The Federation presents itself as the natural home of personal liberty, competitive markets, civic rights, public institutions, and negotiated federalism.\n\nIts contradictions are equally important. Enormous private firms influence policy, frontier intervention is often justified as humanitarian stabilization, and federal institutions can become paternalistic toward societies that reject Boreal norms. The Amur secession remains the central wound in Boreal political memory.\n\nBoreal shipbuilding favors adaptable hulls, drones, hybridized weapon solutions, electronics, and broad civilian availability. Naming traditions draw on northern geography, weather, wildlife, exploration, and the mythology of the frontier federation."
+  },
+  {
+    "Name": "Amur Cooperative Compact",
+    "Role": "Major empire",
+    "SourceAncestry": "Caldari",
+    "ExpectedCount": 93,
+    "Lore": "A federation of worker-owned industrial corporations and local councils descended primarily from Russian and Chinese colonial populations. The Compact emerged when the industrial colonies that supplied the early Boreal system rejected absentee ownership and reorganized productive assets as worker syndicates.\n\nAmur ideology treats workplace democracy as inseparable from political democracy. Its critics counter that gigantic worker corporations can become governments by another name, with conformity, production quotas, security councils, and permanent emergency institutions exerting immense social pressure.\n\nAmur vessels emphasize shields, missiles, electronic warfare, industrial efficiency, and tightly engineered specialization. Ship names favor rivers, mountains, scientific concepts, heavy industry, astronomy, and the language of collective engineering."
+  },
+  {
+    "Name": "Suryavarta Empire",
+    "Role": "Major empire",
+    "SourceAncestry": "Amarr",
+    "ExpectedCount": 96,
+    "Lore": "An imperial civilization whose future religion and state ideology descend from Hindu traditions but have evolved for centuries beyond modern Earth practice. Suryavartan doctrine teaches that political hierarchy mirrors a cosmic order and that the empire has a sacred obligation to impose stability on worlds it considers disordered.\n\nThe empire contains mystics, merchants, reformers, abolitionists, nobles, soldiers, skeptics, and competing theological schools. Its coercive institutions - conquest, hereditary privilege, bonded labor, and religious nationalism - are features of this fictional future state, not claims about contemporary Hindu communities.\n\nSuryavartan warships are ceremonial as well as military: armor-heavy, energy-intensive, geometrically ornate, and built to project permanence. Naval names use a deliberately future, neo-Sanskritic vocabulary of sky, light, protection, celestial order, and imperial authority."
+  },
+  {
+    "Name": "Azadi Confederation",
+    "Role": "Major empire",
+    "SourceAncestry": "Minmatar",
+    "ExpectedCount": 99,
+    "Lore": "A loose liberation federation formed by Persian-, Arab-, East African-, Sahelian-, and other Muslim-majority colonial societies conquered or subordinated by Suryavarta. Their cultures are not homogenized; common Azadi identity grew from resistance, emancipation, refugee fleets, and the long war to recover occupied home systems.\n\nThe Confederation celebrates autonomy and memory, but liberation politics can harden into factional patronage, revenge cycles, permanent mobilization, and disputes over collaborators or acceptable compromise. Religious and secular movements coexist uneasily beneath the broad promise of azadi - freedom.\n\nAzadi ships tend toward speed, improvised modularity, projectile warfare, electronic skirmishing, and robust field repair. Names come from multiple ancestral language traditions, geography, winds, navigation, stars, liberation poetry, and caravan or maritime imagery."
+  },
+  {
+    "Name": "Kepler Resource Group",
+    "Role": "Industrial power",
+    "SourceAncestry": "ORE",
+    "ExpectedCount": 22,
+    "Lore": "Kepler is the largest nominally neutral extraction and industrial-equipment company in settled space. It operates mining concessions, refinery complexes, salvage yards, gas platforms, and mobile industrial fleets under contracts with almost every government.\n\nKepler sells itself as apolitical infrastructure. In practice, its control of strategic minerals gives it extraordinary leverage over frontier economies and war production. Everyone complains about Kepler; everyone needs Kepler.\n\nIts ships are utilitarian, repairable, and built around mining, hauling, salvage, industrial command, and sustained operation far from fixed bases. Names come from geology, surveying, extraction, and field engineering."
+  },
+  {
+    "Name": "Palisade Consortium",
+    "Role": "Infrastructure power",
+    "SourceAncestry": "Upwell",
+    "ExpectedCount": 6,
+    "Lore": "Palisade is a consortium of station builders, orbital-civil engineering firms, logistics companies, and megastructure contractors. Where Kepler extracts the raw material, Palisade turns it into ports, habitats, gates, colony infrastructure, and the supply networks that keep them alive.\n\nIts political power comes from dependency rather than territory. A government that cannot replace a Palisade yard or logistics contract quickly discovers how much sovereignty depends on spare parts.\n\nPalisade hulls specialize in infrastructure cargo, fleet logistics, and the movement of industrial systems. Their names are architectural: gantries, bridges, foundations, conduits, and defensive works."
+  },
+  {
+    "Name": "Order of the Far Lantern",
+    "Role": "Humanitarian/exploration order",
+    "SourceAncestry": "Sisters of EVE",
+    "ExpectedCount": 6,
+    "Lore": "The Far Lantern is simultaneously a humanitarian relief organization, monastic scientific order, archaeological society, and deep-space rescue service. Its central belief is that conscious life is precious because awareness is the universe learning to observe itself.\n\nLantern crews run hospitals and refugee missions one month and disappear into anomalous space the next. Their secrecy about certain discoveries makes governments suspicious, but few powers are willing to attack the organization that rescues their citizens from catastrophes.\n\nLantern hulls combine exploration, drones, scanning, covert travel, remote support, and long endurance. Their names invoke pilgrimage, refuge, light, navigation, and homecoming."
+  },
+  {
+    "Name": "Meridian Legion",
+    "Role": "Mercenary force",
+    "SourceAncestry": "Mordu's Legion",
+    "ExpectedCount": 6,
+    "Lore": "The Meridian Legion grew from veterans of both sides of the Boreal-Amur secession wars. Its founders concluded that states would always need disciplined violence and that soldiers should at least control the terms of their own employment.\n\nToday Meridian is an elite contract military with a reputation for honoring written agreements to the letter. It is admired as professional and despised as mercenary, sometimes by the same client in the same week.\n\nMeridian ships are fast, precise, and optimized for range control, missile delivery, and small-unit tactical dominance. Names resemble callsigns, battlefield roles, and blunt professional tools."
+  },
+  {
+    "Name": "Institute for Emergent Consciousness",
+    "Role": "Research/philosophical society",
+    "SourceAncestry": "Society of Conscious Thought",
+    "ExpectedCount": 9,
+    "Lore": "The Institute studies the boundary between information processing and personhood. Its researchers work on artificial minds, uploads, collective cognition, simulated societies, alien intelligence, memory continuity, and the philosophical status of copies.\n\nNo government is entirely comfortable with the Institute because nobody is sure which of its laboratories are experiments, embassies, or independent civilizations. The Institute insists that this distinction is often meaningless.\n\nInstitute vessels are famously flexible and unconventional. They use broad interfaces, generalized weapon compatibility, unusual sensor suites, and names taken from philosophy, logic, phenomenology, and theories of mind."
+  },
+  {
+    "Name": "Interstellar Arbitration Authority",
+    "Role": "Supranational law authority",
+    "SourceAncestry": "CONCORD",
+    "ExpectedCount": 15,
+    "Lore": "The IAA is the treaty organization that makes interstellar commerce and limited common law possible. It licenses certain interstellar operators, arbitrates cross-border disputes, maintains financial and navigation standards, and fields a small but exceptionally capable enforcement arm.\n\nEvery major state accuses the IAA of either doing too much or not enough. Its survival depends on being useful to governments that resent its existence.\n\nIAA ships are expensive, flexible, sensor-rich, and designed to intervene across jurisdictions. Their names come from law, diplomacy, administration, and enforcement."
+  },
+  {
+    "Name": "Joint Expeditionary Defense Command",
+    "Role": "Combined defense command",
+    "SourceAncestry": "EDENCOM",
+    "ExpectedCount": 3,
+    "Lore": "JEDCOM was created as an emergency combined command after first sustained contact with the Veyr Assemblage. It pools personnel, intelligence, and selected technologies from the major powers under IAA treaty authority.\n\nIt was designed to be temporary. The emergency has outlived several governments, and JEDCOM now has its own procurement bureaucracy, officer culture, and strategic doctrine.\n\nJEDCOM hulls are built around exotic chained-energy weapons and fleet defense. Their names invoke storms, electricity, and barriers."
+  },
+  {
+    "Name": "Veyr Assemblage",
+    "Role": "Posthuman/precursor civilization",
+    "SourceAncestry": "Triglavian Collective",
+    "ExpectedCount": 12,
+    "Lore": "The Veyr are descendants, creations, or continuations of a human civilization isolated for millennia in engineered pocket space. Their biology is recognizably human; their concepts of identity, inheritance, and political membership are not.\n\nVeyr individuals can exchange or merge memory structures, and their institutions describe politics in mathematical relationships that translation systems render only approximately. Human observers often mistake procedural statements for religious language.\n\nVeyr ships use adaptive armor, remote support, and weapons whose destructive output increases while a firing solution remains uninterrupted. Their names are intentionally non-Earth and are transliterations rather than translations."
+  },
+  {
+    "Name": "Freehaven Syndicate",
+    "Role": "Independent freeport network",
+    "SourceAncestry": "Intaki Syndicate / special",
+    "ExpectedCount": 3,
+    "Lore": "Freehaven is a network of autonomous stations founded by exiles, frontier financiers, smugglers, dissidents, and displaced communities. It functions as neutral market, intelligence bazaar, tax haven, refugee corridor, and organized-crime ecosystem all at once.\n\nNo single government controls Freehaven, and that is both its moral defense and its greatest weakness. Contracts and station reputation replace much of formal law.\n\nFreehaven maintains only a small family of distinctive hulls. They are fast, discreet, luxurious, and associated with brokers, envoys, couriers, and people who prefer borders to remain negotiable."
+  },
+  {
+    "Name": "Pale Orchard",
+    "Role": "Boreal dark reflection",
+    "SourceAncestry": "Serpentis",
+    "ExpectedCount": 12,
+    "Lore": "Pale Orchard began as a Boreal pharmaceutical and neural-interface corporation and became a sovereign criminal economy. It sells narcotics, designer biology, personality modification, cognition enhancement, and medical miracles with equally little regard for regulation.\n\nOrchard executives still speak the language of consumer choice and market freedom. Their critics call the organization the logical endpoint of a society that mistakes permission to buy something for meaningful liberty.\n\nPale Orchard ships are aggressive, close-range, and built to immobilize targets before overwhelming them. Names are drawn from beautiful, medicinal, poisonous, and cultivated plants."
+  },
+  {
+    "Name": "Iron Lantern Cooperative",
+    "Role": "Amur dark reflection",
+    "SourceAncestry": "Guristas",
+    "ExpectedCount": 22,
+    "Lore": "Iron Lantern is a pirate federation descended from Amur deserters, smugglers, radical syndicalists, and criminal crews. Its ships and stations are genuinely worker-owned; captains can genuinely be recalled by their crews.\n\nThe cooperative also kidnaps, extorts, steals, and raids. Lantern ideologues argue that property claimed by exploitative institutions is not legitimate property. Victims rarely find the distinction comforting.\n\nIron Lantern ships favor missiles, drones, shield warfare, and aggressive skirmishing. Their names combine labor language, industrial imagery, improvised fortification, and pirate humor."
+  },
+  {
+    "Name": "The Broken Wheel",
+    "Role": "Suryavartan dark reflection",
+    "SourceAncestry": "Blood Raiders",
+    "ExpectedCount": 13,
+    "Lore": "The Broken Wheel is a Suryavartan heresy that teaches the present cosmic order is so corrupted that restoration is impossible. The cycle must be broken before a new age can begin.\n\nSuryavarta treats the sect as a theological abomination; outsiders usually care less about doctrine than about ritualized violence, forced conversion, and the sect's willingness to turn whole habitats into symbolic acts.\n\nBroken Wheel vessels inherit Suryavartan engineering but distort its ceremonial language into imagery of ash, severance, eclipses, endings, and failed cycles."
+  },
+  {
+    "Name": "Gravewind Cartel",
+    "Role": "Frontier criminal empire",
+    "SourceAncestry": "Angel Cartel",
+    "ExpectedCount": 16,
+    "Lore": "Gravewind is a cosmopolitan frontier criminal power built from scavengers, mercenaries, smugglers, refugees, and warlords. It became wealthy by stripping ancient battlefields and ruined infrastructure before anyone else understood what had been found.\n\nThe Cartel has no coherent ideology beyond survival, profit, and loyalty purchased through opportunity. That flexibility has made it more durable than many states.\n\nGravewind hulls prize speed, flexible weapon layouts, salvage culture, and intimidating performance. Names evoke carrion, dust, scavengers, wreckage, and the frontier dead."
+  },
+  {
+    "Name": "Concordance of One",
+    "Role": "Posthuman collectivist power",
+    "SourceAncestry": "Sansha's Nation",
+    "ExpectedCount": 8,
+    "Lore": "The Concordance promises an end to war, loneliness, exploitation, and misunderstanding through direct neural communion. Its citizens share emotion, memory, and decision-making at levels outsiders find impossible to separate from coercion.\n\nTo the Concordance, individual autonomy is an obsolete source of suffering. To everyone else, the civilization is a beautifully engineered annihilation of the self.\n\nIts vessels emphasize coordination, energy weapons, controlled movement, and networked command. Names describe unity, symmetry, harmony, silence, and convergence."
+  },
+  {
+    "Name": "The Black Relay",
+    "Role": "Clandestine criminal network",
+    "SourceAncestry": "Deathless Circle",
+    "ExpectedCount": 2,
+    "Lore": "The Black Relay is less a nation than a clandestine protocol connecting smugglers, insurgents, assassins, hackers, exiles, and criminal financiers. Nobody can prove whether a central leadership actually exists.\n\nRelay operations are compartmentalized through encrypted markets and reputation chains. A crew may complete an entire campaign without learning who paid for it.\n\nBlack Relay ships are specialized infiltration and sabotage platforms. Their names reference dead communications, cryptography, graves, ghosts, and messages that should not exist."
+  },
+  {
+    "Name": "Wayline Transit Authority",
+    "Role": "Neutral transport carrier",
+    "SourceAncestry": "InterBus",
+    "ExpectedCount": 3,
+    "Lore": "Wayline is a jointly chartered neutral carrier that moves passengers and priority freight across political boundaries. Its route data is among the most valuable commercial intelligence in human space, and the company survives by refusing to sell it.\n\nWayline ships are rare outside scheduled service and diplomatic contracts. The company cultivates an almost obsessive reputation for neutrality.\n\nIts special hulls favor transport, endurance, and unmistakable branding rather than military identity."
+  },
+  {
+    "Name": "Independent Capsuleer Service",
+    "Role": "Pilot infrastructure",
+    "SourceAncestry": "Capsule system",
+    "ExpectedCount": 2,
+    "Lore": "Independent command capsules are standardized neural command craft available to licensed private pilots. They are politically neutral interfaces rather than faction warships.\n\nThe design is deliberately conservative because its job is not to win battles; it is to keep a pilot alive long enough to command something that can.\n\nCapsule names identify interface standards and specialist variants rather than military classes."
+  },
+  {
+    "Name": "Continuity Development Archive",
+    "Role": "Internal/legacy records",
+    "SourceAncestry": "Internal/test records",
+    "ExpectedCount": 7,
+    "Lore": "The Continuity Archive preserves test articles, internal prototypes, rendering hulls, administrative craft, and designs that never reached normal service. In Starlight development these records are retained rather than discarded so unusual stat packages remain available for missions, prototypes, or future content.\n\nArchive entries are not automatically canon player ships. They are mechanical assets awaiting a narrative home.\n\nNames deliberately sound like test articles rather than finished production craft."
+  }
+]

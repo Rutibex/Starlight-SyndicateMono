@@ -1,0 +1,4588 @@
+[
+  {
+    "ShipId": "fleet_57696fbd340d1be0",
+    "ReferenceTypeId": 606,
+    "Role": "Starter",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 0,
+    "Starter": true,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "mining",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Damp",
+        "Value": 0.15,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.15,
+        "Skill": 0,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to Drone hitpoints, damage and mining yield",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 15,
+        "Text": "bonus to Remote Sensor Dampener effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 15,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3c107d0e41acc192",
+    "ReferenceTypeId": 32846,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_09d15df08b3b0c7c",
+    "ReferenceTypeId": 32872,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Drone max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_7e0dabed6269b2e8",
+    "ReferenceTypeId": 91849,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "strength",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Drone max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret damage and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Stasis Webifier Drone factor of velocity decrease and hitpoints",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6b81d6c957ee9bff",
+    "ReferenceTypeId": 32848,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_545af0ad30cfcf38",
+    "ReferenceTypeId": 32844,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_28ee6d0269c88754",
+    "ReferenceTypeId": 16240,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_1a5a3258fb2178ce",
+    "ReferenceTypeId": 73796,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33093,
+        "Damage": ""
+      },
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 33093,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33093,
+        "Bonus": 15.0,
+        "Text": "reduction to Armor Plate mass penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_02d2f4952140fd26",
+    "ReferenceTypeId": 592,
+    "Role": "Logistics",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 6.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Remote Armor Repairer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 600,
+        "Text": "bonus to Remote Armor Repairer falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Remote Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_30e375935183d151",
+    "ReferenceTypeId": 32985,
+    "Role": "Exploration",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_979af92832755cbd",
+    "ReferenceTypeId": 17841,
+    "Role": "Attack",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 20,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3db71f61d136496e",
+    "ReferenceTypeId": 608,
+    "Role": "Attack",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 80,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_d5004df6196027b9",
+    "ReferenceTypeId": 607,
+    "Role": "Exploration",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_258faa4187a1583c",
+    "ReferenceTypeId": 72913,
+    "Role": "Exploration",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_834ddbec7277043f",
+    "ReferenceTypeId": 593,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": true,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_d752e6821c900a7d",
+    "ReferenceTypeId": 34443,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_52314c3182950d6f",
+    "ReferenceTypeId": 33677,
+    "Role": "Attack",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 20,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_83562a1b275ab879",
+    "ReferenceTypeId": 609,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Damp",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Damp",
+        "Value": -0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Remote Sensor Dampener effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "reduction in Remote Sensor Dampener activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_da3f6aaaaa993dfa",
+    "ReferenceTypeId": 37456,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Warp Scrambler optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_732e09db96f6412f",
+    "ReferenceTypeId": 594,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_1a5d00ac15c6c1ba",
+    "ReferenceTypeId": 33667,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6e4a8d051bb912e1",
+    "ReferenceTypeId": 33669,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3328,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_73fdd16ad8a8d646",
+    "ReferenceTypeId": 595,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "aster",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_132fd9251bfa5af2",
+    "ReferenceTypeId": 601,
+    "Role": "Starter",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 0,
+    "Starter": true,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 0,
+        "Damage": "Kinetic"
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.3,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.08,
+        "Skill": 0,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 30,
+        "Text": "bonus to ECM Target Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 8,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6de4046257d346df",
+    "ReferenceTypeId": 16238,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_4dc0bfc3384aa724",
+    "ReferenceTypeId": 73795,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 33092,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_dc58196b24a6bf1c",
+    "ReferenceTypeId": 32876,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 33092,
+        "Damage": "Kinetic"
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 5,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile and Rocket explosion velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8da0d6f361eef4a8",
+    "ReferenceTypeId": 91857,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33092,
+        "Damage": "Kinetic"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 33092,
+        "Damage": "EM,Thermal,Explosive"
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 33092,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 10.0,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 5.0,
+        "Text": "bonus to EM, explosive, thermal Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33092,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket explosion radius",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_09343dc21798dad9",
+    "ReferenceTypeId": 584,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "ECM",
+        "Value": -0.1,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 15,
+        "Text": "bonus to ECM Target Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10,
+        "Text": "reduction in ECM Target Jammer activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_dbc6db09d6a0e354",
+    "ReferenceTypeId": 37455,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "duration",
+        "Filter": "ECM",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 20.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to ECM Drone jam duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b48cde19e3b69408",
+    "ReferenceTypeId": 602,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": true,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_74e6fbb572af7224",
+    "ReferenceTypeId": 603,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0e3783a463748056",
+    "ReferenceTypeId": 33659,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f65637632ef8c6d0",
+    "ReferenceTypeId": 33661,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f61c9649f9dd4df6",
+    "ReferenceTypeId": 605,
+    "Role": "Exploration",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_90f3dbe42664590a",
+    "ReferenceTypeId": 72904,
+    "Role": "Exploration",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.3,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 30.0,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_c000904414801d11",
+    "ReferenceTypeId": 32983,
+    "Role": "Exploration",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5631e13dae9f435b",
+    "ReferenceTypeId": 583,
+    "Role": "Attack",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "Kinetic"
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 80,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_9f3048cca5e7e178",
+    "ReferenceTypeId": 582,
+    "Role": "Logistics",
+    "WeaponFamily": "Railguns",
+    "HomeSystem": "vale",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 3.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.1,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 300.0,
+        "Text": "bonus to Remote Shield Booster falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to Remote Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "reduction in Remote Shield Booster activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_d8150dd7d65307a9",
+    "ReferenceTypeId": 17619,
+    "Role": "Attack",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "vale",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 3330,
+        "Damage": "Kinetic"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.2,
+        "Skill": 3330,
+        "Damage": "EM,Thermal,Explosive"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 25,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 20,
+        "Text": "bonus to EM, explosive, thermal Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_bb061b62d46545b7",
+    "ReferenceTypeId": 596,
+    "Role": "Starter",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 0,
+    "Starter": true,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Disrupt",
+        "Value": 0.15,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.08,
+        "Skill": 0,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 15,
+        "Text": "bonus to Weapon Disruptor effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 8,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b8cfb233254f0c8a",
+    "ReferenceTypeId": 16236,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33091,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10,
+        "Text": "bonus to Small Energy Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_72c1f761b5f400dd",
+    "ReferenceTypeId": 73789,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Neutralizer",
+        "Value": -0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Energy Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 7.5,
+        "Text": "bonus to ship armor hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "reduction to Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "reduction to Energy Neutralizer activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Neutralizer strength",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3b660a2a8e3f31c5",
+    "ReferenceTypeId": 32874,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.2,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.2,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Drone max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 20,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_eb1f3022b16c2c24",
+    "ReferenceTypeId": 91775,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.2,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.2,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 33091,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Drone max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Energy Turret, Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 20.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33091,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_64ac4aebb202a7aa",
+    "ReferenceTypeId": 591,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f2469d534a5c81e8",
+    "ReferenceTypeId": 33190,
+    "Role": "Exploration",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0419e075ecd38462",
+    "ReferenceTypeId": 11940,
+    "Role": "Attack",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to all Armor Resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 25,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f4d53c2c3b9eb465",
+    "ReferenceTypeId": 2161,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Disrupt",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Disrupt",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Weapon Disruptor effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "bonus to Weapon Disruptor optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_93625247ac70da9d",
+    "ReferenceTypeId": 37453,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Disrupt",
+        "Value": -0.85,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Disrupt",
+        "Value": -0.85,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Disrupt",
+        "Value": -0.85,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cpu",
+        "Filter": "Disrupt",
+        "Value": -0.85,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Disrupt",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": -85,
+        "Text": "penalty to Weapon Disruptor optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": -85,
+        "Text": "reduction in Weapon Disruptor activation cost and CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Weapon Disruptor effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 20,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_596ec3a1b24dd938",
+    "ReferenceTypeId": 589,
+    "Role": "Attack",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 80,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_006da0caac5c4ad0",
+    "ReferenceTypeId": 3768,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_80b40533d352ad7e",
+    "ReferenceTypeId": 11942,
+    "Role": "Attack",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.2,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to all Armor Resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 20,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5170944f28b71082",
+    "ReferenceTypeId": 597,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": true,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a156a7dffd616a04",
+    "ReferenceTypeId": 33657,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_fa9ed56ef102ab5c",
+    "ReferenceTypeId": 33655,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_44d82627f3663bdb",
+    "ReferenceTypeId": 32987,
+    "Role": "Exploration",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f35d058c1ad460e3",
+    "ReferenceTypeId": 17703,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 25,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_32fb6196ff8af0ed",
+    "ReferenceTypeId": 590,
+    "Role": "Logistics",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 6.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Remote Armor Repairer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 600,
+        "Text": "bonus to Remote Armor Repairer falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "bonus to Remote Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_16eb880b62492b54",
+    "ReferenceTypeId": 29248,
+    "Role": "Exploration",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_45a9c4acaf28bdc3",
+    "ReferenceTypeId": 72907,
+    "Role": "Exploration",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 20.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b6cca9d2cc4d1362",
+    "ReferenceTypeId": 17705,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "HomeSystem": "orison",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_96e599a2f5d06b8b",
+    "ReferenceTypeId": 588,
+    "Role": "Starter",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 0,
+    "Starter": true,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "maxVelocity",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.15,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.15,
+        "Skill": 0,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to ship max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 15,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 15,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_d8adc94a4755c5cc",
+    "ReferenceTypeId": 33099,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Projectile Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_552657b202133fe1",
+    "ReferenceTypeId": 32878,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "rook",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": "Explosive"
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5,
+        "Text": "bonus to explosive Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 15,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b9a35897daa92e45",
+    "ReferenceTypeId": 91858,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.075,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Missile",
+        "Value": 0.075,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket explosion velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8f145fd442202a29",
+    "ReferenceTypeId": 16242,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Projectile Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_35dd21f600620b52",
+    "ReferenceTypeId": 73794,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Projectile Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 15.0,
+        "Text": "reduction to Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_afbac9e7d84fe99b",
+    "ReferenceTypeId": 33883,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 1000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33094,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33094,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Small Projectile Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33094,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_07a5006cb6a19c1e",
+    "ReferenceTypeId": 585,
+    "Role": "Attack",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 80,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3bd51ab9c14f9514",
+    "ReferenceTypeId": 586,
+    "Role": "Exploration",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_1390106a014b4a62",
+    "ReferenceTypeId": 72903,
+    "Role": "Exploration",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "rook",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.125,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 12.5,
+        "Text": "bonus to Light Missile and Rocket rate of fire",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_e26eae0c34272557",
+    "ReferenceTypeId": 32989,
+    "Role": "Exploration",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 5,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cycle",
+        "Filter": "Salvage",
+        "Value": -0.05,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "reduction in Salvager duration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_4eddd25ed59a6f10",
+    "ReferenceTypeId": 17812,
+    "Role": "Attack",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.25,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 25.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a428ef884fef8901",
+    "ReferenceTypeId": 599,
+    "Role": "Logistics",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 3.0,
+        "Skill": 0,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.1,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 300,
+        "Text": "bonus to Remote Shield Booster falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Remote Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "reduction in Remote Shield Booster activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b621de5fcb926dd1",
+    "ReferenceTypeId": 3766,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_67eec94c3f4c9af5",
+    "ReferenceTypeId": 37454,
+    "Role": "Attack",
+    "WeaponFamily": "Missile Launcher Rocket",
+    "HomeSystem": "rook",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Rocket",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Rocket",
+        "Value": 0.25,
+        "Skill": 3329,
+        "Damage": "Explosive"
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Rocket",
+        "Value": 0.2,
+        "Skill": 3329,
+        "Damage": "EM,Kinetic,Thermal"
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "bonus to Rocket explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 25,
+        "Text": "bonus to explosive Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 20,
+        "Text": "bonus to EM, kinetic, thermal Rocket damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_acb9a68ea2d72964",
+    "ReferenceTypeId": 598,
+    "Role": "Attack",
+    "WeaponFamily": "Missile Launcher Light",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "bonus to Light Missile and Rocket rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_809c4533c993ba94",
+    "ReferenceTypeId": 587,
+    "Role": "Attack",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": true,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_2b12f6ee9b233bc3",
+    "ReferenceTypeId": 33663,
+    "Role": "Attack",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5ddfcfac92fa43d6",
+    "ReferenceTypeId": 33665,
+    "Role": "Attack",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 400,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_fc2b2f6360310f4b",
+    "ReferenceTypeId": 600,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "HomeSystem": "rook",
+    "Price": 1600,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [],
+    "Traits": []
+  }
+]

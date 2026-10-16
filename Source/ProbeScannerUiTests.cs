@@ -1,0 +1,18 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
+namespace StarlightSyndicateDemo;
+public sealed partial class DemoGame
+{
+ void ProbeTestPointer(Vector2 at,ButtonState left=ButtonState.Released,params Keys[] modifiers){mouse=at;var m=new MouseState((int)at.X,(int)at.Y,0,left,ButtonState.Released,ButtonState.Released,ButtonState.Released,ButtonState.Released);if(!ProbeMapInput(m,new KeyboardState(modifiers)))DesktopInput(m,new KeyboardState(modifiers));oldMouse=m;}
+ void ProbeTestDrag(Vector2 from,Vector2 to,params Keys[] modifiers){ProbeTestPointer(from);ProbeTestPointer(from,ButtonState.Pressed,modifiers);ProbeTestPointer(to,ButtonState.Pressed,modifiers);ProbeTestPointer(to);}
+ void RunProbeUiChecks(int stage){if(stage>6)return;var scanner=desktop.First(w=>w.Kind==ViewMode.Scanner);var map=desktop.First(w=>w.Kind==ViewMode.ProbeMap);void Click(string tip)=>TestClick(ui.Hits.Last(h=>h.Tip==tip).Rect.Center.ToVector2());
+ switch(stage){
+ case 0:UiCheck(world.ScanProbes.Count==8&&ui.Hits.Any(h=>h.Tip=="Analyze scan probes"),"Scanner exposes actual deployed probes and Analyze");int x=scanner.X;TestDrag(new(scanner.X+100,scanner.Y+12),new(scanner.X+80,scanner.Y+22));UiCheck(scanner.X==x-20,"Scanner title drag moves window");break;
+ case 1:int width=scanner.Width;TestDrag(new(scanner.Bounds.Right-5,scanner.Bounds.Bottom-5),new(scanner.Bounds.Right+5,scanner.Bounds.Bottom+15));UiCheck(scanner.Width==width+10,"Scanner grip resizes and reflows window");Click("Decrease probe scan range");UiCheck(world.ProbeRange==1,"Range button changes actual probe radius");break;
+ case 2:Click("Spread probe formation");UiCheck(world.ProbeFormation=="Spread"&&world.ProbeRange==16,"Spread button sets probe formation");Click("Pinpoint probe formation");UiCheck(world.ProbeFormation=="Pinpoint"&&world.ProbeRange==4,"Pinpoint button restores tight formation");world.SetProbeRange(1);break;
+ case 3:var center=ProbeMapPoint(world.ProbeCenter);var start=world.ProbeCenter;ProbeTestDrag(center,center+new Vector2(24,12));UiCheck(Vector3.Distance(start,world.ProbeCenter)>.01f,"Dragging 3D control cube moves real planned probes");world.MoveProbeFormation(start);world.SetProbeRange(1);break;
+ case 4:Click("Analyze scan probes");UiCheck(world.ProbeScanLeft>0&&world.ProbeJob!=null,"Analyze button starts timed simulation");world.UpdateUtility(world.ProbeScanLeft+.1f);probeSearch="Archive";UiCheck(ProbeFilteredResults().All(s=>world.ProbeResultName(s).Contains("Archive",StringComparison.OrdinalIgnoreCase)),"Search filters disclosed result names");probeSearch="";probeFilter="Anomalies";UiCheck(ProbeFilteredResults().All(s=>s.Anomaly),"Anomaly filter excludes signatures");probeFilter="All";break;
+ case 5:var hit=ui.Hits.First(h=>h.Tip.StartsWith("Probe result / "));mouse=hit.Rect.Center.ToVector2();ProbeScannerMenu();UiCheck(popupActions.Any(c=>c.Label=="Ignore result")&&popupActions.Any(c=>c.Label=="Center probes on result"),"Result right-click menu exposes ignore and center commands");context=false;popupActions.Clear();world.UtilitySites.First(s=>s.Id==hit.Tip[15..]).Ignored=true;UiCheck(!ProbeFilteredResults().Any(s=>s.Id==hit.Tip[15..]),"Ignore removes selected result from scanner and map");foreach(var s in world.UtilitySites)s.Ignored=false;SaveDesktop();UiCheck(File.Exists(LayoutPath),"Scanner and map placement persist");break;
+ case 6:Click("Recover active probes");UiCheck(world.ScanProbes.All(p=>p.Recall>0),"Recovery button orders actual probe return");world.UpdateUtility(3.1f);UiCheck(world.ScanProbes.Count==0&&world.ItemCount("ut_probe_core",false)>=8,"Returned probes enter actual cargo");Console.WriteLine("15 probe scanner UI checks passed.");break;
+ }}
+}

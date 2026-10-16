@@ -1,0 +1,27 @@
+{
+  "Definitions": [
+    {
+      "Id": "legacy-nine-system",
+      "Name": "Campaign cluster",
+      "Playable": true,
+      "SpatialReady": true,
+      "Systems": 9,
+      "Source": "Authored campaign",
+      "Migration": "Existing pilots retain their exact system/station/story keys."
+    },
+    {
+      "Id": "sde-3569502",
+      "Name": "Imported galaxy",
+      "Playable": true,
+      "ChartReady": true,
+      "SpatialReady": true,
+      "Systems": 8490,
+      "SourceBuild": 3569502,
+      "HistoricalBeltBaseline": "2019-11-28",
+      "Migration": "Explicit exploration entry and separate save; existing campaign pilots retain their original keys.",
+      "StationServicesReady": true,
+      "StationServiceCoverage": "Docking, independent hangars, fitting, repair, reprocessing; other source services indexed",
+      "AgentsReady": "Basic L1-L4 authored adaptations; special and in-space references filtered"
+    }
+  ]
+}

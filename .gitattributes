@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=crlf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.gz binary
+*.png binary
+*.gltf -diff
+Assets/Retheme41/*.json -diff
+Assets/Sde40/*.json -diff
+Assets/Dogma45/*.json -diff
+Assets/Galaxy42/*.json -diff
+Assets/Stations44/*.json -diff
+Assets/SystemsQ/*.json -diff

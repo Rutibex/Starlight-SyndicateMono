@@ -1,0 +1,318 @@
+[
+  {
+    "id": "lc_29011",
+    "name": "Beacon acquisition script",
+    "family": "Sensor",
+    "mode": "Resolution",
+    "consumable": false,
+    "volume": 1.0,
+    "price": 32,
+    "bonuses": {},
+    "referenceTypeId": 29011
+  },
+  {
+    "id": "lc_29009",
+    "name": "Beacon reach script",
+    "family": "Sensor",
+    "mode": "Range",
+    "consumable": false,
+    "volume": 1.0,
+    "price": 32,
+    "bonuses": {},
+    "referenceTypeId": 29009
+  },
+  {
+    "id": "lc_41155",
+    "name": "Beacon resilience script",
+    "family": "Sensor",
+    "mode": "Strength",
+    "consumable": false,
+    "volume": 1.0,
+    "price": 32,
+    "bonuses": {},
+    "referenceTypeId": 41155
+  },
+  {
+    "id": "lc_29001",
+    "name": "Firelink tracking script",
+    "family": "Tracking",
+    "mode": "Tracking",
+    "consumable": false,
+    "volume": 1.0,
+    "price": 32,
+    "bonuses": {},
+    "referenceTypeId": 29001
+  },
+  {
+    "id": "lc_28999",
+    "name": "Firelink reach script",
+    "family": "Tracking",
+    "mode": "Range",
+    "consumable": false,
+    "volume": 1.0,
+    "price": 32,
+    "bonuses": {},
+    "referenceTypeId": 28999
+  },
+  {
+    "id": "lc_42694",
+    "name": "Aegis repair cadence charge",
+    "family": "Shield",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "shieldCycle": -0.072
+    },
+    "referenceTypeId": 42694
+  },
+  {
+    "id": "lc_42695",
+    "name": "Aegis resistance charge",
+    "family": "Shield",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "shieldResist": -0.072
+    },
+    "referenceTypeId": 42695
+  },
+  {
+    "id": "lc_42696",
+    "name": "Aegis reserves charge",
+    "family": "Shield",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "shieldCapacity": 0.072
+    },
+    "referenceTypeId": 42696
+  },
+  {
+    "id": "lc_42829",
+    "name": "Prospector reach charge",
+    "family": "Mining",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "miningRange": 0.36,
+      "miningSurvey": 2.0
+    },
+    "referenceTypeId": 42829
+  },
+  {
+    "id": "lc_42830",
+    "name": "Prospector cadence charge",
+    "family": "Mining",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "miningCycle": -0.13499999999999998,
+      "miningCap": -0.13499999999999998,
+      "miningSurvey": 2.0
+    },
+    "referenceTypeId": 42830
+  },
+  {
+    "id": "lc_42831",
+    "name": "Prospector preservation charge",
+    "family": "Mining",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "crystalWear": -0.13499999999999998,
+      "miningSurvey": 2.0
+    },
+    "referenceTypeId": 42831
+  },
+  {
+    "id": "lc_42832",
+    "name": "Carapace resistance charge",
+    "family": "Armor",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "armorResist": -0.072
+    },
+    "referenceTypeId": 42832
+  },
+  {
+    "id": "lc_42833",
+    "name": "Carapace repair cadence charge",
+    "family": "Armor",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "armorCycle": -0.072
+    },
+    "referenceTypeId": 42833
+  },
+  {
+    "id": "lc_42834",
+    "name": "Carapace reserves charge",
+    "family": "Armor",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "armorHP": 0.072
+    },
+    "referenceTypeId": 42834
+  },
+  {
+    "id": "lc_42835",
+    "name": "Signal acquisition charge",
+    "family": "Information",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "scanResolution": 0.08099999999999999,
+      "maxTargetRange": 0.16199999999999998
+    },
+    "referenceTypeId": 42835
+  },
+  {
+    "id": "lc_42836",
+    "name": "Signal dominance charge",
+    "family": "Information",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "ewar": 0.08099999999999999
+    },
+    "referenceTypeId": 42836
+  },
+  {
+    "id": "lc_42837",
+    "name": "Signal resilience charge",
+    "family": "Information",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "sensorStrength": 0.16199999999999998,
+      "sensorDampenerResistance": -0.08099999999999999,
+      "weaponDisruptionResistance": -0.08099999999999999
+    },
+    "referenceTypeId": 42837
+  },
+  {
+    "id": "lc_42838",
+    "name": "Maneuver evasion charge",
+    "family": "Skirmish",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "signatureRadius": -0.05399999999999999,
+      "agility": -0.05399999999999999
+    },
+    "referenceTypeId": 42838
+  },
+  {
+    "id": "lc_42839",
+    "name": "Maneuver interdiction charge",
+    "family": "Skirmish",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "tackleRange": 0.10799999999999998
+    },
+    "referenceTypeId": 42839
+  },
+  {
+    "id": "lc_42840",
+    "name": "Maneuver propulsion charge",
+    "family": "Skirmish",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "propulsion": 0.10799999999999998
+    },
+    "referenceTypeId": 42840
+  },
+  {
+    "id": "lc_89612",
+    "name": "Pathfinder strength charge",
+    "family": "Expedition",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "probeStrength": 0.072,
+      "virusCoherence": 0.072
+    },
+    "referenceTypeId": 89612
+  },
+  {
+    "id": "lc_89613",
+    "name": "Pathfinder reach charge",
+    "family": "Expedition",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "analyzerRange": 0.18,
+      "salvageRange": 0.18,
+      "maxDirectionalScanRange": 0.18
+    },
+    "referenceTypeId": 89613
+  },
+  {
+    "id": "lc_89614",
+    "name": "Pathfinder precision charge",
+    "family": "Expedition",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "probeDeviation": -0.072,
+      "salvageCycle": -0.072
+    },
+    "referenceTypeId": 89614
+  },
+  {
+    "id": "lc_90733",
+    "name": "Prospector precision charge",
+    "family": "Mining",
+    "mode": "Burst",
+    "consumable": true,
+    "volume": 0.01,
+    "price": 5,
+    "bonuses": {
+      "miningCrit": 0.44999999999999996,
+      "miningSurvey": 2.0,
+      "miningResidue": -0.13499999999999998
+    },
+    "referenceTypeId": 90733
+  }
+]

@@ -1,0 +1,38 @@
+name: Package Windows
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify required assets
+        run: python tools/verify_runtime_assets.py
+      - name: Publish self-contained Windows build
+        run: dotnet publish Source/StarlightSyndicate.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o publish/win-x64
+      - name: Confirm executable and assets
+        shell: pwsh
+        run: |
+          if (!(Test-Path publish/win-x64/StarlightSyndicateDemo.exe)) { throw 'Missing executable' }
+          if (!(Test-Path publish/win-x64/Assets/Fleet.json)) { throw 'Missing fleet catalog' }
+          if (!(Test-Path publish/win-x64/Assets/Spatial43)) { throw 'Missing spatial data' }
+      - name: Zip complete Windows build
+        shell: pwsh
+        run: Compress-Archive -Path publish/win-x64/* -DestinationPath StarlightSyndicate-Windows-x64.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: StarlightSyndicate-Windows-x64
+          path: StarlightSyndicate-Windows-x64.zip
+          compression-level: 0
+          if-no-files-found: error

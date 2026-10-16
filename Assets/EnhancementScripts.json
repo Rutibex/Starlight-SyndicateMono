@@ -1,0 +1,18 @@
+[
+  {
+    "id": "us_35794",
+    "name": "Ordnance reach script",
+    "mode": "MissileRange",
+    "volume": 1.0,
+    "price": 32,
+    "referenceTypeId": 35794
+  },
+  {
+    "id": "us_35795",
+    "name": "Ordnance precision script",
+    "mode": "MissilePrecision",
+    "volume": 1.0,
+    "price": 32,
+    "referenceTypeId": 35795
+  }
+]

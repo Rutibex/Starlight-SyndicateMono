@@ -1,0 +1,9 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+namespace StarlightSyndicateDemo;
+public sealed partial class DemoGame
+{
+ readonly Dictionary<string,Texture2D> hullThumbnails=[];
+ Texture2D? HullThumbnail(string id){if(hullThumbnails.TryGetValue(id,out var image))return image;string file=Path.Combine(AppContext.BaseDirectory,"Assets","ShipThumbnails",id+".png");if(!File.Exists(file))return null;using var stream=File.OpenRead(file);image=Texture2D.FromStream(GraphicsDevice,stream);if(hullThumbnails.Count>=64){string oldest=hullThumbnails.Keys.First();hullThumbnails[oldest].Dispose();hullThumbnails.Remove(oldest);}hullThumbnails[id]=image;return image;}
+ void ExportShipThumbnails(string directory){Directory.CreateDirectory(directory);using var target=new RenderTarget2D(GraphicsDevice,256,256,false,SurfaceFormat.Color,DepthFormat.Depth24);foreach(var hull in ShipBatch21.All.Where(h=>(!Environment.GetCommandLineArgs().Contains("--batch22-only")||h.Batch==22)&&(!Environment.GetCommandLineArgs().Contains("--batch23-only")||h.Batch==23)&&(!Environment.GetCommandLineArgs().Contains("--batch24-only")||h.Batch==24)&&(!Environment.GetCommandLineArgs().Contains("--batch25-only")||h.Batch==25)&&(!Environment.GetCommandLineArgs().Contains("--batch26-only")||h.Batch==26)&&(!Environment.GetCommandLineArgs().Contains("--batch27-only")||h.Batch==27)&&(!Environment.GetCommandLineArgs().Contains("--batch28-only")||h.Batch==28)&&(!Environment.GetCommandLineArgs().Contains("--batch29-only")||h.Batch==29))){GraphicsDevice.SetRenderTarget(target);GraphicsDevice.Clear(new Color(7,14,22));renderer.DrawPreview(hull.ShipId,.7f,-.25f,1);GraphicsDevice.SetRenderTarget(null);using var file=File.Create(Path.Combine(directory,hull.ShipId+".png"));NativePng.Write(target,file);}Console.WriteLine("Exported thumbnails from the actual game meshes.");}
+}

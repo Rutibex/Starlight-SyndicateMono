@@ -1,0 +1,1718 @@
+[
+  {
+    "ShipId": "fleet_d0b3ebfc6dbafd33",
+    "ReferenceTypeId": 22466,
+    "Role": "Command",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 4.0,
+        "Text": "bonus to Armored Command and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0abd998e133e7f8e",
+    "ReferenceTypeId": 22442,
+    "Role": "Command",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "CombatSizes",
+        "Value": 0.075,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "Sentry",
+        "Value": 0.05,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "optimal",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "CombatSizes",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "CombatSizes",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "Sentry",
+        "Value": 0.05,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "Sentry",
+        "Value": 0.05,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Drone, Medium Drone and Light Drone tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 5.0,
+        "Text": "bonus to Sentry Drone tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 5.0,
+        "Text": "bonus to Drone optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 3.0,
+        "Text": "bonus to Armored Command and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Drone, Medium Drone and Light Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 5.0,
+        "Text": "bonus to Sentry Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 29988,
+    "Role": "StrategicCruiser",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 36000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "rigs may be removed from this ship without being destroyed",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30652,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "pasteRepairSpeed",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30652,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Rigs may be removed from this ship without being destroyed",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 0,
+        "Text": "bonus to all Gallente Defensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 0,
+        "Text": "bonus to all Gallente Core Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 0,
+        "Text": "bonus to all Gallente Offensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 0,
+        "Text": "bonus to all Gallente Propulsion Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30652,
+        "Bonus": 5.0,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30652,
+        "Bonus": 10.0,
+        "Text": "bonus to nanite repair paste repair speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8d6898847955460a",
+    "ReferenceTypeId": 22470,
+    "Role": "Command",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "HeavyAndAssault",
+        "Value": -0.05,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "HeavyAndAssault",
+        "Value": -0.075,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "Kinetic",
+        "Size": -1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 4.0,
+        "Text": "bonus to Shield Command and Information Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 5.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile explosion radius",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10.0,
+        "Text": "bonus to kinetic Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_298c1f2b8274acf3",
+    "ReferenceTypeId": 22446,
+    "Role": "Command",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldCapacity",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 3.0,
+        "Text": "bonus to Shield Command and Information Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to shield hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 29984,
+    "Role": "StrategicCruiser",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 36000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "rigs may be removed from this ship without being destroyed",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30651,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "pasteRepairSpeed",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30651,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Rigs may be removed from this ship without being destroyed",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 0,
+        "Text": "bonus to all Caldari Defensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 0,
+        "Text": "bonus to all Caldari Core Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 0,
+        "Text": "bonus to all Caldari Offensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 0,
+        "Text": "bonus to all Caldari Propulsion Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30651,
+        "Bonus": 5.0,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30651,
+        "Bonus": 10.0,
+        "Text": "bonus to nanite repair paste repair speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_65ae846f451d4af3",
+    "ReferenceTypeId": 22448,
+    "Role": "Command",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.2,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 4.0,
+        "Text": "bonus to Armored Command and Information Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 20.0,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10.0,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_fb3b4dea5d4198ef",
+    "ReferenceTypeId": 22474,
+    "Role": "Command",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 3,
+        "Text": "bonus to Armored Command and Information Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10,
+        "Text": "bonus to ship armor hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile max velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 29986,
+    "Role": "StrategicCruiser",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 36000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "rigs may be removed from this ship without being destroyed",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30650,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "pasteRepairSpeed",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30650,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Rigs may be removed from this ship without being destroyed",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 0,
+        "Text": "bonus to all Amarr Defensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 0,
+        "Text": "bonus to all Amarr Offensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 0,
+        "Text": "bonus to all Amarr Propulsion Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 0,
+        "Text": "bonus to all Amarr Core Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30650,
+        "Bonus": 5.0,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30650,
+        "Bonus": 10.0,
+        "Text": "bonus to nanite repair paste repair speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_7606edf0523745f5",
+    "ReferenceTypeId": 22468,
+    "Role": "Command",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "HeavyAndAssault",
+        "Value": -0.05,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.03,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 5.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 3.0,
+        "Text": "bonus to Shield Command and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_9e0c9a4ccff0d018",
+    "ReferenceTypeId": 22444,
+    "Role": "Command",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 32000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.04,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 23950,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use two Command Burst modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 4.0,
+        "Text": "bonus to Shield Command and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 23950,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 29990,
+    "Role": "StrategicCruiser",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 36000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 28,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "rigs may be removed from this ship without being destroyed",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "cpu",
+        "Filter": "Probe",
+        "Value": -0.99,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30653,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "pasteRepairSpeed",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30653,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Rigs may be removed from this ship without being destroyed",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.0,
+        "Text": "reduction in Scan Probe Launcher CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 0,
+        "Text": "bonus to all Minmatar Defensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 0,
+        "Text": "bonus to all Minmatar Core Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 0,
+        "Text": "bonus to all Minmatar Offensive Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 0,
+        "Text": "bonus to all Minmatar Propulsion Systems effectiveness",
+        "Unit": 0
+      },
+      {
+        "Skill": 30653,
+        "Bonus": 5.0,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30653,
+        "Bonus": 10.0,
+        "Text": "bonus to nanite repair paste repair speed",
+        "Unit": 105
+      }
+    ]
+  }
+]

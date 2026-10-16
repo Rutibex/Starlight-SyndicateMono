@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a new game or UI feature.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Player goal
+      description: What should the player be able to do?
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Suggested behavior and acceptance criteria
+  - type: dropdown
+    id: category
+    attributes:
+      label: Area
+      options: [Flight and combat, Interface, Ships and fitting, Economy and industry, Exploration, NPCs and missions, Organisations and structures, Other]
+    validations:
+      required: true

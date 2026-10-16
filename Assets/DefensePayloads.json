@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dc_25",
+    "name": "Reactor cell 25",
+    "kind": "Cell",
+    "amount": 23.5,
+    "volume": 1.0,
+    "price": 4,
+    "referenceTypeId": 263
+  },
+  {
+    "id": "dc_50",
+    "name": "Reactor cell 50",
+    "kind": "Cell",
+    "amount": 47.0,
+    "volume": 2.0,
+    "price": 7,
+    "referenceTypeId": 264
+  },
+  {
+    "id": "dc_75",
+    "name": "Reactor cell 75",
+    "kind": "Cell",
+    "amount": 70.5,
+    "volume": 3.0,
+    "price": 9,
+    "referenceTypeId": 3552
+  },
+  {
+    "id": "dc_100",
+    "name": "Reactor cell 100",
+    "kind": "Cell",
+    "amount": 94.0,
+    "volume": 4.0,
+    "price": 12,
+    "referenceTypeId": 3554
+  },
+  {
+    "id": "dc_150",
+    "name": "Reactor cell 150",
+    "kind": "Cell",
+    "amount": 141.0,
+    "volume": 6.0,
+    "price": 17,
+    "referenceTypeId": 11283
+  },
+  {
+    "id": "dc_200",
+    "name": "Reactor cell 200",
+    "kind": "Cell",
+    "amount": 188.0,
+    "volume": 8.0,
+    "price": 22,
+    "referenceTypeId": 11285
+  },
+  {
+    "id": "dc_400",
+    "name": "Reactor cell 400",
+    "kind": "Cell",
+    "amount": 376.0,
+    "volume": 16.0,
+    "price": 42,
+    "referenceTypeId": 11287
+  },
+  {
+    "id": "dc_800",
+    "name": "Reactor cell 800",
+    "kind": "Cell",
+    "amount": 752.0,
+    "volume": 32.0,
+    "price": 82,
+    "referenceTypeId": 11289
+  },
+  {
+    "id": "dc_3200",
+    "name": "Reactor cell 3200",
+    "kind": "Cell",
+    "amount": 3008.0,
+    "volume": 128.0,
+    "price": 322,
+    "referenceTypeId": 41489
+  },
+  {
+    "id": "dc_paste",
+    "name": "Repair assembler paste",
+    "kind": "Paste",
+    "amount": 0,
+    "volume": 0.01,
+    "price": 8,
+    "referenceTypeId": 28668
+  },
+  {
+    "id": "dc_armor_em",
+    "name": "Armor Prism focus script",
+    "kind": "ArmorScript",
+    "damage": "EM",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41517
+  },
+  {
+    "id": "dc_armor_thermal",
+    "name": "Armor Ember focus script",
+    "kind": "ArmorScript",
+    "damage": "Thermal",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41518
+  },
+  {
+    "id": "dc_armor_kinetic",
+    "name": "Armor Shard focus script",
+    "kind": "ArmorScript",
+    "damage": "Kinetic",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41519
+  },
+  {
+    "id": "dc_armor_explosive",
+    "name": "Armor Razor focus script",
+    "kind": "ArmorScript",
+    "damage": "Explosive",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41520
+  },
+  {
+    "id": "dc_shield_em",
+    "name": "Shield Prism focus script",
+    "kind": "ShieldScript",
+    "damage": "EM",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41521
+  },
+  {
+    "id": "dc_shield_thermal",
+    "name": "Shield Ember focus script",
+    "kind": "ShieldScript",
+    "damage": "Thermal",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41522
+  },
+  {
+    "id": "dc_shield_kinetic",
+    "name": "Shield Shard focus script",
+    "kind": "ShieldScript",
+    "damage": "Kinetic",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41523
+  },
+  {
+    "id": "dc_shield_explosive",
+    "name": "Shield Razor focus script",
+    "kind": "ShieldScript",
+    "damage": "Explosive",
+    "amount": 0,
+    "volume": 0.05,
+    "price": 30,
+    "referenceTypeId": 41524
+  }
+]

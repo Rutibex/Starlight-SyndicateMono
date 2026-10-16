@@ -1,0 +1,65 @@
+{
+  "SourceBuild": 3569502,
+  "Datasets": {
+    "appliedProximityEffects": {
+      "Count": 118,
+      "Sha256": "cc67f6aea31d916277b76d332d333ded35f8afef8f3cbc84248757648894e78d"
+    },
+    "dbuffCollections": {
+      "Count": 276,
+      "Sha256": "a524e259b9ee7fa12679c71be9387bc9fbc3c5f58f6b29290f823d5d8c1ed4a6"
+    },
+    "dogmaAttributeCategories": {
+      "Count": 37,
+      "Sha256": "17b3fb323196c3a37620045a9612d5c5f414fd1238614311ca676d9cefa3e5a0"
+    },
+    "dogmaAttributes": {
+      "Count": 2871,
+      "Sha256": "9b2c86d06c18687709a8ab9dff28a481ce3f9366ff2a615a247a98152d2648df"
+    },
+    "dogmaEffects": {
+      "Count": 3422,
+      "Sha256": "6bc6192371a3c1418e63a1c738c02ceeadbbd0e717fbac2f444f03ce8d14e1b5"
+    },
+    "dogmaUnits": {
+      "Count": 60,
+      "Sha256": "cea35bb0a3707d97b3a57ce3071d501fbf5cbbbd7273ea03b0c193b585cfa472"
+    },
+    "dynamicItemAttributes": {
+      "Count": 417,
+      "Sha256": "4a54f0018ba65072014409965f23befe7e3835de122b3a3abbb21588bbbcc38d"
+    },
+    "fighterAbilities": {
+      "Count": 36,
+      "Sha256": "904a9dbadd8693125de69a06734c49693257e0c4234dd450097e0ca17b829450"
+    },
+    "fighterAbilitiesByType": {
+      "Count": 94,
+      "Sha256": "38268ca26c7946b68941f569df2e5fd8d168f8f8ae62d52561163ebbca9f6a23"
+    },
+    "linkWithShip": {
+      "Count": 3,
+      "Sha256": "a2fc76483534452e9813c42a9de3b484a3770b5bbdc60b96801d505cff637ba2"
+    },
+    "proximityTrap": {
+      "Count": 24,
+      "Sha256": "78512be09bbfd58d843d0a5b3d8b9fbd783dfbe857d18cecc7a25273bc3064b9"
+    },
+    "systemDbuffEmitters": {
+      "Count": 1,
+      "Sha256": "bc9706b5d90fbd9f811db98492cca7d063eff71bfdef4dc3b86a4ca5528ac412"
+    },
+    "systemWideEffects": {
+      "Count": 95,
+      "Sha256": "75ad1f4146c7ac77bd0ee78b7f6db52e15bfbecd5de28916d9a8f6c610824f82"
+    },
+    "typeBonus": {
+      "Count": 652,
+      "Sha256": "351366d09506e932909ee29d15073aa5b4ac77ffe7eb0ff71cca2df5d76247f2"
+    },
+    "typeDogma": {
+      "Count": 26858,
+      "Sha256": "557fe73e46a4895ea0bd86dda3576b6e0e1aae65904c3fc80e6691e7076a4b02"
+    }
+  }
+}

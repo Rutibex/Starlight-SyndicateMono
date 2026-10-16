@@ -1,0 +1,6667 @@
+[
+  {
+    "Id": "sub28_45592",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45592,
+    "Category": "Defensive",
+    "Name": "Covert Reconfiguration",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 1.0,
+      "medSlots": 1.0,
+      "lowSlots": 2.0,
+      "hp": 600.0,
+      "capacity": 30.0,
+      "shieldCapacity": 500.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0
+    },
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device and covert cynosural field generator",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 High Slot, +1 Mid Slot, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300 Shield HP, +600 Hull HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+200GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+5m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+30m3 Cargo Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 7.5,
+        "Text": "bonus to the benefits of overheating Armor Repairers",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 10,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30540.0,
+      "shieldCapacity": 500.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0,
+      "metaLevelOld": 1.0,
+      "cloakingCpuNeedBonus": 0.0,
+      "covertOpsAndReconOpsCloakModuleDelay": 5000.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 1.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteDefensive": 7.5,
+      "subsystemBonusGallenteDefensive2": 10.0,
+      "virusStrengthBonus": 10.0,
+      "subsystemBonusGallenteDefensive3": 7.5,
+      "structureHPBonusAdd": 600.0,
+      "cargoCapacityAdd": 30.0,
+      "isBlackOpsJumpPortalPassenger": 1.0,
+      "isBlackOpsJumpConduitPassenger": 1.0
+    }
+  },
+  {
+    "Id": "sub28_45593",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45593,
+    "Category": "Defensive",
+    "Name": "Augmented Plating",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 3.0,
+      "armorHP": 1000.0,
+      "signatureRadius": 10.0
+    },
+    "Effects": [
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "ArmorHardener",
+        "Value": 0.05,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +3 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1000 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+10m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "reduction in Armor Plate mass penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 5.0,
+        "Text": "bonus to all armor hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 5.0,
+        "Text": "bonus to the benefits of overheating armor hardeners",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30540.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 10.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 1000.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 3.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteDefensive": 5.0,
+      "subsystemBonusGallenteDefensive2": 5.0,
+      "covertCloakCPUPenalty": 10000.0,
+      "subsystemBonusMassAddition": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45594",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45594,
+    "Category": "Defensive",
+    "Name": "Nanobot Injector",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "armorHP": 500.0,
+      "shieldCapacity": 100.0,
+      "capacitorCapacity": 300.0
+    },
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30540,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100 Shield HP, +500 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 10,
+        "Text": "bonus to Armor Repairer effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30540,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Armor Repairers",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30540.0,
+      "shieldCapacity": 100.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 300.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 500.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteDefensive": 10.0,
+      "covertCloakCPUPenalty": 10000.0,
+      "subsystemBonusGallenteDefensive3": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45604",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45604,
+    "Category": "Offensive",
+    "Name": "Hybrid Encoding Platform",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 6.0,
+      "launcherSlotsLeft": 0.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 430.0,
+      "cpuOutput": 110.0,
+      "droneCapacity": 50.0,
+      "droneBandwidth": 25.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +6 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+430 PWG, +110 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+25mbit Drone Bandwidth, +50m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Hybrid Turrets",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret falloff",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 430.0,
+      "cpuOutput": 110.0,
+      "requiredSkill1": 30550.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 50.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 25.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 6.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteOffensive": 10.0,
+      "subsystemBonusGallenteOffensive2": 10.0,
+      "subsystemBonusGallenteOffensive3": 7.5,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMHTFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45605",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45605,
+    "Category": "Offensive",
+    "Name": "Drone Synthesis Projector",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 6.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 5.0,
+      "launcherSlotsLeft": 0.0,
+      "powerOutput": 130.0,
+      "cpuOutput": 60.0,
+      "droneCapacity": 300.0,
+      "droneBandwidth": 125.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+6 High Slots, +5 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+130 PWG, +60 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+125mbit Drone Bandwidth, +300m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Hybrid Turrets",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 5.0,
+        "Text": "bonus to Drone velocity and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone damage and hitpoints",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 130.0,
+      "cpuOutput": 60.0,
+      "requiredSkill1": 30550.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 300.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 125.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 5.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 6.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteOffensive": 10.0,
+      "subsystemBonusGallenteOffensive2": 5.0,
+      "subsystemBonusGallenteOffensive3": 10.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMHTFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45606",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45606,
+    "Category": "Offensive",
+    "Name": "Support Processor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 4.0,
+      "launcherSlotsLeft": 0.0,
+      "maxLockedTargets": 1.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 75.0,
+      "droneCapacity": 75.0,
+      "droneBandwidth": 50.0
+    },
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 11.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.05,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30550,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Remote Armor Repairer modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Command Burst modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20.0,
+        "Text": "bonus to Remote Armor Repairer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 1150.0,
+        "Text": "bonus to Remote Armor Repairer falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +4 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50mbit Drone Bandwidth, +75m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+75 PWG",
+        "Unit": 0
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 2.0,
+        "Text": "bonus to Armored Command, Information Command, and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 5.0,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 30550,
+        "Bonus": 10.0,
+        "Text": "bonus to the benefits of overheating Remote Armor Repairer modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 75.0,
+      "requiredSkill1": 30550.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 75.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 50.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 4.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteOffensive": 2.0,
+      "subsystemBonusGallenteOffensive2": -5.0,
+      "subsystemBonusGallenteOffensive3": 10.0,
+      "roleBonusCommandBurstAoERange": 50.0,
+      "subsystemMRARFittingReduction": -75.0,
+      "subsystemCommandBurstFittingReduction": -95.0,
+      "remoteArmorRepairerFalloffBonus": 1150.0,
+      "remoteArmorRepairerOptimalBonus": 20.0
+    }
+  },
+  {
+    "Id": "sub28_45616",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45616,
+    "Category": "Propulsion",
+    "Name": "Interdiction Nullifier",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 1.0,
+      "agility": 0.1,
+      "signatureRadius": 20.0,
+      "maxTargetRange": -20000.0
+    },
+    "Effects": [
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpCapacitorNeed",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+0.1 Inertia Modifier",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "-20km Max Targeting Range",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+20m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 10.0,
+        "Text": "bonus to warp velocity and acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 15.0,
+        "Text": "reduction in capacitor need when initiating warp",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "maxTargetRange": -20000.0,
+      "requiredSkill1": 30553.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 20.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallentePropulsion": -15.0,
+      "subsystemBonusGallentePropulsion2": 10.0,
+      "shipBonusRole1": -80.0,
+      "shipBonusRole2": 100.0,
+      "agilityBonusAdd": 0.1
+    }
+  },
+  {
+    "Id": "sub28_45617",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45617,
+    "Category": "Propulsion",
+    "Name": "Hyperspatial Optimization",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 2.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.075,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 7.5,
+        "Text": "bonus to ship agility",
+        "Unit": 105
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 10,
+        "Text": "bonus to warp velocity and acceleration",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30553.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallentePropulsion": 10.0,
+      "subsystemBonusGallentePropulsion2": -7.5
+    }
+  },
+  {
+    "Id": "sub28_45618",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45618,
+    "Category": "Propulsion",
+    "Name": "Localized Injectors",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 1.0
+    },
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "AB",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "MWD",
+        "Value": 0.1,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cap",
+        "Filter": "AB",
+        "Value": -0.15,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "cap",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 30553,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 30553,
+        "Bonus": 15,
+        "Text": "reduction in Afterburner and Microwarpdrive capacitor consumption",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30553.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallentePropulsion": -15.0,
+      "subsystemBonusGallentePropulsion2": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45628",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45628,
+    "Category": "Core",
+    "Name": "Electronic Efficiency Gate",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "maxLockedTargets": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "cpuOutput",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to ship CPU output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 5,
+        "Text": "bonus to max targeting range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 15,
+        "Text": "bonus to ship sensor strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30546.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "cpuOutputBonus2": 25.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteCore": 15.0,
+      "subsystemBonusGallenteCore2": 5.0
+    }
+  },
+  {
+    "Id": "sub28_45629",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45629,
+    "Category": "Core",
+    "Name": "Augmented Fusion Reactor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "capacitorCapacity": 50.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "powerOutput",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "energyWarfareResistance",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "rechargeRate",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to ship power output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 3,
+        "Text": "bonus to energy warfare resistance",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 5,
+        "Text": "bonus to capacitor recharge time",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30546.0,
+      "requiredSkill1Level": 1.0,
+      "powerEngineeringOutputBonus": 20.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 50.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteCore": -5.0,
+      "subsystemBonusGallenteCore2": -3.0
+    }
+  },
+  {
+    "Id": "sub28_45630",
+    "ShipId": "fleet_76709fdf234f6514",
+    "ReferenceTypeId": 45630,
+    "Category": "Core",
+    "Name": "Friction Extension Processor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.075,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.075,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "Scram",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "Point",
+        "Value": 0.15,
+        "Skill": 30546,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 5,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 7.5,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30546,
+        "Bonus": 15,
+        "Text": "bonus to the benefits of overheating Warp Scrambler and Warp Disruptor modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30546.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29988.0,
+      "subsystemBonusGallenteCore": -5.0,
+      "subsystemBonusGallenteCore2": 7.5,
+      "subsystemBonusGallenteCore3": 15.0
+    }
+  },
+  {
+    "Id": "sub28_45589",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45589,
+    "Category": "Defensive",
+    "Name": "Covert Reconfiguration",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 1.0,
+      "medSlots": 3.0,
+      "lowSlots": 0.0,
+      "armorHP": 300.0,
+      "hp": 600.0,
+      "capacity": 30.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0
+    },
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device and covert cynosural field generator",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 High Slot, +3 Mid Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300 Armor HP, +600 Hull HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+200GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+5m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+30m3 Cargo Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 7.5,
+        "Text": "bonus to the benefits of overheating Shield Boosters",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 10,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30544.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0,
+      "metaLevelOld": 1.0,
+      "cloakingCpuNeedBonus": 0.0,
+      "covertOpsAndReconOpsCloakModuleDelay": 5000.0,
+      "armorHPBonusAdd": 300.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 1.0,
+      "medSlotModifier": 3.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariDefensive": 7.5,
+      "subsystemBonusCaldariDefensive2": 10.0,
+      "virusStrengthBonus": 10.0,
+      "subsystemBonusCaldariDefensive3": 7.5,
+      "structureHPBonusAdd": 600.0,
+      "cargoCapacityAdd": 30.0,
+      "isBlackOpsJumpPortalPassenger": 1.0,
+      "isBlackOpsJumpConduitPassenger": 1.0
+    }
+  },
+  {
+    "Id": "sub28_45590",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45590,
+    "Category": "Defensive",
+    "Name": "Supplemental Screening",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "shieldCapacity": 1000.0,
+      "signatureRadius": 10.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "shieldCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "ShieldHardener",
+        "Value": 0.05,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1000 Shield HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+10m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 5,
+        "Text": "bonus to all shield hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 5,
+        "Text": "bonus to the benefits of overheating shield hardeners",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30544.0,
+      "shieldCapacity": 1000.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 10.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariDefensive": 5.0,
+      "subsystemBonusCaldariDefensive2": 5.0,
+      "covertCloakCPUPenalty": 10000.0
+    }
+  },
+  {
+    "Id": "sub28_45591",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45591,
+    "Category": "Defensive",
+    "Name": "Amplification Node",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 3.0,
+      "lowSlots": 1.0,
+      "armorHP": 100.0,
+      "shieldCapacity": 500.0,
+      "capacitorCapacity": 300.0
+    },
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30544,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+3 Mid Slots, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+500 Shield HP, +100 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 10,
+        "Text": "bonus to Shield Booster effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30544,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Shield Boosters",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30544.0,
+      "shieldCapacity": 500.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 300.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 100.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 3.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariDefensive": 10.0,
+      "covertCloakCPUPenalty": 10000.0,
+      "subsystemBonusCaldariDefensive3": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45601",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45601,
+    "Category": "Offensive",
+    "Name": "Accelerated Ejection Bay",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 0.0,
+      "launcherSlotsLeft": 6.0,
+      "powerOutput": 190.0,
+      "cpuOutput": 160.0,
+      "droneCapacity": 0.0,
+      "droneBandwidth": 0.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "LightHeavyAssault",
+        "Value": 0.05,
+        "Skill": 30549,
+        "Damage": "Kinetic",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LightHeavyAssault",
+        "Value": -0.075,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.1,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +6 Launcher Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+190 PWG, +160 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launchers",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 5.0,
+        "Text": "bonus to kinetic Light Missile, Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 7.5,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile velocity",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 190.0,
+      "cpuOutput": 160.0,
+      "requiredSkill1": 30549.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 0.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 0.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 0.0,
+      "launcherHardPointModifier": 6.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariOffensive": -7.5,
+      "subsystemBonusCaldariOffensive2": 5.0,
+      "subsystemBonusCaldariOffensive3": 10.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMMissileFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45602",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45602,
+    "Category": "Offensive",
+    "Name": "Magnetic Infusion Basin",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 6.0,
+      "launcherSlotsLeft": 0.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 420.0,
+      "cpuOutput": 120.0,
+      "droneCapacity": 0.0,
+      "droneBandwidth": 0.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Hybrid",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +6 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+420 PWG, +120 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Hybrid Turrets",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 20,
+        "Text": "bonus to Medium Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 420.0,
+      "cpuOutput": 120.0,
+      "requiredSkill1": 30549.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 0.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 0.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 6.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariOffensive": 20.0,
+      "subsystemBonusCaldariOffensive2": 5.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMHTFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45603",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45603,
+    "Category": "Offensive",
+    "Name": "Support Processor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 0.0,
+      "launcherSlotsLeft": 4.0,
+      "maxLockedTargets": 1.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 60.0,
+      "droneCapacity": 50.0,
+      "droneBandwidth": 25.0
+    },
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "ShieldMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "ShieldMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 4.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.05,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30549,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Remote Shield Booster modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Command Burst modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 475.0,
+        "Text": "bonus to Remote Shield Booster falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +4 Launcher Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+25mbit Drone Bandwidth, +50m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+60 PWG",
+        "Unit": 0
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 2.0,
+        "Text": "bonus to Shield Command, Information Command and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 5.0,
+        "Text": "reduction in Remote Shield Booster activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 30549,
+        "Bonus": 10.0,
+        "Text": "bonus to the benefits of overheating Remote Shield Booster modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 60.0,
+      "requiredSkill1": 30549.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 50.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 25.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 0.0,
+      "launcherHardPointModifier": 4.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariOffensive": 2.0,
+      "subsystemBonusCaldariOffensive2": -5.0,
+      "subsystemBonusCaldariOffensive3": 10.0,
+      "roleBonusCommandBurstAoERange": 50.0,
+      "subsystemMRSBFittingReduction": -75.0,
+      "subsystemCommandBurstFittingReduction": -95.0,
+      "remoteShieldBoosterFalloffBonus": 475.0
+    }
+  },
+  {
+    "Id": "sub28_45613",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45613,
+    "Category": "Propulsion",
+    "Name": "Interdiction Nullifier",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 1.0,
+      "agility": 0.1,
+      "signatureRadius": 20.0,
+      "maxTargetRange": -20000.0
+    },
+    "Effects": [
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpCapacitorNeed",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+0.1 Inertia Modifier",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "-20km Max Targeting Range",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+20m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 10.0,
+        "Text": "bonus to warp velocity and acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 15.0,
+        "Text": "reduction in capacitor need when initiating warp",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "maxTargetRange": -20000.0,
+      "requiredSkill1": 30552.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 20.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariPropulsion": -15.0,
+      "subsystemBonusCaldariPropulsion2": 10.0,
+      "shipBonusRole1": -80.0,
+      "shipBonusRole2": 100.0,
+      "agilityBonusAdd": 0.1
+    }
+  },
+  {
+    "Id": "sub28_45614",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45614,
+    "Category": "Propulsion",
+    "Name": "Chassis Optimization",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "maxVelocity",
+        "Filter": "",
+        "Value": 0.03,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.075,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 3,
+        "Text": "bonus to max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 7.5,
+        "Text": "bonus to ship agility",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30552.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariPropulsion": 3.0,
+      "subsystemBonusCaldariPropulsion2": -7.5
+    }
+  },
+  {
+    "Id": "sub28_45615",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45615,
+    "Category": "Propulsion",
+    "Name": "Fuel Catalyst",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 0.0
+    },
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.1,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "AB",
+        "Value": 0.1,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "MWD",
+        "Value": 0.1,
+        "Skill": 30552,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 10,
+        "Text": "bonus to Afterburner velocity bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 30552,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30552.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariPropulsion": 10.0,
+      "subsystemBonusCaldariPropulsion2": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45625",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45625,
+    "Category": "Core",
+    "Name": "Electronic Efficiency Gate",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 3.0,
+      "lowSlots": 1.0,
+      "maxLockedTargets": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "cpuOutput",
+        "Filter": "",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+3 Mid Slots, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to ship CPU output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 5,
+        "Text": "bonus to max targeting range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 15,
+        "Text": "bonus to ship sensor strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30548.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "cpuOutputBonus2": 25.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 3.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariCore": 15.0,
+      "subsystemBonusCaldariCore2": 5.0
+    }
+  },
+  {
+    "Id": "sub28_45626",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45626,
+    "Category": "Core",
+    "Name": "Augmented Graviton Reactor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "capacitorCapacity": 50.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "powerOutput",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "energyWarfareResistance",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to ship power output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 3,
+        "Text": "bonus to energy warfare resistance",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 5,
+        "Text": "bonus to capacitor capacity",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30548.0,
+      "requiredSkill1Level": 1.0,
+      "powerEngineeringOutputBonus": 20.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 50.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariCore": 5.0,
+      "subsystemBonusCaldariCore2": -3.0
+    }
+  },
+  {
+    "Id": "sub28_45627",
+    "ShipId": "fleet_6f36f0d620f1d565",
+    "ReferenceTypeId": 45627,
+    "Category": "Core",
+    "Name": "Obfuscation Manifold",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 3.0,
+      "lowSlots": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "ECM",
+        "Value": 0.1,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.1,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 30548,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+3 Mid Slots, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 5,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 10,
+        "Text": "bonus to ECM Target Jammer strength and optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30548,
+        "Bonus": 15,
+        "Text": "bonus to the benefits of overheating ECM Target Jammer modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30548.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 3.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29984.0,
+      "subsystemBonusCaldariCore": -5.0,
+      "subsystemBonusCaldariCore2": 10.0,
+      "subsystemBonusCaldariCore3": 15.0
+    }
+  },
+  {
+    "Id": "sub28_45586",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45586,
+    "Category": "Defensive",
+    "Name": "Covert Reconfiguration",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 1.0,
+      "medSlots": 1.0,
+      "lowSlots": 2.0,
+      "hp": 600.0,
+      "capacity": 30.0,
+      "shieldCapacity": 300.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0
+    },
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device and covert cynosural field generator",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 High Slot, +1 Mid Slot, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300 Shield HP, +600 Hull HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+200GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+5m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+30m3 Cargo Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 7.5,
+        "Text": "bonus to the benefits of overheating Armor Repairers",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 10,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30532.0,
+      "shieldCapacity": 300.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0,
+      "metaLevelOld": 1.0,
+      "cloakingCpuNeedBonus": 0.0,
+      "covertOpsAndReconOpsCloakModuleDelay": 5000.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 1.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrDefensive": 7.5,
+      "subsystemBonusAmarrDefensive2": 10.0,
+      "virusStrengthBonus": 10.0,
+      "subsystemBonusAmarrDefensive3": 7.5,
+      "structureHPBonusAdd": 600.0,
+      "cargoCapacityAdd": 30.0,
+      "isBlackOpsJumpPortalPassenger": 1.0,
+      "isBlackOpsJumpConduitPassenger": 1.0
+    }
+  },
+  {
+    "Id": "sub28_45587",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45587,
+    "Category": "Defensive",
+    "Name": "Augmented Plating",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 3.0,
+      "armorHP": 1000.0,
+      "signatureRadius": 10.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "ArmorHardener",
+        "Value": 0.05,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +3 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1000 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+10m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 5,
+        "Text": "bonus to all armor hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 5,
+        "Text": "bonus to the benefits of overheating armor hardeners",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30532.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 10.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 1000.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 3.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrDefensive": 5.0,
+      "subsystemBonusAmarrDefensive2": 5.0,
+      "covertCloakCPUPenalty": 10000.0
+    }
+  },
+  {
+    "Id": "sub28_45588",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45588,
+    "Category": "Defensive",
+    "Name": "Nanobot Injector",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "armorHP": 500.0,
+      "shieldCapacity": 100.0,
+      "capacitorCapacity": 300.0
+    },
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30532,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100 Shield HP, +500 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 10,
+        "Text": "bonus to Armor Repairer effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30532,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Armor Repairers",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30532.0,
+      "shieldCapacity": 100.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 300.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 500.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrDefensive": 10.0,
+      "covertCloakCPUPenalty": 10000.0,
+      "subsystemBonusAmarrDefensive3": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45598",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45598,
+    "Category": "Offensive",
+    "Name": "Liquid Crystal Magnifiers",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 6.0,
+      "launcherSlotsLeft": 0.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 400.0,
+      "cpuOutput": 90.0,
+      "droneCapacity": 0.0,
+      "droneBandwidth": 0.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Laser",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Laser",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +6 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+400 PWG, +90 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Energy Turrets",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 10,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 10,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 10,
+        "Text": "bonus to Medium Energy Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 400.0,
+      "cpuOutput": 90.0,
+      "requiredSkill1": 30537.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 0.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 0.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 6.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrOffensive": 10.0,
+      "subsystemBonusAmarrOffensive2": -10.0,
+      "subsystemBonusAmarrOffensive3": 10.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMETFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45599",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45599,
+    "Category": "Offensive",
+    "Name": "Assault Optimization",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 0.0,
+      "launcherSlotsLeft": 5.0,
+      "powerOutput": 200.0,
+      "cpuOutput": 150.0,
+      "droneCapacity": 200.0,
+      "droneBandwidth": 50.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "LightHeavyAssault",
+        "Value": 0.05,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LightHeavyAssault",
+        "Value": -0.05,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +5 Launcher Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+200 PWG, +150 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50mbit Drone Bandwidth, +200m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "reduction in the PWG and CPU fitting costs of Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launchers",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 5,
+        "Text": "bonus to Light Missile, Heavy Missile, and Heavy Assault Missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 10,
+        "Text": "bonus to Drone damage and hitpoints",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 200.0,
+      "cpuOutput": 150.0,
+      "requiredSkill1": 30537.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 200.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 50.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 0.0,
+      "launcherHardPointModifier": 5.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrOffensive": -5.0,
+      "subsystemBonusAmarrOffensive2": 5.0,
+      "subsystemBonusAmarrOffensive3": 10.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMMissileFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45600",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45600,
+    "Category": "Offensive",
+    "Name": "Support Processor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 4.0,
+      "launcherSlotsLeft": 0.0,
+      "maxLockedTargets": 1.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 75.0,
+      "droneCapacity": 75.0,
+      "droneBandwidth": 25.0
+    },
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 11.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Information",
+        "Value": 0.02,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.05,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30537,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Remote Armor Repairer modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Command Burst modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20.0,
+        "Text": "bonus to Remote Armor Repairer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 1150.0,
+        "Text": "bonus to Remote Armor Repairer falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +4 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+25mbit Drone Bandwidth, +75m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+75 PWG",
+        "Unit": 0
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 2.0,
+        "Text": "bonus to Armored Command, Information Command, and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 5.0,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 30537,
+        "Bonus": 10.0,
+        "Text": "bonus to the benefits of overheating Remote Armor Repairer modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 75.0,
+      "requiredSkill1": 30537.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 75.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 25.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 4.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrOffensive": 2.0,
+      "subsystemBonusAmarrOffensive2": -5.0,
+      "subsystemBonusAmarrOffensive3": 10.0,
+      "roleBonusCommandBurstAoERange": 50.0,
+      "subsystemMRARFittingReduction": -75.0,
+      "subsystemCommandBurstFittingReduction": -95.0,
+      "remoteArmorRepairerFalloffBonus": 1150.0,
+      "remoteArmorRepairerOptimalBonus": 20.0
+    }
+  },
+  {
+    "Id": "sub28_45610",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45610,
+    "Category": "Propulsion",
+    "Name": "Interdiction Nullifier",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 1.0,
+      "agility": 0.1,
+      "signatureRadius": 20.0,
+      "maxTargetRange": -20000.0
+    },
+    "Effects": [
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpCapacitorNeed",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+0.1 Inertia Modifier",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "-20km Max Targeting Range",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+20m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 10.0,
+        "Text": "bonus to warp velocity and acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 15.0,
+        "Text": "reduction in capacitor need when initiating warp",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "maxTargetRange": -20000.0,
+      "requiredSkill1": 30538.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 20.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrPropulsion": -15.0,
+      "subsystemBonusAmarrPropulsion2": 10.0,
+      "shipBonusRole1": -80.0,
+      "shipBonusRole2": 100.0,
+      "agilityBonusAdd": 0.1
+    }
+  },
+  {
+    "Id": "sub28_45611",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45611,
+    "Category": "Propulsion",
+    "Name": "Intercalated Nanofibers",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 2.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "maxVelocity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 5,
+        "Text": "bonus to ship agility",
+        "Unit": 105
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 5,
+        "Text": "bonus to max velocity",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30538.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrPropulsion": 5.0,
+      "subsystemBonusAmarrPropulsion2": -5.0
+    }
+  },
+  {
+    "Id": "sub28_45612",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45612,
+    "Category": "Propulsion",
+    "Name": "Wake Limiter",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 1.0
+    },
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.1,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 30538,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 10,
+        "Text": "bonus to Afterburner velocity bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 30538,
+        "Bonus": 10,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30538.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrPropulsion": 10.0,
+      "subsystemBonusAmarrPropulsion2": -10.0
+    }
+  },
+  {
+    "Id": "sub28_45622",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45622,
+    "Category": "Core",
+    "Name": "Dissolution Sequencer",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "maxLockedTargets": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanResolution",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 5,
+        "Text": "bonus to max targeting range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 15,
+        "Text": "bonus to ship sensor strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 15,
+        "Text": "bonus to scan resolution",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30539.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrCore": 15.0,
+      "subsystemBonusAmarrCore2": 5.0,
+      "subsystemBonusAmarrCore3": 15.0
+    }
+  },
+  {
+    "Id": "sub28_45623",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45623,
+    "Category": "Core",
+    "Name": "Augmented Antimatter Reactor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 3.0,
+      "capacitorCapacity": 50.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "powerOutput",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "energyWarfareResistance",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +3 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to ship power output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 3,
+        "Text": "bonus to energy warfare resistance",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 5,
+        "Text": "bonus to capacitor capacity",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30539.0,
+      "requiredSkill1Level": 1.0,
+      "powerEngineeringOutputBonus": 20.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 50.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 3.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrCore": 5.0,
+      "subsystemBonusAmarrCore2": -3.0
+    }
+  },
+  {
+    "Id": "sub28_45624",
+    "ShipId": "fleet_8b99483221c40679",
+    "ReferenceTypeId": 45624,
+    "Category": "Core",
+    "Name": "Energy Parasitic Complex",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "capacitorCapacity": 50.0
+    },
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "cpu",
+        "Filter": "Neutralizer",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "power",
+        "Filter": "Neutralizer",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cpu",
+        "Filter": "Siphon",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "power",
+        "Filter": "Siphon",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 30539,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in the PWG and CPU requirements for Energy Nosferatu and Energy Neutralizer modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 5,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 10,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer drain amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 30539,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Energy Nosferatu and Energy Neutralizer modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30539.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 50.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29986.0,
+      "subsystemBonusAmarrCore": -5.0,
+      "subsystemBonusAmarrCore2": 10.0,
+      "subsystemEnergyNeutFittingReduction": -50.0,
+      "subsystemBonusAmarrCore3": 10.0
+    }
+  },
+  {
+    "Id": "sub28_45595",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45595,
+    "Category": "Defensive",
+    "Name": "Covert Reconfiguration",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 1.0,
+      "medSlots": 2.0,
+      "lowSlots": 1.0,
+      "hp": 1000.0,
+      "capacity": 30.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0
+    },
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device and covert cynosural field generator",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "virusStrength",
+        "Filter": "",
+        "Value": 10,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "probeStrength",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device and Covert Cynosural Field Generator",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 High Slot, +2 Mid Slots, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1000 Hull HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+200GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+5m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+30m3 Cargo Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10,
+        "Text": "bonus to Relic and Data Analyzer virus strength",
+        "Unit": 139
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer and Shield Booster effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 7.5,
+        "Text": "bonus to the benefits of overheating Armor Repairers and Shield Boosters",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 10,
+        "Text": "bonus to Core and Combat Scanner Probe strength",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30545.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 200.0,
+      "signatureRadius": 5.0,
+      "metaLevelOld": 1.0,
+      "cloakingCpuNeedBonus": 0.0,
+      "covertOpsAndReconOpsCloakModuleDelay": 5000.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 1.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarDefensive": 7.5,
+      "subsystemBonusMinmatarDefensive2": 10.0,
+      "virusStrengthBonus": 10.0,
+      "subsystemBonusMinmatarDefensive3": 7.5,
+      "structureHPBonusAdd": 1000.0,
+      "cargoCapacityAdd": 30.0,
+      "isBlackOpsJumpPortalPassenger": 1.0,
+      "isBlackOpsJumpConduitPassenger": 1.0
+    }
+  },
+  {
+    "Id": "sub28_45596",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45596,
+    "Category": "Defensive",
+    "Name": "Augmented Durability",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "armorHP": 600.0,
+      "shieldCapacity": 600.0,
+      "signatureRadius": 10.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "shieldCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "ShieldHardener",
+        "Value": 0.05,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+600 Shield HP, +600 Armor HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+10m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 5,
+        "Text": "bonus to all armor and shield hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 5,
+        "Text": "bonus to the benefits of overheating armor and shield hardeners",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30545.0,
+      "shieldCapacity": 600.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 10.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 600.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarDefensive": 5.0,
+      "subsystemBonusMinmatarDefensive2": 5.0,
+      "covertCloakCPUPenalty": 10000.0
+    }
+  },
+  {
+    "Id": "sub28_45597",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45597,
+    "Category": "Defensive",
+    "Name": "Adaptive Defense Node",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "armorHP": 300.0,
+      "hp": 100.0,
+      "shieldCapacity": 300.0,
+      "capacitorCapacity": 300.0
+    },
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30545,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300 Shield HP, +300 Armor HP, +100 Hull HP",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 10,
+        "Text": "bonus to Armor Repairer and Shield Booster effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 30545,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Armor Repairers and Shield Boosters",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30545.0,
+      "shieldCapacity": 300.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 300.0,
+      "metaLevelOld": 1.0,
+      "armorHPBonusAdd": 300.0,
+      "subSystemSlot": 126.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarDefensive": 10.0,
+      "subsystemBonusMinmatarDefensive2": 10.0,
+      "covertCloakCPUPenalty": 10000.0,
+      "subsystemBonusMinmatarDefensive3": 10.0,
+      "structureHPBonusAdd": 100.0
+    }
+  },
+  {
+    "Id": "sub28_45607",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45607,
+    "Category": "Offensive",
+    "Name": "Projectile Scoping Array",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 5.0,
+      "launcherSlotsLeft": 2.0,
+      "powerOutput": 300.0,
+      "cpuOutput": 30.0,
+      "droneCapacity": 25.0,
+      "droneBandwidth": 25.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Projectile",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Projectile",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.175,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +5 Turret Hardpoints, +2 Launcher Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+300 PWG, +30 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+25mbit Drone Bandwidth, +25m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Projectile Turrets",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 5.0,
+        "Text": "bonus to Medium Projectile Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 5.0,
+        "Text": "bonus to Medium Projectile Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 17.5,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 300.0,
+      "cpuOutput": 30.0,
+      "requiredSkill1": 30551.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 25.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 25.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 5.0,
+      "launcherHardPointModifier": 2.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarOffensive": 5.0,
+      "subsystemBonusMinmatarOffensive2": 17.5,
+      "subsystemBonusMinmatarOffensive3": 5.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMPTFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45608",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45608,
+    "Category": "Offensive",
+    "Name": "Launcher Efficiency Configuration",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 2.0,
+      "launcherSlotsLeft": 5.0,
+      "powerOutput": 150.0,
+      "cpuOutput": 150.0,
+      "droneCapacity": 40.0,
+      "droneBandwidth": 40.0
+    },
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "HeavyAssaultRapidLight",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyAndAssault",
+        "Value": 0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LightHeavyAssault",
+        "Value": -0.1,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +5 Launcher Hardpoints, +2 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+150 PWG, +150 CPU",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+40mbit Drone Bandwidth, +40m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "reduction in the PWG and CPU fitting costs of Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launchers",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 5,
+        "Text": "bonus to missile explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 10,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 150.0,
+      "cpuOutput": 150.0,
+      "requiredSkill1": 30551.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 40.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 40.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 2.0,
+      "launcherHardPointModifier": 5.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarOffensive": 5.0,
+      "subsystemBonusMinmatarOffensive2": -10.0,
+      "subsystemBonusMinmatarOffensive3": 5.0,
+      "warfareLinkCPUPenalty": 10000.0,
+      "subsystemMMissileFittingReduction": -25.0
+    }
+  },
+  {
+    "Id": "sub28_45609",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45609,
+    "Category": "Offensive",
+    "Name": "Support Processor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 7.0,
+      "medSlots": 0.0,
+      "lowSlots": 0.0,
+      "turretSlotsLeft": 4.0,
+      "launcherSlotsLeft": 0.0,
+      "maxLockedTargets": 1.0,
+      "capacitorCapacity": 100.0,
+      "powerOutput": 60.0,
+      "droneCapacity": 50.0,
+      "droneBandwidth": 25.0
+    },
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "ArmorMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "ShieldMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "ShieldMedium",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cpu",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "power",
+        "Filter": "Burst",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 11.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 4.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "range",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Armor",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Shield",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "strength",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "burst",
+        "Key": "duration",
+        "Filter": "Skirmish",
+        "Value": 0.02,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.05,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "overheat",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "overheat",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 30551,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Medium Remote Armor Repairer and Remote Shield Booster modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in the PWG and CPU fitting costs of Command Burst modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20.0,
+        "Text": "bonus to Remote Armor Repairer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 1150.0,
+        "Text": "bonus to Remote Armor Repairer falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 475.0,
+        "Text": "bonus to Remote Shield Booster falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+7 High Slots, +4 Turret Hardpoints",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+100GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+25mbit Drone Bandwidth, +50m3 Drone Bay",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+60 PWG",
+        "Unit": 0
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 2.0,
+        "Text": "bonus to Armored Command, Shield Command, and Skirmish Command burst strength and duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 5.0,
+        "Text": "reduction in Remote Armor Repairer and Remote Shield Booster activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 30551,
+        "Bonus": 10.0,
+        "Text": "bonus to the benefits of overheating Remote Armor Repairer and Remote Shield Booster modules",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "powerOutput": 60.0,
+      "requiredSkill1": 30551.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "droneCapacity": 50.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 100.0,
+      "metaLevelOld": 1.0,
+      "droneBandwidth": 25.0,
+      "subSystemSlot": 127.0,
+      "turretHardPointModifier": 4.0,
+      "launcherHardPointModifier": 0.0,
+      "hiSlotModifier": 7.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarOffensive": 2.0,
+      "subsystemBonusMinmatarOffensive2": -5.0,
+      "subsystemBonusMinmatarOffensive3": 10.0,
+      "roleBonusCommandBurstAoERange": 50.0,
+      "subsystemMRSBFittingReduction": -75.0,
+      "subsystemMRARFittingReduction": -75.0,
+      "subsystemCommandBurstFittingReduction": -95.0,
+      "remoteShieldBoosterFalloffBonus": 475.0,
+      "remoteArmorRepairerFalloffBonus": 1150.0,
+      "remoteArmorRepairerOptimalBonus": 20.0
+    }
+  },
+  {
+    "Id": "sub28_45619",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45619,
+    "Category": "Propulsion",
+    "Name": "Interdiction Nullifier",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 1.0,
+      "agility": 0.1,
+      "signatureRadius": 20.0,
+      "maxTargetRange": -20000.0
+    },
+    "Effects": [
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpCapacitorNeed",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+0.1 Inertia Modifier",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "-20km Max Targeting Range",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+20m Signature Radius",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 10.0,
+        "Text": "bonus to warp velocity and acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 15.0,
+        "Text": "reduction in capacitor need when initiating warp",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "maxTargetRange": -20000.0,
+      "requiredSkill1": 30554.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "signatureRadius": 20.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarPropulsion": -15.0,
+      "subsystemBonusMinmatarPropulsion2": 10.0,
+      "shipBonusRole1": -80.0,
+      "shipBonusRole2": 100.0,
+      "agilityBonusAdd": 0.1
+    }
+  },
+  {
+    "Id": "sub28_45620",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45620,
+    "Category": "Propulsion",
+    "Name": "Intercalated Nanofibers",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 0.0,
+      "lowSlots": 2.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "maxVelocity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 5,
+        "Text": "bonus to ship agility",
+        "Unit": 105
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 5,
+        "Text": "bonus to max velocity",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30554.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 0.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarPropulsion": 5.0,
+      "subsystemBonusMinmatarPropulsion2": -5.0
+    }
+  },
+  {
+    "Id": "sub28_45621",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45621,
+    "Category": "Propulsion",
+    "Name": "Wake Limiter",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 0.0
+    },
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.1,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.1,
+        "Skill": 30554,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 10,
+        "Text": "bonus to Afterburner velocity bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 30554,
+        "Bonus": 10,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30554.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 128.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 0.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarPropulsion": 10.0,
+      "subsystemBonusMinmatarPropulsion2": -10.0
+    }
+  },
+  {
+    "Id": "sub28_45631",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45631,
+    "Category": "Core",
+    "Name": "Dissolution Sequencer",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 2.0,
+      "lowSlots": 2.0,
+      "maxLockedTargets": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanRadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanGravimetricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanLadarStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanMagnetometricStrength",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "scanResolution",
+        "Filter": "",
+        "Value": 0.15,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+2 Mid Slots, +2 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 max locked target",
+        "Unit": 0
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 5,
+        "Text": "bonus to max targeting range",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 15,
+        "Text": "bonus to ship sensor strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 15,
+        "Text": "bonus to scan resolution",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30547.0,
+      "maxLockedTargetsBonus": 1.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 2.0,
+      "lowSlotModifier": 2.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarCore": 15.0,
+      "subsystemBonusMinmatarCore2": 5.0,
+      "subsystemBonusMinmatarCore3": 15.0
+    }
+  },
+  {
+    "Id": "sub28_45632",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45632,
+    "Category": "Core",
+    "Name": "Augmented Nuclear Reactor",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 1.0,
+      "lowSlots": 3.0,
+      "capacitorCapacity": 50.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "powerOutput",
+        "Filter": "",
+        "Value": 0.2,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "energyWarfareResistance",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "rechargeRate",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+1 Mid Slot, +3 Low Slots",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+50GJ Capacitor Capacity",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 20,
+        "Text": "bonus to ship power output",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 3,
+        "Text": "bonus to energy warfare resistance",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 5,
+        "Text": "bonus to capacitor recharge time",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30547.0,
+      "requiredSkill1Level": 1.0,
+      "powerEngineeringOutputBonus": 20.0,
+      "techLevel": 3.0,
+      "capacitorCapacity": 50.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 1.0,
+      "lowSlotModifier": 3.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarCore": -5.0,
+      "subsystemBonusMinmatarCore2": -3.0
+    }
+  },
+  {
+    "Id": "sub28_45633",
+    "ShipId": "fleet_8e80f9aef21f6940",
+    "ReferenceTypeId": 45633,
+    "Category": "Core",
+    "Name": "Immobility Drivers",
+    "Price": 900,
+    "Additions": {
+      "hiSlots": 0.0,
+      "medSlots": 3.0,
+      "lowSlots": 1.0
+    },
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "overheat",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Web",
+        "Value": 0.25,
+        "Skill": 30547,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional Base Stats",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "+3 Mid Slots, +1 Low Slot",
+        "Unit": 0
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 5,
+        "Text": "reduction in module damage from overheating",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 10,
+        "Text": "bonus to the benefits of overheating Stasis Webifier modules",
+        "Unit": 105
+      },
+      {
+        "Skill": 30547,
+        "Bonus": 25,
+        "Text": "bonus to Stasis Webifier optimal range",
+        "Unit": 105
+      }
+    ],
+    "RawDogma": {
+      "hp": 40.0,
+      "requiredSkill1": 30547.0,
+      "requiredSkill1Level": 1.0,
+      "techLevel": 3.0,
+      "metaLevelOld": 1.0,
+      "subSystemSlot": 125.0,
+      "hiSlotModifier": 0.0,
+      "medSlotModifier": 3.0,
+      "lowSlotModifier": 1.0,
+      "fitsToShipType": 29990.0,
+      "subsystemBonusMinmatarCore": -5.0,
+      "subsystemBonusMinmatarCore2": 25.0,
+      "subsystemBonusMinmatarCore3": 10.0
+    }
+  }
+]

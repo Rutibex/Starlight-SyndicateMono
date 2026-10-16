@@ -1,0 +1,4062 @@
+[
+  {
+    "ShipId": "fleet_1d999992d087b213",
+    "ReferenceTypeId": 645,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "optimal",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Drone optimal range and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_5fd729982a4d38a9",
+    "ReferenceTypeId": 34465,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "optimal",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Drone optimal range and tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_b3da5aa5e3be91e5",
+    "ReferenceTypeId": 32307,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints, damage and tracking",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_1759f2baeb032113",
+    "ReferenceTypeId": 34441,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "optimal",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Drone optimal range and tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_ba3e23fe09989739",
+    "ReferenceTypeId": 641,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_dde0b54a87bdbc33",
+    "ReferenceTypeId": 34467,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_1661476d567c3bd4",
+    "ReferenceTypeId": 34237,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_41a40ee0ef9477bc",
+    "ReferenceTypeId": 17728,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 15.0,
+        "Text": "reduction in Armor Plate mass penalty",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_bd58e2fc7efacc53",
+    "ReferenceTypeId": 13202,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_1c3e2379f4a947a5",
+    "ReferenceTypeId": 34239,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_3395c7165c55049b",
+    "ReferenceTypeId": 34118,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Hybrid",
+        "Value": -0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_58f9f0664267d00a",
+    "ReferenceTypeId": 24690,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_447bb0d96dfca3b4",
+    "ReferenceTypeId": 33635,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_9c195c8418481535",
+    "ReferenceTypeId": 33637,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_9cccdbb77e00a04c",
+    "ReferenceTypeId": 638,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_2cec734c88777ad8",
+    "ReferenceTypeId": 34227,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_4a056ebd4a330ea0",
+    "ReferenceTypeId": 17636,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "CruiseTorpedo",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5.0,
+        "Text": "bonus to Cruise Missile and Torpedo explosion radius",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_216839df344f9a51",
+    "ReferenceTypeId": 26840,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_0e19966f7273ac17",
+    "ReferenceTypeId": 34469,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_6d81fddd2eb7b0f1",
+    "ReferenceTypeId": 34229,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_37b9dc8a26cc7b4b",
+    "ReferenceTypeId": 24688,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_fce1ee57bb714d70",
+    "ReferenceTypeId": 33627,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_75361985a126964b",
+    "ReferenceTypeId": 33629,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_8ec64f59fd8eed75",
+    "ReferenceTypeId": 640,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "BurstJam",
+        "Value": 0.15,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "ECM",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "ECM",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "radius",
+        "Filter": "BurstJam",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 15.0,
+        "Text": "bonus to ECM Target Jammer and ECM Burst Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 25.0,
+        "Text": "bonus to ECM Target Jammer and ECM Burst Jammer optimal range and falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_7e3410b93efd365d",
+    "ReferenceTypeId": 32309,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_12c1c85199e1b65f",
+    "ReferenceTypeId": 4005,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "ECM",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "ECM",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "radius",
+        "Filter": "BurstJam",
+        "Value": 0.25,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 15.0,
+        "Text": "bonus to ECM Target Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 25.0,
+        "Text": "bonus to ECM Target Jammer optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 25.0,
+        "Text": "bonus to ECM Burst range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_674e7be7af2d59b2",
+    "ReferenceTypeId": 24692,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_deff61d7382e690c",
+    "ReferenceTypeId": 34459,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_fc92bc8e3863f4b1",
+    "ReferenceTypeId": 33623,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_9429dd16fa75e6b7",
+    "ReferenceTypeId": 33625,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_952f6866fcda179f",
+    "ReferenceTypeId": 642,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction to Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_98a44359efad67c8",
+    "ReferenceTypeId": 34471,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_5a459666d0077076",
+    "ReferenceTypeId": 34217,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_01e020f0ea1ed344",
+    "ReferenceTypeId": 34215,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_f4a98c87281ae57e",
+    "ReferenceTypeId": 17726,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction to Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_c946b1d8e11796df",
+    "ReferenceTypeId": 11936,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to ship capacitor capacity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_f6664caad2155fb8",
+    "ReferenceTypeId": 643,
+    "Role": "Drone / energy warfare",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_1d15f0225a8a0103",
+    "ReferenceTypeId": 34457,
+    "Role": "Drone / energy warfare",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3339,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer transfer range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_583aa20b95145331",
+    "ReferenceTypeId": 32305,
+    "Role": "Drone / energy warfare",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "LargeLauncher",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret, Rapid Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_5d4f29a33b29ecad",
+    "ReferenceTypeId": 11938,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Energy Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_f27831e092ef14a2",
+    "ReferenceTypeId": 24694,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10.0,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_fe9b586f4b6c1fd9",
+    "ReferenceTypeId": 33631,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_31dfdeca7edb1b97",
+    "ReferenceTypeId": 33633,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_4b21ebff52639c9b",
+    "ReferenceTypeId": 639,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_183cd1dee6ccc084",
+    "ReferenceTypeId": 26842,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_6af4d5782da0c7a1",
+    "ReferenceTypeId": 17732,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_e1ff07bd6de76aee",
+    "ReferenceTypeId": 34251,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_c404e2adb375885f",
+    "ReferenceTypeId": 34247,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_fde5f5d78f3257e2",
+    "ReferenceTypeId": 34249,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_c3e110326e31ad6f",
+    "ReferenceTypeId": 644,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 30000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  },
+  {
+    "ShipId": "fleet_e3d5c32475f9f6d8",
+    "ReferenceTypeId": 32311,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 120000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret rate of fire and tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 23
+  }
+]

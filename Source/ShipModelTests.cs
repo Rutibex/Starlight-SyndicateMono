@@ -1,0 +1,14 @@
+using System.Text.Json.Nodes;
+namespace StarlightSyndicateDemo;
+internal static class ShipModelTests
+{
+ public static void Run(){int checks=0;void Check(bool ok,string label){if(!ok)throw new Exception("MODEL FAIL: "+label);checks++;Console.WriteLine("MODEL PASS: "+label);}
+ string assets=Path.Combine(AppContext.BaseDirectory,"Assets");var models=ShipModelAssets.LoadAll(assets);Check(models.Count==FleetCatalog.Playable.Length,"All integrated ships load through manifest");Check(ShipModelAssets.SelectLod(750)==0&&ShipModelAssets.SelectLod(751)==1&&ShipModelAssets.SelectLod(2401)==2,"World-distance LOD boundaries match manifest");
+ foreach(var h in FleetCatalog.Playable){var lods=models[h.Id];Check(lods.Length==3,h.Name+" has three LODs");Check(lods[0].Triangles>=lods[1].Triangles&&lods[1].Triangles>=lods[2].Triangles,h.Name+" detail decreases");Check(lods.All(l=>l.Triangles<2500&&l.Parts.Length==4),h.Name+" budget and four material groups");Check(lods[0].Parts.Any(p=>p.Emission.LengthSquared()>0),h.Name+" emissive engine material");Check(lods.All(l=>(l.Bounds.Max-l.Bounds.Min).Z>1),h.Name+" valid bounds");}
+ string temp=Path.Combine(Path.GetTempPath(),"starlight-model-tests-"+Guid.NewGuid());Directory.CreateDirectory(temp);
+ try{var manifest=JsonNode.Parse(File.ReadAllText(Path.Combine(assets,"ShipModelManifest.json")))!;var ready=manifest["Entries"]!.AsArray().First(e=>e!["Status"]!.GetValue<string>()=="ready")!;string file=ready["Lods"]![0]!["File"]!.GetValue<string>();var valid=JsonNode.Parse(File.ReadAllText(Path.Combine(assets,file)))!;
+ void Reject(JsonNode node,string label){string path=Path.Combine(temp,"bad.gltf");File.WriteAllText(path,node.ToJsonString());bool refused=false;try{ShipModelAssets.Read(path);}catch(Exception){refused=true;}Check(refused,label);}
+ var bad=valid.DeepClone();bad["buffers"]![0]!["uri"]="../../outside.bin";Reject(bad,"External buffer rejected");bad=valid.DeepClone();bad["nodes"]![0]!["translation"]=new JsonArray(1,2,3);Reject(bad,"Unbaked transform rejected");bad=valid.DeepClone();bad["meshes"]![0]!["primitives"]![0]!["mode"]=1;Reject(bad,"Nontriangle primitive rejected");bad=valid.DeepClone();bad["accessors"]![0]!["count"]=int.MaxValue;Reject(bad,"Oversized accessor rejected");bad=valid.DeepClone();bad["materials"]![0]!["pbrMetallicRoughness"]!["baseColorFactor"]=new JsonArray(2,0,0,1);Reject(bad,"Invalid color rejected");
+ Directory.CreateDirectory(Path.Combine(temp,"FleetModels"));File.WriteAllText(Path.Combine(temp,"ShipModelManifest.json"),manifest.ToJsonString());Check(ShipModelAssets.LoadAll(temp).Count==0,"Missing model files fall back without aborting");File.WriteAllText(Path.Combine(temp,"ShipModelManifest.json"),"{broken");Check(ShipModelAssets.LoadAll(temp).Count==0,"Malformed manifest falls back without aborting");
+ }finally{Directory.Delete(temp,true);}Console.WriteLine($"{checks} model pipeline checks passed.");}
+}

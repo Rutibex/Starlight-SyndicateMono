@@ -1,0 +1,27 @@
+namespace StarlightSyndicateDemo;
+public sealed class CloneRecord{public string Id{get;set;}=Guid.NewGuid().ToString("N");public string System{get;set;}="";public string Pilot{get;set;}="player";public string Facility{get;set;}="Station";public bool Mobile{get;set;}public Dictionary<int,int> Implants{get;set;}=[];}
+public sealed partial class DemoWorld
+{
+ public List<CloneRecord> JumpClones{get;set;}=[];public Dictionary<string,float> MappedPilots{get;set;}=[];public Dictionary<string,int> RecloneShips{get;set;}=[];public float CloneJumpCooldown{get;set;}
+ public bool InstallJumpClone(string pilot="player")
+ {
+  bool mobile=Player.HasSpecial("Vat");if(ImportedWorld43&&Docked&&!ServiceAllowed44(10)&&!ServiceAllowed44(24)){Say("Clone installation unavailable at this station.");return false;}if(!Docked&&!mobile)return false;if(mobile&&pilot=="player"){Say("Your nursery installs clones for other fleet pilots; install your own clone at a station.");return false;}if(pilot!="player"&&!Wingmates.Any(w=>w.Id==pilot&&w.Fleet))return false;int capacity=ImportedWorld43?Player.SkillLevel("Infomorph Psychology")+Player.SkillLevel("Advanced Infomorph Psychology")+Player.SkillLevel("Elite Infomorph Psychology"):5;if(JumpClones.Count(c=>c.Pilot==pilot)>=capacity||Credits<100)return false;WalletChange(-(decimal)(100),"Gameplay transaction");JumpClones.Add(new(){System=mobile?SystemId:StationKey44,Pilot=pilot,Facility=mobile?Player.HullName:"Station",Mobile=mobile});Say("Jump clone installed.");return true;
+ }
+ public bool JumpToClone(string id)
+ {
+  var c=JumpClones.FirstOrDefault(c=>c.Id==id&&c.Pilot=="player"&&!c.Mobile);if(c!=null&&(!LegalCloneDestination(c.System)||!LocationService(c.System,22))){Say("Clone destination cannot accept incoming transfers: wormhole/Pochven restriction or station access denied.");return false;}if(c==null||!Docked||CloneJumpCooldown>0||c.System==StationKey44){Say("Dock at a different station, select a stored clone and wait for clone cooldown to finish.");return false;}
+  // Ship, fittings and cargo remain at origin. Return requires boarding this stored vessel at that station.
+  if(!Commander.Capsule&&LeaveShipD().Length>0)return false;
+  var origin=new CloneRecord{Pilot="player",System=StationKey44,Facility="Station",Implants=new(Skills.Implants)};
+  Commander.CloneImplants[origin.Id]=new(Commander.Implants);Commander.Implants=Commander.CloneImplants.GetValueOrDefault(c.Id)??new();Commander.CloneImplants.Remove(c.Id);
+  Skills.Implants=new(c.Implants);JumpClones.Remove(c);JumpClones.Add(origin);MakeCapsuleD();SystemId=LocationSystem(c.System);StationId=ImportedWorld43?c.System:"";Grid="station";if(ImportedWorld43){var arrival=Stations44.ById[StationId];SolarOrigin=arrival.DockPoint;SolarCelestial=arrival.Id;SolarGridKey=SolarCatalog.GridKey(SystemId,SolarOrigin);Transit=null;Autopilot=false;}Screen=ViewMode.Station;Targets.Clear();LockedId=SelectedId="";CloneJumpCooldown=ImportedWorld43?86400-3600*Player.SkillLevel("Infomorph Synchronizing"):86400;SyncSkills();Say("Consciousness transferred; previous ship parked at origin. 24-hour clone cooldown.");return true;
+ }
+ public List<ParkedShip> ParkedShips{get;set;}=[];
+ public bool BoardParkedShip(){if(PlayerPackagesVolumeD>0)return false;if(!Docked||!RequireService44(17))return false;var stored=ParkedShips.FirstOrDefault(p=>p.System==StationKey44);if(stored==null||!SkillAllowed(stored.Ship.CombatHull))return false;var previous=new ParkedShip{System=StationKey44,Ship=Player,Cargo=new(CargoItems)};Player=stored.Ship;Commander.Capsule=false;CargoItems=stored.Cargo;ParkedShips.Remove(stored);if(!previous.Ship.CapsuleD)ParkedShips.Add(previous);SyncSkills();RecomputeWeaponFit();return true;}
+
+ public bool MapFleetPilot(string pilot){if(!Wingmates.Any(w=>w.Id==pilot&&w.Fleet)||ItemCount("sp_mapper",Docked)<1)return false;ChangeStack("sp_mapper",Docked,-(decimal)(1));MappedPilots[pilot]=21600;Say("Fleet pilot mapped for six hours.");return true;}
+ public bool StoreRecloneShip(string hull){if(!Docked||!CombatHulls.All.Any(h=>h.Id==hull&&h.Size<4))return false;float cost=CombatHulls.Get(hull).Hull*.4f;if(Credits<cost)return false;WalletChange(-(decimal)(cost),"Gameplay transaction");RecloneShips[hull]=RecloneShips.GetValueOrDefault(hull)+1;Say("Purchased fitted "+CombatHulls.Get(hull).Name+" reserve vessel.");return true;}
+ void UpdateSpecialCloning(){if(!Player.HasSpecial("Recloner"))return;foreach(var w in Wingmates.Where(w=>w.Fleet&&w.Hull<=0&&(w.System.Length==0||w.System==SystemId)).ToArray()){if(!MappedPilots.TryGetValue(w.Id,out float mapped)||mapped<=0||RecloneShips.GetValueOrDefault(w.HullId)<1||ItemCount("sp_clonefuel",false)<10)continue;ChangeStack("sp_clonefuel",false,-(decimal)(10));RecloneShips[w.HullId]--;MappedPilots.Remove(w.Id);var p=new Ship();p.SetCombatHull(w.HullId);w.Shield=p.MaxShield;w.Armor=p.MaxArmor;w.Hull=p.MaxHull;w.Cap=p.MaxCap;w.Order="Hold";Targets.RemoveAll(t=>t.Id==w.Id);RestoreWingmates();Say(w.Name+" recloned and boarded a reserve ship.");}}
+ public bool SimulateMappedPilotLoss(string id){if(!WeaponTestMode)return false;var w=Wingmates.FirstOrDefault(w=>w.Id==id);if(w==null)return false;w.Hull=0;var t=Targets.FirstOrDefault(t=>t.Id==id);if(t!=null){t.Hull=0;t.KillRecorded=true;}UpdateSpecialCloning();return true;}
+}
+public sealed class ParkedShip{public string Id{get;set;}=Guid.NewGuid().ToString("N");public string System{get;set;}="";public Ship Ship{get;set;}=new();public Dictionary<string,decimal> Cargo{get;set;}=[];}

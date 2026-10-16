@@ -1,0 +1,177 @@
+[
+  {
+    "Id": "horizons",
+    "Name": "Independent Horizons",
+    "Kind": "Epic",
+    "Once": false,
+    "RepeatDays": 90,
+    "Briefing": "Recover the independent archive and decide how to deal with its pursuers.",
+    "Steps": [
+      {
+        "Id": "recover",
+        "Mission": "m_archive",
+        "Next": "",
+        "Branches": {
+          "Negotiate passage": "courier",
+          "Confront pursuers": "fight"
+        }
+      },
+      {
+        "Id": "courier",
+        "Mission": "m_dispatch",
+        "Next": "final",
+        "Branches": {}
+      },
+      {
+        "Id": "fight",
+        "Mission": "m_intercept",
+        "Next": "final",
+        "Branches": {}
+      },
+      {
+        "Id": "final",
+        "Mission": "m_archive",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "custodian",
+    "Name": "The Archive Custodian",
+    "Kind": "COSMOS",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Recover, transport and secure an archive for its custodian. This contact offers one chain only.",
+    "Steps": [
+      {
+        "Id": "recover",
+        "Mission": "m_archive",
+        "Next": "carry",
+        "Branches": {}
+      },
+      {
+        "Id": "carry",
+        "Mission": "m_dispatch",
+        "Next": "secure",
+        "Branches": {}
+      },
+      {
+        "Id": "secure",
+        "Mission": "m_intercept",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "career_soldier",
+    "Name": "Soldier practical training",
+    "Kind": "Career",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Complete practical assignments using your ship, station services and exploration equipment. Return to your instructor between steps.",
+    "Steps": [
+      {
+        "Id": "0",
+        "Mission": "m_intercept",
+        "Next": "1",
+        "Branches": {}
+      },
+      {
+        "Id": "1",
+        "Mission": "m_archive",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "career_enforcer",
+    "Name": "Enforcer practical training",
+    "Kind": "Career",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Complete practical assignments using your ship, station services and exploration equipment. Return to your instructor between steps.",
+    "Steps": [
+      {
+        "Id": "0",
+        "Mission": "m_archive",
+        "Next": "1",
+        "Branches": {}
+      },
+      {
+        "Id": "1",
+        "Mission": "m_intercept",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "career_industrialist",
+    "Name": "Industrialist practical training",
+    "Kind": "Career",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Complete practical assignments using your ship, station services and exploration equipment. Return to your instructor between steps.",
+    "Steps": [
+      {
+        "Id": "0",
+        "Mission": "m_training_mine",
+        "Next": "1",
+        "Branches": {}
+      },
+      {
+        "Id": "1",
+        "Mission": "m_manufacture",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "career_entrepreneur",
+    "Name": "Entrepreneur practical training",
+    "Kind": "Career",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Complete practical assignments using your ship, station services and exploration equipment. Return to your instructor between steps.",
+    "Steps": [
+      {
+        "Id": "0",
+        "Mission": "m_dispatch",
+        "Next": "1",
+        "Branches": {}
+      },
+      {
+        "Id": "1",
+        "Mission": "m_manufacture",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  },
+  {
+    "Id": "career_explorer",
+    "Name": "Explorer practical training",
+    "Kind": "Career",
+    "Once": true,
+    "RepeatDays": 0,
+    "Briefing": "Complete practical assignments using your ship, station services and exploration equipment. Return to your instructor between steps.",
+    "Steps": [
+      {
+        "Id": "0",
+        "Mission": "m_hack",
+        "Next": "1",
+        "Branches": {}
+      },
+      {
+        "Id": "1",
+        "Mission": "m_archive",
+        "Next": "",
+        "Branches": {}
+      }
+    ]
+  }
+]

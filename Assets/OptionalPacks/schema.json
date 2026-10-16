@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Starlight local cosmetic and science pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "Schema",
+    "Id",
+    "Mechanics",
+    "Geography",
+    "SourceBuild",
+    "Designs"
+  ],
+  "properties": {
+    "Schema": {
+      "const": 1
+    },
+    "Id": {
+      "const": "local-science"
+    },
+    "Mechanics": {
+      "const": "Starlight-authored"
+    },
+    "Geography": {
+      "const": "supplied-galaxy+2019-belts"
+    },
+    "SourceBuild": {
+      "const": 3569502
+    },
+    "Designs": {
+      "type": "array",
+      "maxItems": 32,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "Name",
+          "Hull",
+          "Primary",
+          "Accent",
+          "Pattern"
+        ],
+        "properties": {
+          "Id": {
+            "type": "string"
+          },
+          "Name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 48
+          },
+          "Hull": {
+            "type": "string"
+          },
+          "Primary": {
+            "enum": [
+              "Slate",
+              "Cyan",
+              "Amber",
+              "Crimson",
+              "Ivory",
+              "Emerald"
+            ]
+          },
+          "Accent": {
+            "enum": [
+              "Slate",
+              "Cyan",
+              "Amber",
+              "Crimson",
+              "Ivory",
+              "Emerald"
+            ]
+          },
+          "Pattern": {
+            "enum": [
+              "Panels",
+              "Alternating",
+              "Bands"
+            ]
+          },
+          "Owned": {
+            "type": "boolean",
+            "description": "Ignored on import: every design is an unpaid draft."
+          }
+        }
+      }
+    }
+  }
+}

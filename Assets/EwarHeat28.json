@@ -1,0 +1,240 @@
+{
+  "ewar_580": {
+    "Hp": 40.0,
+    "Damage": 10.0,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_27678": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40636": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40697": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40635": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40698": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40696": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40699": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_1955": {
+    "Hp": 40.0,
+    "Damage": 6.6,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_1958": {
+    "Hp": 40.0,
+    "Damage": 6.6,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_1948": {
+    "Hp": 40.0,
+    "Damage": 6.6,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_1957": {
+    "Hp": 40.0,
+    "Damage": 6.6,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_1956": {
+    "Hp": 40.0,
+    "Damage": 6.6,
+    "Range": 0.0,
+    "Strength": 0.2,
+    "Cycle": 0.0
+  },
+  "ewar_533": {
+    "Hp": 40.0,
+    "Damage": 2.6,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_12265": {
+    "Hp": 40.0,
+    "Damage": 3.2,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_40659": {
+    "Hp": 40.0,
+    "Damage": 4.6,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_12269": {
+    "Hp": 40.0,
+    "Damage": 4.6,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_530": {
+    "Hp": 40.0,
+    "Damage": 1.15,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_12257": {
+    "Hp": 40.0,
+    "Damage": 1.32,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_40665": {
+    "Hp": 40.0,
+    "Damage": 1.9,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_12261": {
+    "Hp": 40.0,
+    "Damage": 1.9,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.15
+  },
+  "ewar_40634": {
+    "Hp": 99999.0,
+    "Damage": 0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40730": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 0.2,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_40750": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 0.2,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_22782": {
+    "Hp": 40.0,
+    "Damage": 1.7,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_37543": {
+    "Hp": 40.0,
+    "Damage": 3.4,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_1968": {
+    "Hp": 40.0,
+    "Damage": 3.4,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_41040": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 3.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_526": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 0.3,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_12709": {
+    "Hp": 40.0,
+    "Damage": 1.7,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_2108": {
+    "Hp": 40.0,
+    "Damage": 3.4,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_28654": {
+    "Hp": 40.0,
+    "Damage": 3.0,
+    "Range": 0.0,
+    "Strength": 0.0,
+    "Cycle": -0.33299999999999996
+  },
+  "ewar_3242": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 0.2,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  },
+  "ewar_447": {
+    "Hp": 40.0,
+    "Damage": 5.0,
+    "Range": 0.2,
+    "Strength": 0.0,
+    "Cycle": 0.0
+  }
+}

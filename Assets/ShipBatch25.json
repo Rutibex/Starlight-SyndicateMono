@@ -1,0 +1,4841 @@
+[
+  {
+    "ShipId": "fleet_387ae5d7c18dbd79",
+    "ReferenceTypeId": 12044,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_027c97dd2eddff36",
+    "ReferenceTypeId": 12042,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6c9ae0a91223f8bc",
+    "ReferenceTypeId": 2834,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_cfb6aea3da88e5e7",
+    "ReferenceTypeId": 11375,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_692c0f10dca7325a",
+    "ReferenceTypeId": 11389,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_d6ad5ac02e03e41f",
+    "ReferenceTypeId": 78414,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "reduction in Armor Plate mass penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed and optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_59d0c702e09c1fca",
+    "ReferenceTypeId": 11174,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 8000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Damp",
+        "Value": 0.075,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Damp",
+        "Value": -0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.15,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.15,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Scram",
+        "Value": -0.1,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Point",
+        "Value": -0.1,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3328,
+        "Bonus": 7.5,
+        "Text": "bonus to Remote Sensor Dampener effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "reduction in Remote Sensor Dampener activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 15,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 10,
+        "Text": "reduction in Warp Scrambler and Warp Disruptor activation cost",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_816c7ce6ab7d4bf7",
+    "ReferenceTypeId": 11200,
+    "Role": "Interceptor",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.15,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 15.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a121acfeec0efe29",
+    "ReferenceTypeId": 11202,
+    "Role": "Interceptor",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "aster",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "scanPenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay, max lock range penalty, and scan resolution penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0e00169ad8095561",
+    "ReferenceTypeId": 11377,
+    "Role": "Bomber",
+    "WeaponFamily": "Missile Launcher Torpedo",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 12000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device, covert cynosural field generator and bomb launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 15 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Torpedo",
+        "Value": -0.9965,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Bomb",
+        "Value": 0.05,
+        "Skill": 12093,
+        "Damage": "Thermal",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 12093,
+        "Damage": "Thermal",
+        "Size": 3
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 15 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.65,
+        "Text": "reduction in Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Torpedo flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 15.0,
+        "Text": "bonus to Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 5.0,
+        "Text": "bonus to thermal Bomb damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 15.0,
+        "Text": "bonus to thermal Torpedo damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_2ae07f175ff17853",
+    "ReferenceTypeId": 11381,
+    "Role": "Assault",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.15,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 15.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_c03a7ef3e98faadd",
+    "ReferenceTypeId": 11379,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.075,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8e577fbb4bb6deca",
+    "ReferenceTypeId": 32788,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "heatDamage",
+        "Filter": "",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 1.15,
+        "Skill": 0,
+        "Damage": "Kinetic",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in module heat damage amount taken",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 115.0,
+        "Text": "bonus to kinetic Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket Launcher rate of fire",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f1995ca912221a05",
+    "ReferenceTypeId": 11194,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 8000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.2,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "ECM",
+        "Value": -0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3330,
+        "Bonus": 20,
+        "Text": "bonus to ECM Target Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10,
+        "Text": "reduction in ECM Target Jammer activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 15,
+        "Text": "bonus to ECM Target Jammer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 5,
+        "Text": "bonus to ship capacitor capacity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_4dbff4bb889505ae",
+    "ReferenceTypeId": 11178,
+    "Role": "Interceptor",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Hybrid Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_4edb2d15b8db5bf0",
+    "ReferenceTypeId": 11176,
+    "Role": "Interceptor",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "vale",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "scanPenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "shieldCapacity",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay, max lock range penalty, and scan resolution penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to shield hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to Light Missile and Rocket max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f571571f5f2d4c33",
+    "ReferenceTypeId": 12032,
+    "Role": "Bomber",
+    "WeaponFamily": "Missile Launcher Torpedo",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 12000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device, covert cynosural field generator and bomb launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 15 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Torpedo",
+        "Value": -0.9965,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Bomb",
+        "Value": 0.05,
+        "Skill": 12093,
+        "Damage": "Kinetic",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 12093,
+        "Damage": "Kinetic",
+        "Size": 3
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 15 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.65,
+        "Text": "reduction in Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 10.0,
+        "Text": "bonus to Torpedo flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 15.0,
+        "Text": "bonus to Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 5.0,
+        "Text": "bonus to kinetic Bomb damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 15.0,
+        "Text": "bonus to kinetic Torpedo damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_1d79fa2249232f49",
+    "ReferenceTypeId": 11393,
+    "Role": "Assault",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Energy Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10.0,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8945c2a3fca746a8",
+    "ReferenceTypeId": 11383,
+    "Role": "Assault",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_f67321dac096b3ad",
+    "ReferenceTypeId": 11365,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Rocket",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "rechargeRate",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to ship capacitor recharge rate",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_af55ccec6442d187",
+    "ReferenceTypeId": 3516,
+    "Role": "Assault",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Neutralizer",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Siphon",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 20.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer drain amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 20.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8ea9bd0d9810e449",
+    "ReferenceTypeId": 11190,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 8000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Neutralizer",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Siphon",
+        "Value": 0.2,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Disrupt",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Neutralizer",
+        "Value": 0.8,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Siphon",
+        "Value": 0.8,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Neutralizer",
+        "Value": 0.4,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Siphon",
+        "Value": 0.4,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "rechargeRate",
+        "Filter": "",
+        "Value": -0.05,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3331,
+        "Bonus": 20,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer drain amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Weapon Disruptor effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 80,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 40,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer falloff range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 5,
+        "Text": "reduction in ship capacitor recharge time",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_e1d2cd1d08470ea5",
+    "ReferenceTypeId": 11184,
+    "Role": "Interceptor",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10.0,
+        "Text": "reduction in Small Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Energy Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_8517e49039f15f6f",
+    "ReferenceTypeId": 11186,
+    "Role": "Interceptor",
+    "WeaponFamily": "Missile Launcher Rocket",
+    "WeaponSize": 1,
+    "HomeSystem": "orison",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "scanPenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Rocket",
+        "Value": -0.05,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay, max lock range penalty, and scan resolution penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 5.0,
+        "Text": "bonus to Rocket Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_d6988e3c4bfaf3cd",
+    "ReferenceTypeId": 12038,
+    "Role": "Bomber",
+    "WeaponFamily": "Missile Launcher Torpedo",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 12000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device, covert cynosural field generator and bomb launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 15 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Torpedo",
+        "Value": -0.9965,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Bomb",
+        "Value": 0.05,
+        "Skill": 12093,
+        "Damage": "EM",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 12093,
+        "Damage": "EM",
+        "Size": 3
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 15 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.65,
+        "Text": "reduction in Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 10.0,
+        "Text": "bonus to Torpedo flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 15.0,
+        "Text": "bonus to Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 5.0,
+        "Text": "bonus to EM Bomb damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 15.0,
+        "Text": "bonus to EM Torpedo damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b68a3150ea85d32c",
+    "ReferenceTypeId": 74141,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Rocket",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "Web",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "Web",
+        "Value": 2.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "strength",
+        "Filter": "Web",
+        "Value": 5.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Missile",
+        "Value": 0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Stasis Webifying Drone max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 250.0,
+        "Text": "bonus to Stasis Webifying Drone hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 500.0,
+        "Text": "bonus to Stasis Webifying Drone Stasis Webifier effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster and Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Missile and Rocket explosion velocity",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_ea858afbf837aae7",
+    "ReferenceTypeId": 11371,
+    "Role": "Assault",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5679daa7c55dde15",
+    "ReferenceTypeId": 12036,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_2e148361637c043f",
+    "ReferenceTypeId": 11400,
+    "Role": "Assault",
+    "WeaponFamily": "Missile Launcher Rocket",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Missile",
+        "Value": -0.05,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.05,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Missile and Rocket damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_ba9859c75cf7ddd7",
+    "ReferenceTypeId": 32207,
+    "Role": "Assault",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "cap",
+        "Filter": "AB",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "cap",
+        "Filter": "MWD",
+        "Value": -0.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.125,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Web",
+        "Value": 0.3,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Projectile Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Small Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction in Afterburner and Microwarpdrive activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 12.5,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 30.0,
+        "Text": "bonus to Stasis Webifier optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_b300137c3d8c1e70",
+    "ReferenceTypeId": 11373,
+    "Role": "Assault",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_ca3e1461dbd49de7",
+    "ReferenceTypeId": 11387,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 8000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Web",
+        "Value": 0.4,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "signatureRadius",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 40,
+        "Text": "bonus to Stasis Webifier optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 3,
+        "Text": "reduction in ship signature radius",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f26d8b6ff5357207",
+    "ReferenceTypeId": 11198,
+    "Role": "Interceptor",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "scanPenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay, max lock range penalty, and scan resolution penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_587cfbbbcd42a71b",
+    "ReferenceTypeId": 11196,
+    "Role": "Interceptor",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "overheat",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to the benefits of overheating Afterburners and Microwarpdrives",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 5.0,
+        "Text": "bonus to Small Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Projectile Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 10.0,
+        "Text": "bonus to Small Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_51c791e9b80baba4",
+    "ReferenceTypeId": 12034,
+    "Role": "Bomber",
+    "WeaponFamily": "Missile Launcher Torpedo",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 12000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device, covert cynosural field generator and bomb launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 15 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Torpedo",
+        "Value": -0.9965,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Bomb",
+        "Value": 0.05,
+        "Skill": 12093,
+        "Damage": "Explosive",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 12093,
+        "Damage": "Explosive",
+        "Size": 3
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 15 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.65,
+        "Text": "reduction in Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10.0,
+        "Text": "bonus to Torpedo flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 15.0,
+        "Text": "bonus to Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 5.0,
+        "Text": "bonus to explosive Bomb damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 15.0,
+        "Text": "bonus to explosive Torpedo damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0ece39cdc7be26a6",
+    "ReferenceTypeId": 60765,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 8000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Missile",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 2.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Damp",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Damp",
+        "Value": -0.15,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Scram",
+        "Value": -0.1,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Point",
+        "Value": -0.1,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.2,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.2,
+        "Skill": 28615,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "penalty to missile flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 200.0,
+        "Text": "bonus to missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to Remote Sensor Dampener effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 15.0,
+        "Text": "reduction in Remote Sensor Dampener activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 25.0,
+        "Text": "bonus to missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 10.0,
+        "Text": "reduction in Warp Scrambler and Warp Disruptor activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 28615,
+        "Bonus": 20.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0b6282ce552c74da",
+    "ReferenceTypeId": 52250,
+    "Role": "Assault",
+    "WeaponFamily": "Precursor Weapon",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 9000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit assault damage controls",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Neutralizer",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Smartbomb",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Entropic",
+        "Value": 0.075,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "rampMax",
+        "Filter": "Entropic",
+        "Value": 0.2,
+        "Skill": 12095,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 47867,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Entropic",
+        "Value": 0.05,
+        "Skill": 47867,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Assault Damage Controls",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Energy Neutralizer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Remote Armor Repairer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Smart Bomb capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Remote Armor Repairer range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 7.5,
+        "Text": "bonus to Light Entropic Disintegrator maximum range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12095,
+        "Bonus": 20.0,
+        "Text": "bonus to Light Entropic Disintegrator maximum damage multiplier bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 47867,
+        "Bonus": 4.0,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 47867,
+        "Bonus": 5.0,
+        "Text": "bonus to Light Entropic Disintegrator damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_cf809eb034135f7e",
+    "ReferenceTypeId": 45530,
+    "Role": "Bomber",
+    "WeaponFamily": "Missile Launcher Torpedo",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 12000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "can fit covert ops cloaking device, covert cynosural field generator and bomb launcher",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 15 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "booster",
+        "Key": "sideEffect",
+        "Filter": "",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Torpedo",
+        "Value": -0.33,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Torpedo",
+        "Value": -0.9,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Torpedo",
+        "Value": -0.998,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "special",
+        "Key": "cpu",
+        "Filter": "Cloak",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Bomb",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Bomb",
+        "Value": -1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 3.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.2,
+        "Skill": 3328,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "Torpedo",
+        "Value": 0.1,
+        "Skill": 3329,
+        "Damage": "",
+        "Size": 3
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Bomb",
+        "Value": 0.05,
+        "Skill": 12093,
+        "Damage": "Thermal,Explosive",
+        "Size": -1
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 12093,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 12093,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Torpedo",
+        "Value": 0.15,
+        "Skill": 12093,
+        "Damage": "Thermal,Explosive",
+        "Size": 3
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Covert Ops Cloaking Device, Covert Cynosural Field Generator and Bomb Launcher",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 15 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "reduction in the potency of booster side effects",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33,
+        "Text": "bonus to Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 90,
+        "Text": "reduction in Torpedo Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 99.8,
+        "Text": "reduction in Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Cloaking Devices CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "reduction in Bomb Launcher powergrid and CPU requirements",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 300,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 20,
+        "Text": "bonus to Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Stasis Webifier effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3329,
+        "Bonus": 10,
+        "Text": "bonus to Torpedo explosion velocity and flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 5,
+        "Text": "bonus to thermal and explosive Bomb damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 10,
+        "Text": "bonus to Small Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 12093,
+        "Bonus": 15,
+        "Text": "bonus to thermal and explosive Torpedo damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_992bf5aa09ce5cb5",
+    "ReferenceTypeId": 33673,
+    "Role": "Interceptor",
+    "WeaponFamily": "Missile Launcher Light",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "LightCombat",
+        "Value": 3.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "LightCombat",
+        "Value": 3.75,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Missile",
+        "Value": 0.1,
+        "Skill": 3328,
+        "Damage": "Thermal,Kinetic",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 375.0,
+        "Text": "bonus to Light Combat Drone damage and hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3328,
+        "Bonus": 10.0,
+        "Text": "bonus to kinetic and thermal missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a7a9ffc4a1b681e6",
+    "ReferenceTypeId": 35779,
+    "Role": "Interceptor",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 1,
+    "HomeSystem": "rook",
+    "Price": 7000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 25,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.6,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Tackle",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "reactivation",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "rangePenalty",
+        "Filter": "",
+        "Value": -0.8,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "nullifier",
+        "Key": "duration",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 2.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "speed",
+        "Filter": "AB",
+        "Value": 0.2,
+        "Skill": 3330,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3331,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.05,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      },
+      {
+        "System": "prop",
+        "Key": "signature",
+        "Filter": "MWD",
+        "Value": -0.15,
+        "Skill": 12092,
+        "Damage": "",
+        "Size": 1
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 60.0,
+        "Text": "bonus to warp speed and warp acceleration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Propulsion Jamming systems activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 80.0,
+        "Text": "reduction in Interdiction Nullifier reactivation delay and max lock range penalty",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Interdiction Nullifier duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 250.0,
+        "Text": "bonus to Small Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3330,
+        "Bonus": 20.0,
+        "Text": "bonus to Afterburner velocity bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 3331,
+        "Bonus": 7.5,
+        "Text": "bonus to Small Energy Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 5.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 12092,
+        "Bonus": 15.0,
+        "Text": "reduction in Microwarpdrive signature radius penalty",
+        "Unit": 105
+      }
+    ]
+  }
+]

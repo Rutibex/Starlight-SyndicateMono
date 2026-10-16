@@ -1,0 +1,4636 @@
+[
+  {
+    "ShipId": "fleet_abab0f5ec732f809",
+    "ReferenceTypeId": 4308,
+    "Role": "Attack battlecruiser",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Hybrid",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Hybrid",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Hybrid",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in Large Hybrid Turret powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Hybrid Turret CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Hybrid Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_e00e11b33d2e3c45",
+    "ReferenceTypeId": 16229,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_108ed9d1f7d3b03b",
+    "ReferenceTypeId": 33151,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_ac9302e8f8a4ffd8",
+    "ReferenceTypeId": 24700,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.125,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 12.5,
+        "Text": "bonus to Drone microwarp velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_66f2ca422483d299",
+    "ReferenceTypeId": 72869,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.125,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "strength",
+        "Filter": "Web",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.1,
+        "Skill": 33097,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Medium Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 12.5,
+        "Text": "bonus to Drone microwarp velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints, tracking and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Stasis Webifier Drone factor of velocity decrease and hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33097,
+        "Bonus": 10.0,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_670c1c848efcb587",
+    "ReferenceTypeId": 634,
+    "Role": "Logistics",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "repair",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.125,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 430,
+        "Text": "bonus to Remote Armor Repairer optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Logistic Drone transfer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 12.5,
+        "Text": "bonus to Remote Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_b66365ebbe418b38",
+    "ReferenceTypeId": 29344,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.175,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "plate",
+        "Key": "mass",
+        "Filter": "",
+        "Value": -0.15,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 17.5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 15.0,
+        "Text": "reduction in Armor Plate mass penalty",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_796a83511105b143",
+    "ReferenceTypeId": 627,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_7a33644a5f3efee0",
+    "ReferenceTypeId": 33651,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_4b5433d33c553bcf",
+    "ReferenceTypeId": 33653,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_8a52ad236f65a0fd",
+    "ReferenceTypeId": 626,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "mining",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints, damage and mining yield",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_c687bbfe5a8a0d25",
+    "ReferenceTypeId": 17843,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints, damage, and tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Hybrid Turret damage and tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_9374176221b97c8c",
+    "ReferenceTypeId": 34445,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "mining",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints, damage and mining yield",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_10b91279262433d9",
+    "ReferenceTypeId": 633,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "aster",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Damp",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Damp",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "Damp",
+        "Value": 0.075,
+        "Skill": 3332,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Remote Sensor Dampener effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3332,
+        "Bonus": 7.5,
+        "Text": "bonus to Remote Sensor Dampener optimal range and falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_8011d86a84ea8fd2",
+    "ReferenceTypeId": 89807,
+    "Role": "Tactical attack",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "LargeLauncher",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "LargeLauncher",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "maxTargetRange",
+        "Filter": "",
+        "Value": 2.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": "Primary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": -0.33299999999999996,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Primary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "LargeLauncher",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Primary"
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Primary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "LargeLauncher",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Secondary"
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.9,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "hull",
+        "Key": "agility",
+        "Filter": "",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": "Tertiary"
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "CruiseTorpedo",
+        "Value": -0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in Rapid Heavy Missile Launcher, Cruise Missile Launcher and Torpedo Launcher powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Rapid Heavy Missile Launcher, Cruise Missile Launcher and Torpedo Launcher CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Additional bonuses are available while one of three Tactical Modes are active. Modes may be switched no more than once every 10 seconds.",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Primary Mode",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 250.0,
+        "Text": "bonus to lock range while Primary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 33.3,
+        "Text": "decrease in missile velocity while Primary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 1000.0,
+        "Text": "increase in missile flight time while Primary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Rapid Heavy Missile Launcher, Cruise Missile Launcher and Torpedo Launcher rate of fire while Primary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Secondary Mode",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "decrease in missile flight time while Secondary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Rapid Heavy Missile Launcher, Cruise Missile Launcher and Torpedo Launcher rate of fire while Secondary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Tertiary Mode",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 90.0,
+        "Text": "reduction in Micro Jump Drive reactivation delay while Tertiary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to ship inertia modifier while Tertiary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo velocity while Tertiary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Rapid Heavy Missile Launcher, Cruise Missile Launcher and Torpedo Launcher rate of fire while Tertiary Mode is enabled",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5.0,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5.0,
+        "Text": "bonus to Cruise Missile and Torpedo explosion radius",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_0e6166a9a6056703",
+    "ReferenceTypeId": 4306,
+    "Role": "Attack battlecruiser",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Hybrid",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Hybrid",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Hybrid",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in Large Hybrid Turret powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Hybrid Turret CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Hybrid Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_2ad0b8aec161fb89",
+    "ReferenceTypeId": 16227,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10,
+        "Text": "bonus to Medium Hybrid Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_0fe0aba96e07d29c",
+    "ReferenceTypeId": 72812,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.075,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "power",
+        "Filter": "Shield",
+        "Value": -0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "cpu",
+        "Filter": "Shield",
+        "Value": -0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Medium Hybrid Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5.0,
+        "Text": "bonus to Medium Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10.0,
+        "Text": "reduction in Shield Booster power and CPU requirements",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_6aed8812d68d8790",
+    "ReferenceTypeId": 24698,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyMissile",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "Kinetic",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10,
+        "Text": "bonus to kinetic Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_b243cbe258476ddb",
+    "ReferenceTypeId": 33153,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "HeavyMissile",
+        "Value": -0.05,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyMissile",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 5.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile explosion radius",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_0d33487b8b261b91",
+    "ReferenceTypeId": 34473,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33096,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyMissile",
+        "Value": 0.1,
+        "Skill": 33096,
+        "Damage": "Kinetic",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Warfare Link modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33096,
+        "Bonus": 10,
+        "Text": "bonus to kinetic Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_64054ebb4fdd095d",
+    "ReferenceTypeId": 620,
+    "Role": "Logistics",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Cap",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Cap",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Cap",
+        "Value": 2.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Shield",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.125,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 1000,
+        "Text": "bonus to Remote Capacitor Transmitter range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 200,
+        "Text": "bonus to Remote Capacitor Transmitter transfer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 430,
+        "Text": "bonus to Remote Shield Booster optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 12.5,
+        "Text": "bonus to Remote Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 5,
+        "Text": "reduction in Remote Shield Booster activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_a26b9fd0eee6e339",
+    "ReferenceTypeId": 29340,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyMissile",
+        "Value": 0.1,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "MediumMissile",
+        "Value": 0.2,
+        "Skill": 3334,
+        "Damage": "EM,Explosive,Thermal",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "MediumMissile",
+        "Value": 0.25,
+        "Skill": 3334,
+        "Damage": "Kinetic",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 20.0,
+        "Text": "bonus to EM, explosive, thermal Light Missile, Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 25.0,
+        "Text": "bonus to kinetic Light Missile, Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_9e52063d6332dd4b",
+    "ReferenceTypeId": 623,
+    "Role": "Combat",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 5,
+        "Text": "bonus to Medium Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 4,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_2ae14539a9863f50",
+    "ReferenceTypeId": 621,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "MediumMissile",
+        "Value": -0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "HeavyMissile",
+        "Value": 0.1,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 10.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_9eb0d4a389f3d1cf",
+    "ReferenceTypeId": 17634,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "explosionRadius",
+        "Filter": "HeavyMissile",
+        "Value": -0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "MediumMissile",
+        "Value": -0.06,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 5.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile explosion radius",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 6.0,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_1488edb34ff4a74f",
+    "ReferenceTypeId": 33643,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "MediumMissile",
+        "Value": -0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "MediumMissile",
+        "Value": 0.1,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile, Heavy Missile and Heavy Assault Missile max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_b7f871cd88ee0b08",
+    "ReferenceTypeId": 33645,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "MediumMissile",
+        "Value": -0.05,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "MediumMissile",
+        "Value": 0.1,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 5,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile, Heavy Missile and Heavy Assault Missile max velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_d5b61392ca7aca09",
+    "ReferenceTypeId": 632,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 2,
+    "HomeSystem": "vale",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.15,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "ECM",
+        "Value": 0.125,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "falloff",
+        "Filter": "ECM",
+        "Value": 0.125,
+        "Skill": 3334,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3334,
+        "Bonus": 15,
+        "Text": "bonus to ECM Target Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 3334,
+        "Bonus": 12.5,
+        "Text": "bonus to ECM Target Jammer optimal range and falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_dc7620ebfc35d54e",
+    "ReferenceTypeId": 4302,
+    "Role": "Attack battlecruiser",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Laser",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Laser",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95,
+        "Text": "reduction in Large Energy Turret powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Energy Turret CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_e0bfbac4f14b6199",
+    "ReferenceTypeId": 24696,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Energy Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_859bb5fb35dec552",
+    "ReferenceTypeId": 33155,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Medium Energy Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Energy Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10.0,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_4915622b36cbb7d9",
+    "ReferenceTypeId": 16233,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.125,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 12.5,
+        "Text": "bonus to Drone microwarp velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_880867abc2157d6b",
+    "ReferenceTypeId": 72872,
+    "Role": "Drone warfare",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "speed",
+        "Filter": "",
+        "Value": 0.125,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 33095,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 12.5,
+        "Text": "bonus to Drone microwarp velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Medium Energy Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 5.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33095,
+        "Bonus": 10.0,
+        "Text": "bonus to ship armor hitpoints",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_1a7d0a69d1579f14",
+    "ReferenceTypeId": 2006,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.05,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 5,
+        "Text": "bonus to Medium Energy Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_2b92bbb68fa6ccc3",
+    "ReferenceTypeId": 33641,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.05,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 5,
+        "Text": "bonus to Medium Energy Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_255b284f2cb0a97d",
+    "ReferenceTypeId": 33639,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.05,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "reduction in Medium Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 5,
+        "Text": "bonus to Medium Energy Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_a2b912318e4363ec",
+    "ReferenceTypeId": 17709,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "bonus to Medium Energy Turret optimal range",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_c89ba1f1c2fa6f00",
+    "ReferenceTypeId": 625,
+    "Role": "Logistics",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Cap",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Cap",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Cap",
+        "Value": 2.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.125,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.05,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 1000,
+        "Text": "bonus to Remote Capacitor Transmitter range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 200,
+        "Text": "bonus to Remote Capacitor Transmitter transfer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 430,
+        "Text": "bonus to Remote Armor Repairer optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 12.5,
+        "Text": "bonus to Remote Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 5,
+        "Text": "reduction in Remote Armor Repairer activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_d478716ed3ee9896",
+    "ReferenceTypeId": 29337,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.25,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorHP",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 25,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "bonus to ship armor hitpoints",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_293d421f3bf77ae6",
+    "ReferenceTypeId": 628,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Disrupt",
+        "Value": 0.075,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "mining",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 7.5,
+        "Text": "bonus to Weapon Disruptor effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 10,
+        "Text": "bonus to Drone hitpoints, damage and mining yield",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_8f131115f279e38b",
+    "ReferenceTypeId": 624,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "armorResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 3335,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3335,
+        "Bonus": 5,
+        "Text": "bonus to Medium Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3335,
+        "Bonus": 4,
+        "Text": "bonus to all armor resistances",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_f7f233fd314a6ade",
+    "ReferenceTypeId": 52267,
+    "Role": "Combat",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 2,
+    "HomeSystem": "orison",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [],
+    "Traits": [],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_3582d91acb1d5e8b",
+    "ReferenceTypeId": 4310,
+    "Role": "Attack battlecruiser",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "power",
+        "Filter": "Projectile",
+        "Value": -0.95,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cpu",
+        "Filter": "Projectile",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 95.0,
+        "Text": "reduction in Large Projectile Turret powergrid requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Large Projectile Turret CPU requirement",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_b043705c11dd9464",
+    "ReferenceTypeId": 16231,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "HeavyMissile",
+        "Value": -0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_b50e705233245866",
+    "ReferenceTypeId": 72811,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "Missile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "HeavyMissile",
+        "Value": -0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "HeavyMissile",
+        "Value": 0.05,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "signatureRadius",
+        "Filter": "",
+        "Value": -0.03,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25.0,
+        "Text": "bonus to Missile velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 5.0,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 3.0,
+        "Text": "reduction to ship signature radius",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_6ef66c24dee7ecbf",
+    "ReferenceTypeId": 33871,
+    "Role": "Combat",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "HeavyMissile",
+        "Value": -0.05,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Warfare Link modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_8e33279bdb3eca49",
+    "ReferenceTypeId": 24702,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 10000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Projectile Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 5,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 5,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_c7ecbe58fda7982b",
+    "ReferenceTypeId": 33157,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 40000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "hull",
+        "Key": "commandSlots",
+        "Filter": "",
+        "Value": 1,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Projectile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.25,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Burst",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 33098,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can use one Command Burst module",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 25,
+        "Text": "bonus to Medium Projectile Turret optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50,
+        "Text": "bonus to Command Burst area of effect range",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 33098,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_aa9008e323ac243a",
+    "ReferenceTypeId": 622,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_1f08cbcc702495eb",
+    "ReferenceTypeId": 17713,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.075,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 5.0,
+        "Text": "bonus to Medium Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_2d7aba228163f879",
+    "ReferenceTypeId": 33647,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 5,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_ac83202c0a815bb6",
+    "ReferenceTypeId": 33649,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 5,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret falloff",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_4bd94ab1a41996c7",
+    "ReferenceTypeId": 630,
+    "Role": "Electronic warfare",
+    "WeaponFamily": "Missile Launcher Heavy",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "MediumMissile",
+        "Value": -0.05,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.075,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "HeavyMissile",
+        "Value": 0.075,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 5.0,
+        "Text": "bonus to Rapid Light Missile, Heavy Missile and Heavy Assault Missile Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 7.5,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 7.5,
+        "Text": "bonus to Heavy Missile and Heavy Assault Missile explosion velocity",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_45ab2e3f28dc2a99",
+    "ReferenceTypeId": 629,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 10.0,
+        "Text": "bonus to Medium Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 7.5,
+        "Text": "bonus to Medium Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_6a45cdfbff0ce4a0",
+    "ReferenceTypeId": 631,
+    "Role": "Logistics",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 4000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Shield",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Shield",
+        "Value": 4.3,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "repair",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.125,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Shield",
+        "Value": -0.05,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 0,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 430,
+        "Text": "bonus to Remote Shield Booster optimal range and falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Logistic Drone transfer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 12.5,
+        "Text": "bonus to Remote Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 5,
+        "Text": "reduction in Remote Shield Booster activation cost",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  },
+  {
+    "ShipId": "fleet_f21b7670db41710d",
+    "ReferenceTypeId": 29336,
+    "Role": "Combat",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 2,
+    "HomeSystem": "rook",
+    "Price": 16000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "MediumMissile",
+        "Value": 0.1,
+        "Skill": 3333,
+        "Damage": "",
+        "Size": 2,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 3333,
+        "Bonus": 10,
+        "Text": "bonus to Medium Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3333,
+        "Bonus": 10,
+        "Text": "bonus to Light Missile, Heavy Missile and Heavy Assault Missile damage",
+        "Unit": 105
+      }
+    ],
+    "Batch": 22
+  }
+]

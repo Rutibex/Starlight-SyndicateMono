@@ -1,0 +1,3944 @@
+[
+  {
+    "ShipId": "fleet_0250af7e407935df",
+    "ReferenceTypeId": 22430,
+    "Role": "BlackOps",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit cynosural field generator, covert cynosural field generator, and covert jump portal generator modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "reduction to effective distance traveled for jump fatigue",
+        "Filter": "",
+        "Value": 75.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "Cyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "CovertCyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "velocity",
+        "Filter": "Cloak",
+        "Value": 6.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "sin bonuses do not apply to warp disruptors",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.2,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "hp",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "damage",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "tracking",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "drone",
+        "Key": "optimal",
+        "Filter": "",
+        "Value": 0.075,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "scramStrengthAdd",
+        "Filter": "Scram",
+        "Value": 1.0,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Cynosural Field Generator, Covert Cynosural Field Generator, and Covert Jump Portal Generator modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction to effective distance traveled for jump fatigue",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cynosural Field Generator and Covert Cynosural Field Generator duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 650.0,
+        "Text": "bonus to ship max velocity when using Cloaking Devices",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Sin bonuses do not apply to Warp Disruptors",
+        "Unit": 0
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 20.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Drone hitpoints and damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 10.0,
+        "Text": "bonus to Warp Scrambler range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 7.5,
+        "Text": "bonus to Drone tracking and optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 1.0,
+        "Text": "scramble strength to all Warp Scramblers",
+        "Unit": 139
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_204701b4f6995cb6",
+    "ReferenceTypeId": 28661,
+    "Role": "Marauder",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_fd30f53f494657f4",
+    "ReferenceTypeId": 34241,
+    "Role": "Marauder",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_f4089db392d1c278",
+    "ReferenceTypeId": 34245,
+    "Role": "Marauder",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_838bb3df9a1ca460",
+    "ReferenceTypeId": 34243,
+    "Role": "Marauder",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.05,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 5,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10,
+        "Text": "bonus to Large Hybrid Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_c111c71c19893e2e",
+    "ReferenceTypeId": 22436,
+    "Role": "BlackOps",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit cynosural field generator, covert cynosural field generator, and covert jump portal generator modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "reduction to effective distance traveled for jump fatigue",
+        "Filter": "",
+        "Value": 75.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "Cyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "CovertCyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "velocity",
+        "Filter": "Cloak",
+        "Value": 6.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "ECM",
+        "Value": 0.4,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "BurstJam",
+        "Value": 0.4,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "shieldResonance",
+        "Filter": "",
+        "Value": -0.04,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Cynosural Field Generator, Covert Cynosural Field Generator, and Covert Jump Portal Generator modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction to effective distance traveled for jump fatigue",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cynosural Field Generator and Covert Cynosural Field Generator duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 650.0,
+        "Text": "bonus to ship max velocity when using Cloaking Devices",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 40.0,
+        "Text": "bonus to ECM Target Jammer and ECM Burst Jammer strength",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 4.0,
+        "Text": "bonus to all shield resistances",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_7801c2b35bd33a6d",
+    "ReferenceTypeId": 28710,
+    "Role": "Marauder",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5.0,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 10.0,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_0059e15c232d7cef",
+    "ReferenceTypeId": 34233,
+    "Role": "Marauder",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_26214c34163f7528",
+    "ReferenceTypeId": 34235,
+    "Role": "Marauder",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "vale",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3a9d88fcc07ff35f",
+    "ReferenceTypeId": 22428,
+    "Role": "BlackOps",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit cynosural field generator, covert cynosural field generator, and covert jump portal generator modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "reduction to effective distance traveled for jump fatigue",
+        "Filter": "",
+        "Value": 75.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "Cyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "CovertCyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "velocity",
+        "Filter": "Cloak",
+        "Value": 6.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Neutralizer",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Siphon",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Cynosural Field Generator, Covert Cynosural Field Generator, and Covert Jump Portal Generator modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction to effective distance traveled for jump fatigue",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cynosural Field Generator and Covert Cynosural Field Generator duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 650.0,
+        "Text": "bonus to ship max velocity when using Cloaking Devices",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 10.0,
+        "Text": "bonus to Energy Nosferatu and Energy Neutralizer drain amount",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a7d973a732d0577f",
+    "ReferenceTypeId": 28659,
+    "Role": "Marauder",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Laser",
+        "Value": -0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "reduction in Large Energy Turret activation cost",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_607996578cfe664f",
+    "ReferenceTypeId": 34223,
+    "Role": "Marauder",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beams range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_17affb040aa62cda",
+    "ReferenceTypeId": 34221,
+    "Role": "Marauder",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beams range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to ship capacitor capacity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_a78623da70d5561d",
+    "ReferenceTypeId": 22440,
+    "Role": "BlackOps",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit cynosural field generator, covert cynosural field generator, and covert jump portal generator modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "reduction to effective distance traveled for jump fatigue",
+        "Filter": "",
+        "Value": 75.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "Cyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "CovertCyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "velocity",
+        "Filter": "Cloak",
+        "Value": 6.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Grapple",
+        "Value": 0.2,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Cynosural Field Generator, Covert Cynosural Field Generator, and Covert Jump Portal Generator modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction to effective distance traveled for jump fatigue",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cynosural Field Generator and Covert Cynosural Field Generator duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 650.0,
+        "Text": "bonus to ship max velocity when using Cloaking Devices",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret tracking",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret falloff range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 20.0,
+        "Text": "bonus to Heavy Stasis Grappler optimal range",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_5e55d7621556edc8",
+    "ReferenceTypeId": 28665,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5.0,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 5.0,
+        "Text": "bonus to Shield Booster and Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3a2a2d771f58de66",
+    "ReferenceTypeId": 47727,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_bd993f391efeb96c",
+    "ReferenceTypeId": 47728,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_98e2ca17c21a836f",
+    "ReferenceTypeId": 34257,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_3bbb9e9cdabdc0c8",
+    "ReferenceTypeId": 34253,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_6f1527498a592198",
+    "ReferenceTypeId": 34255,
+    "Role": "Marauder",
+    "WeaponFamily": "Autocannons",
+    "WeaponSize": 3,
+    "HomeSystem": "rook",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Projectile",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.05,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Projectile",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Projectile Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 5,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Projectile Turret tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_533b205d171e6b09",
+    "ReferenceTypeId": 44996,
+    "Role": "BlackOps",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "aster",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "capability",
+        "Key": "can fit cynosural field generator, covert cynosural field generator, and covert jump portal generator modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "no targeting delay after cloaking device deactivation",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "cloak reactivation delay reduced to 5 seconds",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "reduction to effective distance traveled for jump fatigue",
+        "Filter": "",
+        "Value": 75.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "bonus to security status gains from destruction of non-capsuleer pirates while flying this ship",
+        "Filter": "",
+        "Value": 10.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "armor repairer and shield booster effectiveness increased by a percentage equal to 10x pilot security status, with a floor of 0% and ceiling of 50%",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "velocity",
+        "Filter": "Cloak",
+        "Value": 6.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "extender",
+        "Filter": "",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "plate",
+        "Filter": "",
+        "Value": 0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "tank",
+        "Key": "bulkhead",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "Cyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "special",
+        "Key": "cycle",
+        "Filter": "CovertCyno",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Hybrid",
+        "Value": 0.1,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Hybrid",
+        "Value": 0.075,
+        "Skill": 3336,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "Projectile",
+        "Value": -0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "falloff",
+        "Filter": "Projectile",
+        "Value": 0.1,
+        "Skill": 3337,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cycle",
+        "Filter": "LargeLauncher",
+        "Value": -0.075,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileFlightTime",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.1,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Scram",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Point",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "optimal",
+        "Filter": "Web",
+        "Value": 0.2,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpSpeedMultiplier",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "warpAcceleration",
+        "Filter": "",
+        "Value": 0.1,
+        "Skill": 28656,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Cynosural Field Generator, Covert Cynosural Field Generator, and Covert Jump Portal Generator modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "No targeting delay after Cloaking Device deactivation",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Cloak reactivation delay reduced to 5 seconds",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 75.0,
+        "Text": "reduction to effective distance traveled for jump fatigue",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 10.0,
+        "Text": "bonus to security status gains from destruction of non-capsuleer pirates while flying this ship",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Armor Repairer and Shield Booster effectiveness increased by a percentage equal to 10x pilot security status, with a floor of 0% and ceiling of 50%",
+        "Unit": 0
+      },
+      {
+        "Skill": 0,
+        "Bonus": 650.0,
+        "Text": "bonus to ship max velocity when using Cloaking Devices",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Shield Extender hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "bonus to Armor Plate hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 5.0,
+        "Text": "additional bonus to Reinforced Bulkhead hitpoints",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduction in Cynosural Field Generator and Covert Cynosural Field Generator duration",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Hybrid Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3336,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Hybrid Turret tracking speed",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Projectile Turret rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3337,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Projectile Turret falloff",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 7.5,
+        "Text": "bonus to Rapid Heavy Missile, Cruise Missile and Torpedo Launcher rate of fire",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10.0,
+        "Text": "bonus to Cruise Missile and Torpedo flight time",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 10.0,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 10.0,
+        "Text": "bonus to Warp Scrambler and Warp Disruptor optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 20.0,
+        "Text": "bonus to Stasis Webifier optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28656,
+        "Bonus": 10.0,
+        "Text": "bonus to warp speed and acceleration",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_29fefb547aa858bb",
+    "ReferenceTypeId": 88001,
+    "Role": "Marauder",
+    "WeaponFamily": "Precursor Weapon",
+    "WeaponSize": 3,
+    "HomeSystem": "rim",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "support",
+        "Key": "optimal",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "falloff",
+        "Filter": "Armor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "cap",
+        "Filter": "Neutralizer",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "support",
+        "Key": "cap",
+        "Filter": "Armor",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "cap",
+        "Filter": "Smartbomb",
+        "Value": -0.5,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "rampMax",
+        "Filter": "Entropic",
+        "Value": 0.2,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Entropic",
+        "Value": 0.075,
+        "Skill": 47869,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "tracking",
+        "Filter": "Entropic",
+        "Value": 0.075,
+        "Skill": 47869,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Remote Armor Repairer range",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Energy Neutralizer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Remote Armor Repairer capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 50.0,
+        "Text": "reduced Smart Bomb capacitor need",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100.0,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 20.0,
+        "Text": "bonus to Supratidal Entropic Disintegrator maximum damage multiplier bonus",
+        "Unit": 105
+      },
+      {
+        "Skill": 47869,
+        "Bonus": 7.5,
+        "Text": "bonus to Supratidal Entropic Disintegrator maximum range",
+        "Unit": 105
+      },
+      {
+        "Skill": 47869,
+        "Bonus": 7.5,
+        "Text": "bonus to Supratidal Entropic Disintegrator tracking speed",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_18885f27b5af9012",
+    "ReferenceTypeId": 353884,
+    "Role": "BlackOps",
+    "WeaponFamily": "Railguns",
+    "WeaponSize": 3,
+    "HomeSystem": "umbra",
+    "Price": 62000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [],
+    "Traits": []
+  },
+  {
+    "ShipId": "fleet_a32e452deac26f56",
+    "ReferenceTypeId": 34231,
+    "Role": "Marauder",
+    "WeaponFamily": "Missile Launcher Cruise",
+    "WeaponSize": 3,
+    "HomeSystem": "umbra",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "HeavyCruiseTorpedo",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "missileVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.1,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "explosionVelocity",
+        "Filter": "CruiseTorpedo",
+        "Value": 0.05,
+        "Skill": 3338,
+        "Damage": "",
+        "Size": -1,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Shield",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "ewar",
+        "Key": "strength",
+        "Filter": "Paint",
+        "Value": 0.1,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Heavy Missile, Cruise Missile and Torpedo damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beam range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 10,
+        "Text": "bonus to Cruise Missile and Torpedo max velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3338,
+        "Bonus": 5,
+        "Text": "bonus to Cruise Missile and Torpedo explosion velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Shield Booster amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 10,
+        "Text": "bonus to Target Painter effectiveness",
+        "Unit": 105
+      }
+    ]
+  },
+  {
+    "ShipId": "fleet_07debfbf59e754ca",
+    "ReferenceTypeId": 34219,
+    "Role": "Marauder",
+    "WeaponFamily": "Pulse lasers",
+    "WeaponSize": 3,
+    "HomeSystem": "orison",
+    "Price": 56000,
+    "Starter": false,
+    "LegacyCharter": false,
+    "Batch": 29,
+    "Effects": [
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "range",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "utility",
+        "Key": "speed",
+        "Filter": "Tractor",
+        "Value": 1.0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "prop",
+        "Key": "reactivation",
+        "Filter": "MJD",
+        "Value": -0.7,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "capability",
+        "Key": "can fit bastion modules",
+        "Filter": "",
+        "Value": 0,
+        "Skill": 0,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "hull",
+        "Key": "capacitorCapacity",
+        "Filter": "",
+        "Value": 0.05,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "optimal",
+        "Filter": "Laser",
+        "Value": 0.075,
+        "Skill": 3339,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "local",
+        "Key": "amount",
+        "Filter": "Armor",
+        "Value": 0.075,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      },
+      {
+        "System": "weapon",
+        "Key": "damage",
+        "Filter": "Laser",
+        "Value": 0.05,
+        "Skill": 28667,
+        "Damage": "",
+        "Size": 3,
+        "Mode": ""
+      }
+    ],
+    "Traits": [
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 100,
+        "Text": "bonus to Tractor Beams range and velocity",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 70,
+        "Text": "reduction in Micro Jump Drive reactivation delay",
+        "Unit": 105
+      },
+      {
+        "Skill": 0,
+        "Bonus": 0,
+        "Text": "Can fit Bastion modules",
+        "Unit": 0
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 5,
+        "Text": "bonus to ship capacitor capacity",
+        "Unit": 105
+      },
+      {
+        "Skill": 3339,
+        "Bonus": 7.5,
+        "Text": "bonus to Large Energy Turret optimal range",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 7.5,
+        "Text": "bonus to Armor Repairer amount",
+        "Unit": 105
+      },
+      {
+        "Skill": 28667,
+        "Bonus": 5,
+        "Text": "bonus to Large Energy Turret damage",
+        "Unit": 105
+      }
+    ]
+  }
+]

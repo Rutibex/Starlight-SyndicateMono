@@ -1,0 +1,438 @@
+[
+  {
+    "Name": "The Blood-Stained Stars",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Right to Rule",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Penumbra",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Syndication",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Wildfire",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Angel Sound",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Smash and Grab",
+    "Kind": "Epic arc",
+    "Source": "https://wiki.eveuniversity.org/Epic_arcs"
+  },
+  {
+    "Name": "Visions of Greatness / Exordium",
+    "Kind": "Current curriculum",
+    "Source": "https://www.eveonline.com/news/view/the-cradle-of-war-expansion-is-here"
+  },
+  {
+    "Name": "Alluring Emanations (Level 5)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Alluring_Emanations_(Level_5)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Big Sting (Amarr Empire)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Big_Sting_(Amarr_Empire)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Big Sting (Caldari State)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Big_Sting_(Caldari_State)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Breeding Facility",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Breeding_Facility",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Caldari Beacons",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Caldari_Beacons",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Cleaning House",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Cleaning_House",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Cleansing Fire",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Cleansing_Fire",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Codename\u00a0: Redress",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Codename_:_Redress",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Convoy Attack (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Convoy_Attack_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Convoy Attack (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Convoy_Attack_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Convoy Attack (Gallente Federation)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Convoy_Attack_(Gallente_Federation)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Convoy Attack (Minmatar Republic)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Convoy_Attack_(Minmatar_Republic)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Crush The Sebiestor Station",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Crush_The_Sebiestor_Station",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Deadly Serious",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Deadly_Serious",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Destroy the Ammatar Base",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Destroy_the_Ammatar_Base",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Destroy the Caldari Outpost",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Destroy_the_Caldari_Outpost",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Dirty Job",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Dirty_Job",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Fate of Angels",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Fate_of_Angels",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Finders And Keepers",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Finders_And_Keepers",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Forces Amassing",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Forces_Amassing",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Fortress (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Fortress_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Fortress (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Fortress_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "the Fortress (Gallente Federation)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Fortress_(Gallente_Federation)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Fortress (Minmatar Republic)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Fortress_(Minmatar_Republic)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Hard Way",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Hard_Way",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Hidden Enemy Base (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Hidden_Enemy_Base_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Hidden Enemy Base (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Hidden_Enemy_Base_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Hidden Enemy Base (Minmatar Republic)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Hidden_Enemy_Base_(Minmatar_Republic)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Honor (Angel Cartel)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Honor_(Angel_Cartel)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Honor (Blood Raiders)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Honor_(Blood_Raiders)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Honor (Guristas Pirates)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Honor_(Guristas_Pirates)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Honor (Serpentis)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Honor_(Serpentis)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Informed Attack (4 of 5)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Informed_Attack_(4_of_5)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Liberate the Miners (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Liberate_the_Miners_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Liberate the Miners (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Liberate_the_Miners_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Lights Out (Level 5)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Lights_Out_(Level_5)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Location Location (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Location_Location_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Location Location (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Location_Location_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Location Location (Gallente Federation)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Location_Location_(Gallente_Federation)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Mass Drivers (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Mass_Drivers_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Mass Drivers (Gallente Federation)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Mass_Drivers_(Gallente_Federation)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "The Mordus Headhunters (Level 5)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/The_Mordus_Headhunters_(Level_5)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "A Mote In The Eye",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/A_Mote_In_The_Eye",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Operation Wyrmsbane",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Operation_Wyrmsbane",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Operation Wyrmslayer",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Operation_Wyrmslayer",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Oust The Claimjumpers ",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Oust_The_Claimjumpers",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Preaching to the Masses",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Preaching_to_the_Masses",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Prison Break",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Prison_Break",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Prison Bust",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Prison_Bust",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Propaganda War",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Propaganda_War",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Reclamation (Amarr)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Reclamation_(Amarr)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Reclamation (Caldari)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Reclamation_(Caldari)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Reclamation (Gallente Federation)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Reclamation_(Gallente_Federation)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Recover the Containers",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Recover_the_Containers",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Rogue Eradication",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Rogue_Eradication",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Rogue Hunt (P2 of Rogue Spy)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Rogue_Hunt_(P2_of_Rogue_Spy)",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Rogue Spy",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Rogue_Spy",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Sansha Acquisition",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Sansha_Acquisition",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Sansha on the Horizon",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Sansha_on_the_Horizon",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Smash The Gallente Stockyard",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Smash_The_Gallente_Stockyard",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Stray Amarr Carrier",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Stray_Amarr_Carrier",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Stray Caldari Carrier",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Stray_Caldari_Carrier",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Troop Build Up ",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Troop_Build_Up",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "What Slavery Begets",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/What_Slavery_Begets",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "A Wolf by the Ears",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/A_Wolf_by_the_Ears",
+    "Status": "Reference / encounter not implemented"
+  },
+  {
+    "Name": "Wrath of Angels (Level 5)",
+    "Kind": "Level 5",
+    "Source": "https://wiki.eveuniversity.org/Wrath_of_Angels_(Level_5)",
+    "Status": "Reference / encounter not implemented"
+  }
+]

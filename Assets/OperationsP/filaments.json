@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 56065,
+    "Name": "Glorification-1 'Devana' Filament",
+    "Capacity": 1,
+    "Radius": 6000.0,
+    "Spool": 60.0,
+    "LocationList": 4516,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56066,
+    "Name": "Glorification-5 'Devana' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 120.0,
+    "LocationList": 4516,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56067,
+    "Name": "Glorification-15 'Devana' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 180.0,
+    "LocationList": 4516,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56068,
+    "Name": "Proximity-5 'Extraction' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 150.0,
+    "LocationList": 4569,
+    "MaxLy": 2.5
+  },
+  {
+    "Id": 56069,
+    "Name": "Proximity-15 'Extraction' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 210.0,
+    "LocationList": 4569,
+    "MaxLy": 2.5
+  },
+  {
+    "Id": 56070,
+    "Name": "Cladistic-5 'Krai Perun' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4510,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56071,
+    "Name": "Cladistic-15 'Krai Perun' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4510,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56072,
+    "Name": "Cladistic-5 'Krai Veles' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4512,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56073,
+    "Name": "Cladistic-15 'Krai Veles' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4512,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56074,
+    "Name": "Cladistic-5 'Krai Svarog' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4511,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56075,
+    "Name": "Cladistic-15 'Krai Svarog' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4511,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56076,
+    "Name": "Border-5 'Pochven' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4513,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56077,
+    "Name": "Border-15 'Pochven' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4513,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56078,
+    "Name": "Internal-5 'Pochven' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4514,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56079,
+    "Name": "Internal-15 'Pochven' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4514,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56080,
+    "Name": "Home-5 'Pochven' Filament",
+    "Capacity": 5,
+    "Radius": 6000.0,
+    "Spool": 30.0,
+    "LocationList": 4515,
+    "MaxLy": 0
+  },
+  {
+    "Id": 56081,
+    "Name": "Home-15 'Pochven' Filament",
+    "Capacity": 15,
+    "Radius": 6000.0,
+    "Spool": 45.0,
+    "LocationList": 4515,
+    "MaxLy": 0
+  }
+]

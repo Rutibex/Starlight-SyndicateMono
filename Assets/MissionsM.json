@@ -1,0 +1,831 @@
+[
+  {
+    "Id": "m_goods1",
+    "Name": "Move The Goods / L1",
+    "Level": 1,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 100,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Move_The_Goods",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Sealed cargo containers",
+      "Revision": "oldid=217250",
+      "UnitVolume": 10,
+      "Collateral": 0,
+      "Gaps": "Source cargo volumes and L4 collateral reviewed; rewards, destination and visuals adapted."
+    },
+    "Briefing": "Deliver 100 m3 of Sealed cargo containers to the marked destination. Cargo may require multiple trips."
+  },
+  {
+    "Id": "m_goods2",
+    "Name": "Move The Goods / L2",
+    "Level": 2,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 200,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Move_The_Goods",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Sealed cargo containers",
+      "Revision": "oldid=217250",
+      "UnitVolume": 10,
+      "Collateral": 0,
+      "Gaps": "Source cargo volumes and L4 collateral reviewed; rewards, destination and visuals adapted."
+    },
+    "Briefing": "Deliver 200 m3 of Sealed cargo containers to the marked destination. Cargo may require multiple trips."
+  },
+  {
+    "Id": "m_goods3",
+    "Name": "Move The Goods / L3",
+    "Level": 3,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 1000,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Move_The_Goods",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Sealed cargo containers",
+      "Revision": "oldid=217250",
+      "UnitVolume": 50,
+      "Collateral": 0,
+      "Gaps": "Source cargo volumes and L4 collateral reviewed; rewards, destination and visuals adapted."
+    },
+    "Briefing": "Deliver 1000 m3 of Sealed cargo containers to the marked destination. Cargo may require multiple trips."
+  },
+  {
+    "Id": "m_goods4",
+    "Name": "Move The Goods / L4",
+    "Level": 4,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 5000,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Move_The_Goods",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Sealed cargo containers",
+      "Revision": "oldid=217250",
+      "UnitVolume": 100,
+      "Collateral": 1000000,
+      "Gaps": "Source cargo volumes and L4 collateral reviewed; rewards, destination and visuals adapted."
+    },
+    "Briefing": "Deliver 5000 m3 of Sealed cargo containers to the marked destination. Cargo may require multiple trips."
+  },
+  {
+    "Id": "m_mine1",
+    "Name": "Starting Simple / L1",
+    "Level": 1,
+    "Division": "Mining",
+    "Objective": "KillAll",
+    "Volume": 2000,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Starting_Simple",
+    "ProfileM": {
+      "Mode": "Mining",
+      "CargoName": "Banidine",
+      "Revision": "oldid=231093",
+      "Rocks": 2,
+      "UnitVolume": 0.1,
+      "Gaps": "Indexed volume/type reviewed; resource identities beyond L1, belt rats, rewards and scene geometry adapted."
+    },
+    "Briefing": "Harvest 2000 m3 of Banidine from the mission deposits and return the physical cargo."
+  },
+  {
+    "Id": "m_mine2",
+    "Name": "Down and Dirty / L2",
+    "Level": 2,
+    "Division": "Mining",
+    "Objective": "KillAll",
+    "Volume": 2250,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Down_and_Dirty",
+    "ProfileM": {
+      "Mode": "Mining",
+      "CargoName": "Augumene",
+      "Revision": "Individual mission report reviewed 2026-10-11",
+      "Rocks": 8,
+      "UnitVolume": 0.3,
+      "Gaps": "Source objective, units and deposit count reviewed; random belt rats and optional delayed drones are not implemented. Rewards and scene geometry adapted."
+    },
+    "Briefing": "Harvest 7,500 units of Augumene (2,250 m3) from eight mission deposits. Transport the physical cargo back to your agent."
+  },
+  {
+    "Id": "m_mine3",
+    "Name": "A Better World / L3",
+    "Level": 3,
+    "Division": "Mining",
+    "Objective": "KillAll",
+    "Volume": 6000,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/A_Better_World",
+    "ProfileM": {
+      "Mode": "Mining",
+      "CargoName": "Augumene",
+      "Revision": "Individual mission report reviewed 2026-10-11",
+      "Rocks": 8,
+      "UnitVolume": 0.3,
+      "Gaps": "Source objective, units and deposit count reviewed; random belt rats and optional delayed drones are not implemented. Rewards and scene geometry adapted."
+    },
+    "Briefing": "Harvest 20,000 units of Augumene (6,000 m3) from eight mission deposits. Transport the physical cargo back to your agent."
+  },
+  {
+    "Id": "m_mine4",
+    "Name": "Cheap Chills / L4",
+    "Level": 4,
+    "Division": "Mining",
+    "Objective": "KillAll",
+    "Volume": 20000,
+    "Resource": "ice",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Cheap_Chills",
+    "ProfileM": {
+      "Mode": "Mining",
+      "CargoName": "Azure Ice",
+      "Revision": "oldid=192180",
+      "Rocks": 1,
+      "UnitVolume": 1000,
+      "Gaps": "Source objective, units, ice requirement and no mission rats reviewed. Decorative asteroid roster, rewards and geometry adapted."
+    },
+    "Briefing": "Harvest 20 blocks of Azure Ice (20,000 m3). Fit an Ice Harvester and return the physical cargo to your agent. Multiple trips are permitted."
+  },
+  {
+    "Id": "m_cargo1",
+    "Name": "Cargo Delivery / Angel Cartel / L1",
+    "Level": 1,
+    "Division": "Security",
+    "Objective": "Retrieve",
+    "Volume": 1,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      7,
+      8
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Cargo_Delivery_(Angel_Cartel)_(Level_1)",
+    "ProfileM": {
+      "Mode": "Retrieve",
+      "CargoName": "Synthetic Oil",
+      "Revision": "oldid=230790",
+      "ObjectiveDistance": 2000,
+      "Waves": [
+        {
+          "Trigger": "collect",
+          "Ships": [
+            {
+              "Name": "Gistii Outlaw",
+              "Hull": "frigate",
+              "Count": 6,
+              "Ewar": "",
+              "Distance": 16000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Gistii Ambusher",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 25000,
+              "Role": "gunner"
+            }
+          ]
+        },
+        {
+          "Trigger": "killany:0",
+          "Ships": [
+            {
+              "Name": "Gistii Hijacker",
+              "Hull": "frigate",
+              "Count": 7,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Mitylen Likk",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 27000,
+              "Role": "gunner"
+            }
+          ]
+        }
+      ],
+      "Gaps": "Published spawn ranges use fixed lower counts. Native NPC stats/rewards/loot adapted. L1 cargo volume unreported: authored 1 m3."
+    },
+    "Briefing": "Recover Synthetic Oil from the warehouse and return to your agent. Hostiles are optional."
+  },
+  {
+    "Id": "m_cargo2",
+    "Name": "Cargo Delivery / Angel Cartel / L2",
+    "Level": 2,
+    "Division": "Security",
+    "Objective": "Retrieve",
+    "Volume": 50,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      6,
+      9
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Cargo_Delivery_(Angel_Cartel)_(Level_2)",
+    "ProfileM": {
+      "Mode": "Retrieve",
+      "CargoName": "Silicate Glass",
+      "Revision": "oldid=231122",
+      "ObjectiveDistance": 2000,
+      "Waves": [
+        {
+          "Trigger": "collect",
+          "Ships": [
+            {
+              "Name": "Gistii Ambusher",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Arch Gistii Ambusher",
+              "Hull": "frigate",
+              "Count": 2,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Gistior Haunter",
+              "Hull": "destroyer",
+              "Count": 2,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Gistum Depredator",
+              "Hull": "cruiser",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        },
+        {
+          "Trigger": "killheavy:0",
+          "Ships": [
+            {
+              "Name": "Gistii Hunter",
+              "Hull": "frigate",
+              "Count": 5,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Irmur Filara",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Gistor Shatterer",
+              "Hull": "destroyer",
+              "Count": 3,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        }
+      ],
+      "Gaps": "Published spawn ranges use fixed lower counts. Native NPC stats/rewards/loot adapted. Optional asteroid belt and uncertain extra triggers not implemented."
+    },
+    "Briefing": "Recover Silicate Glass from the warehouse and return to your agent. Hostiles are optional."
+  },
+  {
+    "Id": "m_cargo3",
+    "Name": "Cargo Delivery / Serpentis / L3",
+    "Level": 3,
+    "Division": "Security",
+    "Objective": "Retrieve",
+    "Volume": 5,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      6,
+      10
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Cargo_Delivery_(Serpentis)_(Level_3)",
+    "ProfileM": {
+      "Mode": "Retrieve",
+      "CargoName": "Spiced Wine",
+      "Revision": "oldid=204017",
+      "ObjectiveDistance": 2000,
+      "Waves": [
+        {
+          "Trigger": "collect",
+          "Ships": [
+            {
+              "Name": "Coreli Guardian Watchman",
+              "Hull": "frigate",
+              "Count": 2,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelior Infantry",
+              "Hull": "destroyer",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelum Chief Infantry",
+              "Hull": "cruiser",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelum Guardian Chief Guard",
+              "Hull": "cruiser",
+              "Count": 1,
+              "Ewar": "Damp",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelatis Platoon Leader",
+              "Hull": "battlecruiser",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        },
+        {
+          "Trigger": "clear:0",
+          "Ships": [
+            {
+              "Name": "Corelior Sentinel",
+              "Hull": "destroyer",
+              "Count": 4,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelum Chief Sentinel",
+              "Hull": "cruiser",
+              "Count": 5,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Amore Veal",
+              "Hull": "cruiser",
+              "Count": 1,
+              "Ewar": "Damp",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        }
+      ],
+      "Gaps": "Published spawn ranges use fixed lower counts. Native NPC stats/rewards/loot adapted. L3 second-wave trigger unreported: clear-group substitution."
+    },
+    "Briefing": "Recover Spiced Wine from the warehouse and return to your agent. Hostiles are optional."
+  },
+  {
+    "Id": "m_cargo4",
+    "Name": "Cargo Delivery / Serpentis / L4",
+    "Level": 4,
+    "Division": "Security",
+    "Objective": "Retrieve",
+    "Volume": 1,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      3,
+      5,
+      5
+    ],
+    "Coverage": "Reviewed adaptation M",
+    "Source": "https://wiki.eveuniversity.org/Cargo_Delivery_(Serpentis)_(Level_4)",
+    "ProfileM": {
+      "Mode": "Retrieve",
+      "CargoName": "Quafe Ultra",
+      "Revision": "oldid=223305",
+      "ObjectiveDistance": 36600,
+      "Waves": [
+        {
+          "Trigger": "entry",
+          "Ships": [
+            {
+              "Name": "Corelum Chief Infantry",
+              "Hull": "cruiser",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 28000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Core Port Admiral",
+              "Hull": "battleship",
+              "Count": 2,
+              "Ewar": "",
+              "Distance": 55000,
+              "Role": "gunner"
+            }
+          ]
+        },
+        {
+          "Trigger": "collect",
+          "Ships": [
+            {
+              "Name": "Coreli Guardian Watchman",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "Damp",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelum Guardian Chief Guard",
+              "Hull": "cruiser",
+              "Count": 2,
+              "Ewar": "Damp",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Corelatis High Captain",
+              "Hull": "battlecruiser",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Core Rear Admiral",
+              "Hull": "battleship",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        },
+        {
+          "Trigger": "killfirst:0",
+          "Ships": [
+            {
+              "Name": "Corelum Guardian Chief Defender",
+              "Hull": "cruiser",
+              "Count": 3,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Core Port Admiral",
+              "Hull": "battleship",
+              "Count": 2,
+              "Ewar": "",
+              "Distance": 20000,
+              "Role": "gunner"
+            }
+          ]
+        }
+      ],
+      "Gaps": "Published spawn ranges use fixed lower counts. Native NPC stats/rewards/loot adapted. Optional asteroid belt and uncertain extra triggers not implemented."
+    },
+    "Briefing": "Recover Quafe Ultra from the warehouse and return to your agent. Hostiles are optional."
+  },
+  {
+    "Id": "m_archive",
+    "Name": "Archive recovery",
+    "Level": 1,
+    "Division": "Security",
+    "Objective": "Retrieve",
+    "Volume": 2,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored special operation",
+    "ProfileM": {
+      "Mode": "Retrieve",
+      "CargoName": "Archive fragments",
+      "Revision": "M v1",
+      "Waves": [
+        {
+          "Trigger": "collect",
+          "Ships": [
+            {
+              "Name": "Archive scrambler",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "Scram",
+              "Distance": 6500,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Archive missile guard",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 12000,
+              "Role": "missile"
+            }
+          ]
+        }
+      ]
+    },
+    "Briefing": "Recover Archive fragments from the warehouse and return to your agent. Hostiles are optional."
+  },
+  {
+    "Id": "m_intercept",
+    "Name": "Intercept the pursuers",
+    "Level": 1,
+    "Division": "Security",
+    "Objective": "KillAll",
+    "Volume": 0,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored special operation",
+    "ProfileM": {
+      "Mode": "Combat",
+      "CargoName": "",
+      "Revision": "M v1",
+      "Waves": [
+        {
+          "Trigger": "entry",
+          "Ships": [
+            {
+              "Name": "Pursuit leader",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "",
+              "Distance": 4500,
+              "Role": "gunner"
+            },
+            {
+              "Name": "Pursuit web escort",
+              "Hull": "frigate",
+              "Count": 1,
+              "Ewar": "Web",
+              "Distance": 7000,
+              "Role": "gunner"
+            }
+          ]
+        }
+      ]
+    },
+    "Briefing": "Complete the actual combat activity, then return to the instructor."
+  },
+  {
+    "Id": "m_dispatch",
+    "Name": "Deliver the archive",
+    "Level": 1,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 20,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored special operation",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Independent archive dispatch",
+      "Revision": "M v1"
+    },
+    "Briefing": "Deliver 20 m3 of Independent archive dispatch to the marked destination. Cargo may require multiple trips."
+  },
+  {
+    "Id": "m_training_mine",
+    "Name": "Resource training",
+    "Level": 1,
+    "Division": "Mining",
+    "Objective": "KillAll",
+    "Volume": 100,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored curriculum",
+    "ProfileM": {
+      "Mode": "Mining",
+      "CargoName": "Training ore",
+      "Revision": "M v1",
+      "Rocks": 2
+    },
+    "Briefing": "Harvest 100 m3 of Training ore from the mission deposits and return the physical cargo."
+  },
+  {
+    "Id": "m_manufacture",
+    "Name": "Manufacturing practical",
+    "Level": 1,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 0,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored curriculum",
+    "ProfileM": {
+      "Mode": "Task",
+      "CargoName": "",
+      "Revision": "M v1",
+      "Task": "Manufacture"
+    },
+    "Briefing": "Complete the actual Manufacture activity, then return to the instructor."
+  },
+  {
+    "Id": "m_hack",
+    "Name": "Archive hacking practical",
+    "Level": 1,
+    "Division": "Security",
+    "Objective": "KillAll",
+    "Volume": 0,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored curriculum",
+    "ProfileM": {
+      "Mode": "Task",
+      "CargoName": "",
+      "Revision": "M v1",
+      "Task": "Hack"
+    },
+    "Briefing": "Complete the actual Hack activity, then return to the instructor."
+  },
+  {
+    "Id": "m_story1",
+    "Name": "Important dispatch / L1",
+    "Level": 1,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 10,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored storyline contract",
+    "Briefing": "Deliver the important physical dispatch to this contact. This contract affects faction relations.",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Important dispatch",
+      "UnitVolume": 1,
+      "Revision": "M v1",
+      "Qualification": "Authored storyline adaptation",
+      "Gaps": "Agent type and routing use imported data; mission contents and reward percentages are authored."
+    }
+  },
+  {
+    "Id": "m_story2",
+    "Name": "Important dispatch / L2",
+    "Level": 2,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 10,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored storyline contract",
+    "Briefing": "Deliver the important physical dispatch to this contact. This contract affects faction relations.",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Important dispatch",
+      "UnitVolume": 1,
+      "Revision": "M v1",
+      "Qualification": "Authored storyline adaptation",
+      "Gaps": "Agent type and routing use imported data; mission contents and reward percentages are authored."
+    }
+  },
+  {
+    "Id": "m_story3",
+    "Name": "Important dispatch / L3",
+    "Level": 3,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 10,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored storyline contract",
+    "Briefing": "Deliver the important physical dispatch to this contact. This contract affects faction relations.",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Important dispatch",
+      "UnitVolume": 1,
+      "Revision": "M v1",
+      "Qualification": "Authored storyline adaptation",
+      "Gaps": "Agent type and routing use imported data; mission contents and reward percentages are authored."
+    }
+  },
+  {
+    "Id": "m_story4",
+    "Name": "Important dispatch / L4",
+    "Level": 4,
+    "Division": "Distribution",
+    "Objective": "KillAll",
+    "Volume": 10,
+    "Resource": "ore",
+    "Pockets": 1,
+    "Waves": [
+      1
+    ],
+    "Coverage": "Authored M",
+    "Source": "Starlight authored storyline contract",
+    "Briefing": "Deliver the important physical dispatch to this contact. This contract affects faction relations.",
+    "ProfileM": {
+      "Mode": "Courier",
+      "CargoName": "Important dispatch",
+      "UnitVolume": 1,
+      "Revision": "M v1",
+      "Qualification": "Authored storyline adaptation",
+      "Gaps": "Agent type and routing use imported data; mission contents and reward percentages are authored."
+    }
+  }
+]
